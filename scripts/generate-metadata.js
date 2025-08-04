@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import sharp from "sharp";
-import { exifr } from "exifr";
+import exifr from "exifr/dist/full.esm.mjs";
 import crypto from "crypto";
 
 const __filename = fileURLToPath(import.meta.url);
