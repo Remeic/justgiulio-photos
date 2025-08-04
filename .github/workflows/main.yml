@@ -44,37 +44,34 @@ jobs:
           echo "=== Git status before commit ==="
           git status --porcelain
 
-      # Commit dei file generati
-      - uses: stefanzweifel/git-auto-commit-action@v6
-        id: auto-commit
-        with:
-          commit_message: "chore: update photo metadata and thumbnails"
-          branch: main
-          file_pattern: |
-            metadata.json
-            thumbnails/**
-          add_options: "--force"
-          disable_globbing: false
-
-      # Fallback: commit manuale se l'action precedente fallisce
-      - name: Manual commit (fallback)
-        if: failure()
+      # Commit manuale dei file generati
+      - name: Commit changes
         run: |
-          echo "🔄 Fallback: trying manual commit"
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          # Configura git
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
 
-          # Add files explicitly
-          git add metadata.json 2>/dev/null || echo "⚠️ metadata.json not added"
-          git add thumbnails/ --force 2>/dev/null || echo "⚠️ thumbnails not added"
+          # Aggiungi i file esplicitamente
+          echo "🔄 Adding metadata.json..."
+          git add metadata.json
 
-          # Check if there are changes to commit
+          echo "🔄 Adding thumbnails directory..."
+          git add thumbnails/ --force
+
+          # Verifica cosa è stato staged
+          echo "=== Files staged for commit ==="
+          git status --staged
+
+          # Controlla se ci sono modifiche da committare
           if git diff --staged --quiet; then
             echo "ℹ️ No changes to commit"
+            echo "HAS_CHANGES=false" >> $GITHUB_ENV
           else
-            echo "✅ Committing changes"
-            git commit -m "chore: update photo metadata and thumbnails [manual]"
+            echo "✅ Committing changes..."
+            git commit -m "chore: update photo metadata and thumbnails [auto]"
             git push
+            echo "HAS_CHANGES=true" >> $GITHUB_ENV
+            echo "✅ Changes committed and pushed successfully"
           fi
 
       # Artifact di backup
@@ -93,10 +90,14 @@ jobs:
         run: |
           echo "=== FINAL REPORT ==="
           echo "✅ Workflow completed"
-          echo "📁 Files committed: ${{ steps.auto-commit.outputs.changes_detected }}"
+          echo "📁 Changes committed: ${HAS_CHANGES:-unknown}"
           if [ -f "metadata.json" ]; then
             echo "📄 Metadata: $(wc -l < metadata.json) lines"
           fi
           if [ -d "thumbnails" ]; then
             echo "🖼️ Thumbnails: $(find thumbnails -type f | wc -l) files"
           fi
+
+          # Verifica finale nel repository
+          echo "=== Repository status after commit ==="
+          git status --porcelain
