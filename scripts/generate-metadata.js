@@ -2,325 +2,192 @@
 const fs = require("fs");
 const path = require("path");
 const sharp = require("sharp");
-const ExifReader = require("exif-reader");
+const ExifReader = require("exif-reader"); // ✅ API corretta
 const crypto = require("crypto");
 
-// Supported image formats
-const IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
+const IMAGE_EXT = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
 
-// Calculate file hash (for caching)
-function calculateFileHash(filePath) {
-  const buffer = fs.readFileSync(filePath);
-  return crypto.createHash("md5").update(buffer).digest("hex");
-}
+// ---------- helper ----------------------------------------------------------
 
-// Get image dimensions
-async function getImageDimensions(filePath) {
+const md5 = (file) =>
+  crypto.createHash("md5").update(fs.readFileSync(file)).digest("hex");
+
+const getDims = async (file) => {
   try {
-    const metadata = await sharp(filePath).metadata();
+    const m = await sharp(file).metadata();
     return {
-      width: metadata.width || 0,
-      height: metadata.height || 0,
-      format: metadata.format || "unknown",
+      width: m.width || 0,
+      height: m.height || 0,
+      format: m.format || "unknown",
     };
-  } catch (error) {
-    console.warn(`Could not get dimensions for ${filePath}: ${error.message}`);
+  } catch (e) {
+    console.warn(`dim fail ${file}: ${e.message}`);
     return { width: 0, height: 0, format: "unknown" };
   }
-}
+};
 
-// Normalize rational/array exif values to number/string
-function toNumber(val) {
-  if (val == null) return null;
-  if (typeof val === "number") return val;
-  if (Array.isArray(val) && val.length) return toNumber(val[0]);
-  if (typeof val === "object" && "numerator" in val && "denominator" in val) {
-    const d = val.denominator || 1;
-    return d ? val.numerator / d : null;
-  }
-  return null;
-}
-
-// Extract EXIF via sharp.metadata().exif (safer than reading the full file)
-async function extractExifData(filePath) {
+const parseExif = async (file) => {
   try {
-    const metadata = await sharp(filePath).metadata();
+    const { exif, Image: img, gps } = await sharp(file).metadata();
+    if (!exif) return {};
 
-    if (!metadata.exif) return {};
-
-    const exif = ExifReader.load(metadata.exif);
-
-    const make = exif?.Image?.Make || null;
-    const model = exif?.Image?.Model || null;
-
-    const fNumber = toNumber(exif?.exif?.FNumber);
-    const iso =
-      exif?.exif?.ISOSpeedRatings ??
-      exif?.exif?.PhotographicSensitivity ??
-      null;
-    const exposureTime = toNumber(exif?.exif?.ExposureTime);
-    const focalLength = toNumber(exif?.exif?.FocalLength);
-
-    // GPS values can be arrays or already-parsed decimals depending on EXIF
-    const lat = exif?.gps?.GPSLatitude ?? null;
-    const lon = exif?.gps?.GPSLongitude ?? null;
-
-    const dateTaken =
-      exif?.exif?.DateTimeOriginal || exif?.Image?.DateTime || null;
+    const tags = ExifReader(exif); // ✅ niente .load
+    const f = (v) => (Array.isArray(v) ? v[0] : v);
 
     return {
-      camera: make && model ? `${make} ${model}` : make || model || null,
-      aperture: fNumber ? `f/${fNumber}` : null,
-      iso: iso ?? null,
-      shutterSpeed: exposureTime ? `${exposureTime}s` : null,
-      focalLength: focalLength ? `${focalLength}mm` : null,
+      camera:
+        [tags.Image?.Make, tags.Image?.Model].filter(Boolean).join(" ") || null,
+      aperture: tags.exif?.FNumber ? `f/${f(tags.exif.FNumber)}` : null,
+      iso: tags.exif?.ISOSpeedRatings ?? null,
+      shutterSpeed: tags.exif?.ExposureTime
+        ? `${f(tags.exif.ExposureTime)}s`
+        : null,
+      focalLength: tags.exif?.FocalLength
+        ? `${f(tags.exif.FocalLength)}mm`
+        : null,
       gps:
-        lat != null && lon != null ? { latitude: lat, longitude: lon } : null,
-      dateTaken,
+        gps?.GPSLatitude && gps?.GPSLongitude
+          ? { latitude: f(gps.GPSLatitude), longitude: f(gps.GPSLongitude) }
+          : null,
+      dateTaken: tags.exif?.DateTimeOriginal ?? img?.DateTime ?? null,
     };
-  } catch (error) {
-    console.warn(`Could not extract EXIF for ${filePath}: ${error.message}`);
+  } catch (e) {
+    console.warn(`exif fail ${file}: ${e.message}`);
     return {};
   }
-}
+};
 
-// Recursively scan directory for images
-function scanDirectory(dirPath, basePath = "") {
-  const items = [];
-
+const makeThumb = async (src, dst, w = 600) => {
   try {
-    const files = fs.readdirSync(dirPath);
-
-    for (const file of files) {
-      const fullPath = path.join(dirPath, file);
-      const relativePath = path.join(basePath, file);
-      const stat = fs.statSync(fullPath);
-
-      if (stat.isDirectory()) {
-        items.push(...scanDirectory(fullPath, relativePath));
-      } else if (stat.isFile()) {
-        const ext = path.extname(file).toLowerCase();
-        if (IMAGE_EXTENSIONS.includes(ext)) {
-          items.push({
-            path: relativePath.replace(/\\/g, "/"),
-            name: file,
-            size: stat.size,
-            modified: stat.mtime.toISOString(),
-            hash: calculateFileHash(fullPath),
-          });
-        }
-      }
-    }
-  } catch (error) {
-    console.error(`Error scanning directory ${dirPath}: ${error.message}`);
-  }
-
-  return items;
-}
-
-// Load existing metadata for caching
-function loadExistingMetadata(rootDir) {
-  const metadataPath = path.join(rootDir, "metadata.json");
-  if (fs.existsSync(metadataPath)) {
-    try {
-      const existing = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
-      return existing.photos || [];
-    } catch (error) {
-      console.warn(`Could not load existing metadata: ${error.message}`);
-    }
-  }
-  return [];
-}
-
-// Ensure thumbnails dir exists
-function ensureThumbnailsDir(rootDir) {
-  const thumbnailsDir = path.join(rootDir, "thumbnails");
-  if (!fs.existsSync(thumbnailsDir)) {
-    fs.mkdirSync(thumbnailsDir, { recursive: true });
-  }
-  return thumbnailsDir;
-}
-
-// Generate a JPEG thumbnail preserving aspect ratio
-async function generateThumbnail(inputPath, outputPath, targetWidth = 600) {
-  try {
-    const meta = await sharp(inputPath).metadata();
-    const aspectRatio =
-      meta.width && meta.height ? meta.width / meta.height : 1;
-    const targetHeight = Math.round(targetWidth / aspectRatio);
-
-    await sharp(inputPath)
-      .resize(targetWidth, targetHeight, {
-        fit: "inside",
-        withoutEnlargement: true,
-      })
+    const m = await sharp(src).metadata();
+    const h = Math.round(w / ((m.width || 1) / (m.height || 1)));
+    await sharp(src)
+      .resize(w, h, { fit: "inside", withoutEnlargement: true })
       .jpeg({ quality: 80 })
-      .toFile(outputPath);
-
-    return {
-      width: targetWidth,
-      height: targetHeight,
-      size: fs.statSync(outputPath).size,
-    };
-  } catch (error) {
-    console.warn(
-      `Could not generate thumbnail for ${inputPath}: ${error.message}`
-    );
+      .toFile(dst);
+    return { width: w, height: h, size: fs.statSync(dst).size };
+  } catch (e) {
+    console.warn(`thumb fail ${src}: ${e.message}`);
     return null;
   }
-}
+};
 
-// Sanitize an id from a path
-function makeId(p) {
-  return p.replace(/[^a-zA-Z0-9]/g, "_");
-}
+// ---------- main ------------------------------------------------------------
 
-async function generateMetadata() {
-  console.log("🔄 Starting metadata generation...");
+(async () => {
+  console.log("🔄 start");
 
-  const repoRoot = path.join(__dirname, "..");
-  const photosDir = path.join(repoRoot, "photos");
-  const outputFile = path.join(repoRoot, "metadata.json");
-  const thumbnailsDir = ensureThumbnailsDir(repoRoot);
+  const root = path.join(__dirname, "..");
+  const photosDir = path.join(root, "photos");
+  const outFile = path.join(root, "metadata.json");
+  const thumbsDir = path.join(root, "thumbnails");
+  const RAW_BASE = `https://raw.githubusercontent.com/${
+    process.env.GITHUB_REPOSITORY || "Remeic/justgiulio-photos"
+  }/main`;
 
-  // Base URL for raw files (works on GitHub Actions and locally with fallback)
-  const REPO_SLUG = process.env.GITHUB_REPOSITORY || "Remeic/justgiulio-photos";
-  const RAW_BASE = `https://raw.githubusercontent.com/${REPO_SLUG}/main`;
+  if (!fs.existsSync(photosDir)) fs.mkdirSync(photosDir, { recursive: true });
+  if (!fs.existsSync(thumbsDir)) fs.mkdirSync(thumbsDir, { recursive: true });
 
-  // Ensure photos dir exists
-  if (!fs.existsSync(photosDir)) {
-    console.log("📁 Creating photos directory...");
-    fs.mkdirSync(photosDir, { recursive: true });
-  }
+  // --- scan ---
+  const walk = (dir, base = "") =>
+    fs.readdirSync(dir).flatMap((f) => {
+      const full = path.join(dir, f);
+      const rel = path.join(base, f).replace(/\\/g, "/");
+      const st = fs.statSync(full);
+      if (st.isDirectory()) return walk(full, rel);
+      if (st.isFile() && IMAGE_EXT.includes(path.extname(f).toLowerCase()))
+        return [
+          {
+            path: rel,
+            name: f,
+            size: st.size,
+            modified: st.mtime.toISOString(),
+            hash: md5(full),
+          },
+        ];
+      return [];
+    });
 
-  // Load existing metadata (for caching)
-  const existingPhotos = loadExistingMetadata(repoRoot);
-  const existingPhotoMap = new Map(existingPhotos.map((p) => [p.path, p]));
-
-  // Scan all photos
-  console.log("📸 Scanning photos directory...");
-  const allPhotos = scanDirectory(photosDir);
-
-  if (allPhotos.length === 0) {
-    console.log("⚠️  No photos found in photos directory");
-    const emptyMetadata = {
-      generated: new Date().toISOString(),
-      totalPhotos: 0,
-      categories: [],
-      photos: [],
-      totalSize: 0,
-    };
-    fs.writeFileSync(outputFile, JSON.stringify(emptyMetadata, null, 2));
-    console.log("✅ Generated empty metadata.json");
+  const photos = walk(photosDir);
+  if (!photos.length) {
+    fs.writeFileSync(
+      outFile,
+      JSON.stringify(
+        {
+          generated: new Date().toISOString(),
+          totalPhotos: 0,
+          categories: [],
+          photos: [],
+          totalSize: 0,
+        },
+        null,
+        2
+      )
+    );
+    console.log("⚠️  no photos");
     return;
   }
 
-  console.log(`📊 Found ${allPhotos.length} photos`);
+  // --- cache ---
+  const prev = fs.existsSync(outFile)
+    ? JSON.parse(fs.readFileSync(outFile)).photos || []
+    : [];
+  const cache = new Map(prev.map((p) => [p.path, p]));
 
-  const processedPhotos = [];
-  let newPhotos = 0;
-  let cachedPhotos = 0;
+  // --- process ---
+  const processed = [];
+  for (const p of photos) {
+    const changed = cache.get(p.path)?.hash !== p.hash;
+    const full = path.join(photosDir, p.path);
+    const cat = p.path.split("/")[0] || "uncategorized";
+    const thumbRel = p.path.replace(/\.[^.]+$/, ".jpg");
+    const thumbAbs = path.join(thumbsDir, thumbRel);
+    if (!fs.existsSync(path.dirname(thumbAbs)))
+      fs.mkdirSync(path.dirname(thumbAbs), { recursive: true });
 
-  for (const photo of allPhotos) {
-    const existingPhoto = existingPhotoMap.get(photo.path);
-    const isNewOrModified = !existingPhoto || existingPhoto.hash !== photo.hash;
+    const dims = changed ? await getDims(full) : cache.get(p.path).dimensions;
+    const exif = changed ? await parseExif(full) : cache.get(p.path).exif;
+    const thumb = fs.existsSync(thumbAbs)
+      ? changed
+        ? await makeThumb(full, thumbAbs)
+        : cache.get(p.path).thumbnail
+      : await makeThumb(full, thumbAbs);
 
-    const fullPath = path.join(photosDir, photo.path);
-
-    // Always compute category from path
-    const pathParts = photo.path.split("/");
-    const category = pathParts.length > 1 ? pathParts[0] : "uncategorized";
-
-    // Thumbnail: always JPEG with .jpg extension mirroring the original path
-    const thumbRelPath = photo.path.replace(/\.[^.]+$/, ".jpg");
-    const thumbAbsPath = path.join(thumbnailsDir, thumbRelPath);
-    const thumbAbsDir = path.dirname(thumbAbsPath);
-    if (!fs.existsSync(thumbAbsDir)) {
-      fs.mkdirSync(thumbAbsDir, { recursive: true });
-    }
-
-    let dimensions, exif, thumbnailInfo;
-    if (isNewOrModified) {
-      console.log(`🆕 Processing new/modified: ${photo.path}`);
-      newPhotos++;
-
-      dimensions = await getImageDimensions(fullPath);
-      exif = await extractExifData(fullPath);
-      thumbnailInfo = await generateThumbnail(fullPath, thumbAbsPath);
-    } else {
-      // If cached, still ensure the thumbnail exists; regenerate if missing
-      const missingThumbnail = !fs.existsSync(thumbAbsPath);
-      if (missingThumbnail) {
-        console.log(`🖼️  Missing thumbnail, regenerating: ${photo.path}`);
-      } else {
-        console.log(`✅ Using cached data for: ${photo.path}`);
-      }
-      cachedPhotos++;
-      dimensions =
-        existingPhoto?.dimensions || (await getImageDimensions(fullPath));
-      exif = existingPhoto?.exif || (await extractExifData(fullPath));
-      thumbnailInfo = missingThumbnail
-        ? await generateThumbnail(fullPath, thumbAbsPath)
-        : existingPhoto?.thumbnail || null;
-    }
-
-    processedPhotos.push({
-      id: makeId(photo.path),
-      path: photo.path,
-      name: photo.name,
-      category,
-      size: photo.size,
-      modified: photo.modified,
-      hash: photo.hash,
-      dimensions,
+    processed.push({
+      id: p.path.replace(/[^a-zA-Z0-9]/g, "_"),
+      path: p.path,
+      name: p.name,
+      category: cat,
+      size: p.size,
+      modified: p.modified,
+      hash: p.hash,
+      dimensions: dims,
       exif,
-      thumbnail: thumbnailInfo,
-      url: `${RAW_BASE}/photos/${photo.path}`,
-      thumbnailUrl: `${RAW_BASE}/thumbnails/${thumbRelPath}`,
+      thumbnail: thumb,
+      url: `${RAW_BASE}/photos/${p.path}`,
+      thumbnailUrl: `${RAW_BASE}/thumbnails/${thumbRel}`,
     });
   }
 
-  // Sort photos by modified date (newest first)
-  processedPhotos.sort((a, b) => new Date(b.modified) - new Date(a.modified));
+  processed.sort((a, b) => new Date(b.modified) - new Date(a.modified));
 
-  // Recompute categories from processedPhotos (fixes the "categories empty" bug)
-  const categoriesMap = {};
-  for (const p of processedPhotos) {
-    const c = p.category || "uncategorized";
-    if (!categoriesMap[c]) {
-      categoriesMap[c] = { name: c, photoCount: 0, totalSize: 0 };
-    }
-    categoriesMap[c].photoCount++;
-    categoriesMap[c].totalSize += p.size;
-  }
-  const sortedCategories = Object.values(categoriesMap).sort(
-    (a, b) => b.photoCount - a.photoCount
-  );
+  const cats = Object.values(
+    processed.reduce((m, p) => {
+      m[p.category] ??= { name: p.category, photoCount: 0, totalSize: 0 };
+      m[p.category].photoCount++;
+      m[p.category].totalSize += p.size;
+      return m;
+    }, {})
+  ).sort((a, b) => b.photoCount - a.photoCount);
 
-  // Final metadata
-  const metadata = {
+  const meta = {
     generated: new Date().toISOString(),
-    totalPhotos: processedPhotos.length,
-    totalSize: processedPhotos.reduce((sum, p) => sum + p.size, 0),
-    categories: sortedCategories,
-    photos: processedPhotos,
+    totalPhotos: processed.length,
+    totalSize: processed.reduce((s, p) => s + p.size, 0),
+    categories: cats,
+    photos: processed,
   };
 
-  fs.writeFileSync(outputFile, JSON.stringify(metadata, null, 2));
-
-  console.log("✅ Metadata generation completed!");
-  console.log(`📦 Generated metadata for ${processedPhotos.length} photos`);
-  console.log(`🆕 New/Modified photos: ${newPhotos}`);
-  console.log(`♻️  Cached photos: ${cachedPhotos}`);
-  console.log(
-    `📁 Categories: ${sortedCategories.map((c) => c.name).join(", ")}`
-  );
-  console.log(
-    `💾 Total size: ${(metadata.totalSize / 1024 / 1024).toFixed(2)} MB`
-  );
-}
-
-generateMetadata().catch((err) => {
-  console.error("❌ Unhandled error:", err);
-  process.exitCode = 1;
-});
+  fs.writeFileSync(outFile, JSON.stringify(meta, null, 2));
+  console.log(`✅ done (${processed.length} photos)`);
+})();
