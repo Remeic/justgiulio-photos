@@ -12,6 +12,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,91 +21,41 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          # 📦  via lockfile evitiamo il warning del cache
           cache: "npm"
 
-      - name: Create package.json for caching
+      # package.json minimo (se non esiste)
+      - name: Ensure package.json
         run: |
-          if [ ! -f package.json ]; then
-            echo '{"dependencies": {"sharp": "latest", "exifr": "latest"}}' > package.json
-          fi
+          test -f package.json || \
+          echo '{"dependencies":{"sharp":"^0.33.0","exifr":"6.3.0"}}' > package.json
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci --prefer-offline
 
       - name: Generate metadata.json and thumbnails
         run: node scripts/generate-metadata.js
 
-      # Debug step per verificare i file generati
-      - name: Debug - Check generated files
-        run: |
-          echo "=== Current directory ==="
-          pwd
-          echo "=== Metadata file ==="
-          ls -la metadata.json 2>/dev/null || echo "❌ metadata.json not found"
-          echo "=== Thumbnails directory ==="
-          ls -la thumbnails/ 2>/dev/null || echo "❌ thumbnails directory not found"
-          if [ -d "thumbnails" ]; then
-            echo "📁 Thumbnails found:"
-            find thumbnails -type f | head -10
-            echo "📊 Total thumbnails: $(find thumbnails -type f | wc -l)"
-          fi
-          echo "=== Git status before commit ==="
-          git status --porcelain
-
-      # Commit manuale dei file generati
       - name: Commit changes
         run: |
-          # Configura git
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Aggiungi i file esplicitamente
-          echo "🔄 Adding metadata.json..."
           git add metadata.json
+          git add thumbnails/ -f
 
-          echo "🔄 Adding thumbnails directory..."
-          git add thumbnails/ --force
-
-          # Verifica cosa è stato staged
-          echo "=== Files staged for commit ==="
-          git diff --cached --name-status
-
-          # Controlla se ci sono modifiche da committare
-          if git diff --staged --quiet; then
-            echo "ℹ️ No changes to commit"
+          if git diff --cached --quiet; then
             echo "HAS_CHANGES=false" >> $GITHUB_ENV
           else
-            echo "✅ Committing changes..."
             git commit -m "chore: update photo metadata and thumbnails [auto]"
             git push
             echo "HAS_CHANGES=true" >> $GITHUB_ENV
-            echo "✅ Changes committed and pushed successfully"
           fi
 
-      # Artifact di backup
       - uses: actions/upload-artifact@v4
-        if: always()
         with:
           name: photo-metadata-${{ github.run_number }}
           path: |
             metadata.json
             thumbnails/
           retention-days: 30
-
-      # Report finale
-      - name: Final report
-        if: always()
-        run: |
-          echo "=== FINAL REPORT ==="
-          echo "✅ Workflow completed"
-          echo "📁 Changes committed: ${HAS_CHANGES:-unknown}"
-          if [ -f "metadata.json" ]; then
-            echo "📄 Metadata: $(wc -l < metadata.json) lines"
-          fi
-          if [ -d "thumbnails" ]; then
-            echo "🖼️ Thumbnails: $(find thumbnails -type f | wc -l) files"
-          fi
-
-          # Verifica finale nel repository
-          echo "=== Repository status after commit ==="
-          git status --porcelain

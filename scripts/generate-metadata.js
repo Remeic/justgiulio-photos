@@ -2,33 +2,35 @@
 const fs = require("fs");
 const path = require("path");
 const sharp = require("sharp");
-const exifr = require("exifr");
+
+// exifr >=7 è ESM; usiamo il bundle CommonJS della 6.x
+const exifr = require("exifr/dist/commonjs");
 const crypto = require("crypto");
 
 const IMAGE_EXT = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
 
 // ---------- helper ----------------------------------------------------------
 
-const md5 = (file) =>
-  crypto.createHash("md5").update(fs.readFileSync(file)).digest("hex");
+const md5 = (f) =>
+  crypto.createHash("md5").update(fs.readFileSync(f)).digest("hex");
 
-const getDims = async (file) => {
+const dims = async (f) => {
   try {
-    const m = await sharp(file).metadata();
+    const m = await sharp(f).metadata();
     return {
       width: m.width || 0,
       height: m.height || 0,
       format: m.format || "unknown",
     };
   } catch (e) {
-    console.warn(`dim fail ${file}: ${e.message}`);
+    console.warn(`dim fail ${f}: ${e.message}`);
     return { width: 0, height: 0, format: "unknown" };
   }
 };
 
-const parseExif = async (file) => {
+const exif = async (f) => {
   try {
-    const t = await exifr.parse(file, [
+    const t = await exifr.parse(f, [
       "Make",
       "Model",
       "FNumber",
@@ -70,10 +72,18 @@ const makeThumb = async (src, dst, w = 600) => {
   try {
     const m = await sharp(src).metadata();
     const h = Math.round(w / ((m.width || 1) / (m.height || 1)));
-    await sharp(src)
-      .resize(w, h, { fit: "inside", withoutEnlargement: true })
-      .jpeg({ quality: 65 })
-      .toFile(dst);
+    let pipe = sharp(src).resize(w, h, {
+      fit: "inside",
+      withoutEnlargement: true,
+    });
+
+    // PNG/GIF con alpha restano PNG; altrimenti JPEG
+    if (m.hasAlpha || m.format === "png" || m.format === "gif") {
+      pipe = pipe.png({ compressionLevel: 9 });
+    } else {
+      pipe = pipe.jpeg({ quality: 65 });
+    }
+    await pipe.toFile(dst);
     return { width: w, height: h, size: fs.statSync(dst).size };
   } catch (e) {
     console.warn(`thumb fail ${src}: ${e.message}`);
@@ -84,7 +94,7 @@ const makeThumb = async (src, dst, w = 600) => {
 // ---------- main ------------------------------------------------------------
 
 (async () => {
-  console.log("🔄 start");
+  console.log("🔄 Generating metadata & thumbnails");
 
   const root = path.join(__dirname, "..");
   const photosDir = path.join(root, "photos");
@@ -94,10 +104,10 @@ const makeThumb = async (src, dst, w = 600) => {
     process.env.GITHUB_REPOSITORY || "Remeic/justgiulio-photos"
   }/main`;
 
-  if (!fs.existsSync(photosDir)) fs.mkdirSync(photosDir, { recursive: true });
-  if (!fs.existsSync(thumbsDir)) fs.mkdirSync(thumbsDir, { recursive: true });
+  fs.mkdirSync(photosDir, { recursive: true });
+  fs.mkdirSync(thumbsDir, { recursive: true });
 
-  // --- scan ---
+  // --- scan photos dir ------------------------------------------------------
   const walk = (dir, base = "") =>
     fs.readdirSync(dir).flatMap((f) => {
       const full = path.join(dir, f);
@@ -137,48 +147,48 @@ const makeThumb = async (src, dst, w = 600) => {
     return;
   }
 
-  // --- cache ---
+  // --- load cache -----------------------------------------------------------
   const prev = fs.existsSync(outFile)
     ? JSON.parse(fs.readFileSync(outFile)).photos || []
     : [];
   const cache = new Map(prev.map((p) => [p.path, p]));
 
-  // --- process ---
+  // --- process photos -------------------------------------------------------
   const processed = [];
   for (const p of photos) {
     const cached = cache.get(p.path);
     const changed = cached?.hash !== p.hash;
     const full = path.join(photosDir, p.path);
     const cat = p.path.split("/")[0] || "uncategorized";
-    const thumbRel = p.path.replace(/\.[^.]+$/, ".jpg");
-    const thumbAbs = path.join(thumbsDir, thumbRel);
-    if (!fs.existsSync(path.dirname(thumbAbs)))
-      fs.mkdirSync(path.dirname(thumbAbs), { recursive: true });
 
-    // -> genera thumb se (1) la foto è nuova/modificata  OR  (2) la thumb manca
+    // thumbnail filename
+    const ext = path.extname(p.path).toLowerCase();
+    const thumbRel =
+      ext === ".png" || ext === ".gif"
+        ? p.path.replace(ext, "_thumb.png")
+        : p.path.replace(ext, "_thumb.jpg");
+    const thumbAbs = path.join(thumbsDir, thumbRel);
+    fs.mkdirSync(path.dirname(thumbAbs), { recursive: true });
+
     const needThumb = changed || !fs.existsSync(thumbAbs);
 
-    const dims = changed
-      ? await getDims(full)
-      : cached?.dimensions ?? (await getDims(full));
-    const exif = changed
-      ? await parseExif(full)
-      : cached?.exif ?? (await parseExif(full));
-    const thumb = needThumb
-      ? await makeThumb(full, thumbAbs)
-      : cached.thumbnail;
+    const d = changed
+      ? await dims(full)
+      : cached?.dimensions ?? (await dims(full));
+    const e = changed ? await exif(full) : cached?.exif ?? (await exif(full));
+    const t = needThumb ? await makeThumb(full, thumbAbs) : cached.thumbnail;
 
     processed.push({
-      id: p.path.replace(/[^a-zA-Z0-9]/g, "_"),
+      id: p.path.replace(/[^a-z0-9]/gi, "_"),
       path: p.path,
       name: p.name,
       category: cat,
       size: p.size,
       modified: p.modified,
       hash: p.hash,
-      dimensions: dims,
-      exif,
-      thumbnail: thumb,
+      dimensions: d,
+      exif: e,
+      thumbnail: t,
       url: `${RAW_BASE}/photos/${p.path}`,
       thumbnailUrl: `${RAW_BASE}/thumbnails/${thumbRel}`,
     });
@@ -195,16 +205,20 @@ const makeThumb = async (src, dst, w = 600) => {
     }, {})
   ).sort((a, b) => b.photoCount - a.photoCount);
 
-  const meta = {
-    generated: new Date().toISOString(),
-    totalPhotos: processed.length,
-    totalSize: processed.reduce((s, p) => s + p.size, 0),
-    categories: cats,
-    photos: processed,
-  };
-
-  fs.writeFileSync(outFile, JSON.stringify(meta, null, 2));
-  console.log(
-    `✅ done (${processed.length} photos, ${cats.length} categories)`
+  fs.writeFileSync(
+    outFile,
+    JSON.stringify(
+      {
+        generated: new Date().toISOString(),
+        totalPhotos: processed.length,
+        totalSize: processed.reduce((s, p) => s + p.size, 0),
+        categories: cats,
+        photos: processed,
+      },
+      null,
+      2
+    )
   );
+
+  console.log(`✅ done (${processed.length} photos, ${cats.length} cats)`);
 })();
