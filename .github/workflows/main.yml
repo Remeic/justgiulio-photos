@@ -1,0 +1,30 @@
+name: Generate photo metadata
+
+on:
+  workflow_dispatch:      # manual run button
+  push:
+    paths:
+      - "photos/**"       # adjust as needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install sharp exif-reader
+
+      - name: Generate metadata.json and thumbnails
+        id: generate
+        run: |
+          node scripts/generate-metadata.js
+          echo "metadata-generated=true" >> "$GITHUB_OUTPUT"
+
+    outputs:
+      metadata-generated: ${{ steps.generate.outputs.metadata-generated }}
