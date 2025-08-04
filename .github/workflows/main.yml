@@ -7,19 +7,18 @@ on:
       - "photos/**"
 
 permissions:
-  contents: write
+  contents: write # necessario per il push
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # history completa per il commit
+
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
@@ -33,6 +32,15 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update photo metadata and thumbnails"
+          branch: main
           file_pattern: |
             metadata.json
             thumbnails/**
+
+      - name: Upload metadata & thumbnails
+        uses: actions/upload-artifact@v4
+        with:
+          name: photo-metadata
+          path: |
+            metadata.json
+            thumbnails
