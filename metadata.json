@@ -1,0 +1,260 @@
+{
+  "generated": "2025-08-04T21:59:27.416Z",
+  "totalPhotos": 6,
+  "totalSize": 122453376,
+  "categories": [
+    {
+      "name": "vienna",
+      "photoCount": 6,
+      "totalSize": 122453376
+    }
+  ],
+  "photos": [
+    {
+      "id": "vienna_IMG_3184_png",
+      "path": "vienna/IMG_3184.png",
+      "name": "IMG_3184.png",
+      "category": "vienna",
+      "size": 22452439,
+      "modified": "2025-08-04T21:59:16.460Z",
+      "hash": "3d89a4b2e11df1cbba17ba2a8bb1351f",
+      "dimensions": {
+        "width": 4284,
+        "height": 5712,
+        "format": "png"
+      },
+      "exif": {
+        "camera": "Apple iPhone 15 Pro",
+        "aperture": "f/1.8",
+        "iso": 80,
+        "shutterSpeed": "0.001s",
+        "focalLength": "6.8mm",
+        "gps": {
+          "latitude": [
+            48,
+            12,
+            26.89
+          ],
+          "longitude": [
+            16,
+            23,
+            37.02
+          ]
+        },
+        "dateTaken": "2025-07-06T10:34:42.000Z"
+      },
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 53630
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3184.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3184.jpg"
+    },
+    {
+      "id": "vienna_IMG_3158_png",
+      "path": "vienna/IMG_3158.png",
+      "name": "IMG_3158.png",
+      "category": "vienna",
+      "size": 24155735,
+      "modified": "2025-08-04T21:59:16.434Z",
+      "hash": "4bc4e9e35044f2727fb55205dd7677fa",
+      "dimensions": {
+        "width": 4284,
+        "height": 5712,
+        "format": "png"
+      },
+      "exif": {
+        "camera": "Apple iPhone 15 Pro",
+        "aperture": "f/1.8",
+        "iso": 200,
+        "shutterSpeed": "0.017s",
+        "focalLength": "6.8mm",
+        "gps": {
+          "latitude": [
+            48,
+            12,
+            15.4
+          ],
+          "longitude": [
+            16,
+            22,
+            7.42
+          ]
+        },
+        "dateTaken": "2025-07-05T22:33:00.000Z"
+      },
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 43724
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3158.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3158.jpg"
+    },
+    {
+      "id": "vienna_IMG_3155_png",
+      "path": "vienna/IMG_3155.png",
+      "name": "IMG_3155.png",
+      "category": "vienna",
+      "size": 9627964,
+      "modified": "2025-08-04T21:59:16.407Z",
+      "hash": "036452df1dcc66065c8395b18a8820ea",
+      "dimensions": {
+        "width": 2960,
+        "height": 3947,
+        "format": "png"
+      },
+      "exif": {
+        "camera": "Apple iPhone 15 Pro",
+        "aperture": "f/1.8",
+        "iso": 500,
+        "shutterSpeed": "0.008s",
+        "focalLength": "6.8mm",
+        "gps": {
+          "latitude": [
+            48,
+            13,
+            2.14
+          ],
+          "longitude": [
+            16,
+            23,
+            46.71
+          ]
+        },
+        "dateTaken": "2025-07-05T21:15:02.000Z"
+      },
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 51178
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3155.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3155.jpg"
+    },
+    {
+      "id": "vienna_IMG_3148_png",
+      "path": "vienna/IMG_3148.png",
+      "name": "IMG_3148.png",
+      "category": "vienna",
+      "size": 14713401,
+      "modified": "2025-08-04T21:59:16.395Z",
+      "hash": "5f076940aab6bd1ea3ddab624241dda2",
+      "dimensions": {
+        "width": 3024,
+        "height": 4032,
+        "format": "png"
+      },
+      "exif": {
+        "camera": "Apple iPhone 15 Pro",
+        "aperture": "f/2.8",
+        "iso": 100,
+        "shutterSpeed": "0.010s",
+        "focalLength": "9.0mm",
+        "gps": {
+          "latitude": [
+            48,
+            12,
+            58.66
+          ],
+          "longitude": [
+            16,
+            24,
+            4.69
+          ]
+        },
+        "dateTaken": "2025-07-05T21:02:55.000Z"
+      },
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 57722
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3148.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3148.jpg"
+    },
+    {
+      "id": "vienna_IMG_3114_png",
+      "path": "vienna/IMG_3114.png",
+      "name": "IMG_3114.png",
+      "category": "vienna",
+      "size": 18217999,
+      "modified": "2025-08-04T21:59:16.378Z",
+      "hash": "ddbc59f7314f450fcac6b42874efb0f8",
+      "dimensions": {
+        "width": 3024,
+        "height": 4032,
+        "format": "png"
+      },
+      "exif": {
+        "camera": "Apple iPhone 15 Pro",
+        "aperture": "f/1.8",
+        "iso": 200,
+        "shutterSpeed": "0.030s",
+        "focalLength": "6.8mm",
+        "gps": {
+          "latitude": [
+            48,
+            12,
+            41.27
+          ],
+          "longitude": [
+            16,
+            21,
+            56.77
+          ]
+        },
+        "dateTaken": "2025-07-05T19:03:21.000Z"
+      },
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 89781
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3114.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3114.jpg"
+    },
+    {
+      "id": "vienna_IMG_3107_png",
+      "path": "vienna/IMG_3107.png",
+      "name": "IMG_3107.png",
+      "category": "vienna",
+      "size": 33285838,
+      "modified": "2025-08-04T21:59:16.357Z",
+      "hash": "90390e8e8b0e34050ecd9bb19d4ffe2c",
+      "dimensions": {
+        "width": 4221,
+        "height": 5629,
+        "format": "png"
+      },
+      "exif": {
+        "camera": "Apple iPhone 15 Pro",
+        "aperture": "f/1.8",
+        "iso": 80,
+        "shutterSpeed": "0.001s",
+        "focalLength": "6.8mm",
+        "gps": {
+          "latitude": [
+            48,
+            12,
+            37.26
+          ],
+          "longitude": [
+            16,
+            21,
+            55.24
+          ]
+        },
+        "dateTaken": "2025-07-05T18:12:48.000Z"
+      },
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 74560
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3107.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3107.jpg"
+    }
+  ]
+}
