@@ -1,0 +1,16 @@
+{
+  "name": "justgiulio-photos-metadata",
+  "version": "1.0.0",
+  "description": "Automatic metadata generation for photo repository",
+  "main": "scripts/generate-metadata.js",
+  "scripts": {
+    "generate": "node scripts/generate-metadata.js"
+  },
+  "dependencies": {
+    "sharp": "^0.34.3",
+    "exif-reader": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

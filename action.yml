@@ -1,0 +1,38 @@
+name: Generate Photo Metadata
+author: Giulio Fagioli
+description: "GitHub Action to generate photo metadata and thumbnails."
+
+inputs:
+  node-version:
+    description: "Node.js version to use"
+    required: false
+    default: "20"
+
+outputs:
+  metadata-generated:
+    description: "Whether metadata was generated"
+    value: ${{ steps.generate.outputs.metadata-generated }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ inputs.node-version }}
+
+    - name: Install dependencies
+      shell: bash
+      run: |
+        npm install sharp exif-reader
+
+    - name: Generate metadata.json and thumbnails
+      id: generate
+      shell: bash
+      run: |
+        node scripts/generate-metadata.js
+        echo "metadata-generated=true" >> $GITHUB_OUTPUT
+
+branding:
+  icon: "image"
+  color: "blue"
