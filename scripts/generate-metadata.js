@@ -46,10 +46,14 @@ const parseExif = async (file) => {
         t.Make || t.Model
           ? `${t.Make ?? ""} ${t.Model ?? ""}`.trim() || null
           : null,
-      aperture: t.FNumber ? `f/${t.FNumber}` : null,
-      iso: t.ISO ?? null,
-      shutterSpeed: t.ExposureTime ? `${t.ExposureTime}s` : null,
-      focalLength: t.FocalLength ? `${t.FocalLength}mm` : null,
+      aperture: t.FNumber ? `f/${Number(t.FNumber).toFixed(1)}` : null,
+      iso: t.ISO != null ? Math.round(t.ISO) : null,
+      shutterSpeed: t.ExposureTime
+        ? `${Number(t.ExposureTime).toFixed(3)}s`
+        : null,
+      focalLength: t.FocalLength
+        ? `${Number(t.FocalLength).toFixed(1)}mm`
+        : null,
       gps:
         t.GPSLatitude != null && t.GPSLongitude != null
           ? { latitude: t.GPSLatitude, longitude: t.GPSLongitude }
@@ -68,7 +72,7 @@ const makeThumb = async (src, dst, w = 600) => {
     const h = Math.round(w / ((m.width || 1) / (m.height || 1)));
     await sharp(src)
       .resize(w, h, { fit: "inside", withoutEnlargement: true })
-      .jpeg({ quality: 80 })
+      .jpeg({ quality: 65 })
       .toFile(dst);
     return { width: w, height: h, size: fs.statSync(dst).size };
   } catch (e) {

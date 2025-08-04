@@ -12,7 +12,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,19 +27,21 @@ jobs:
       - name: Generate metadata.json and thumbnails
         run: node scripts/generate-metadata.js
 
-      # commit (for cronologia) + artifact (backup)
-      - name: Commit metadata & thumbnails
-        uses: stefanzweifel/git-auto-commit-action@v5
+      # -- commit dei file generati -----------------------------
+      - uses: stefanzweifel/git-auto-commit-action@v6
+        id: auto-commit
         with:
           commit_message: "chore: update photo metadata and thumbnails"
           branch: main
-          add_options: "-f" # forza l’inclusione anche se gitignore
           file_pattern: |
             metadata.json
-            thumbnails/**
+            thumbnails          # <— dir intera, niente glob
+          add_options: "--force" # <— override .gitignore
+          disable_globbing: true # <— impedisce alla shell di espandere prima
 
-      - name: Upload photo-metadata artifact
-        uses: actions/upload-artifact@v4
+      # -- artifact di backup -----------------------------------
+      - uses: actions/upload-artifact@v4
+        if: steps.auto-commit.outputs.changes_detected == 'true'
         with:
           name: photo-metadata
           path: |
