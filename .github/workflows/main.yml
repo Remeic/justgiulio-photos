@@ -27,7 +27,24 @@ jobs:
       - name: Generate metadata.json and thumbnails
         run: node scripts/generate-metadata.js
 
-      # -- commit dei file generati -----------------------------
+      # Debug step per verificare i file generati
+      - name: Debug - Check generated files
+        run: |
+          echo "=== Current directory ==="
+          pwd
+          echo "=== Metadata file ==="
+          ls -la metadata.json 2>/dev/null || echo "❌ metadata.json not found"
+          echo "=== Thumbnails directory ==="
+          ls -la thumbnails/ 2>/dev/null || echo "❌ thumbnails directory not found"
+          if [ -d "thumbnails" ]; then
+            echo "📁 Thumbnails found:"
+            find thumbnails -type f | head -10
+            echo "📊 Total thumbnails: $(find thumbnails -type f | wc -l)"
+          fi
+          echo "=== Git status before commit ==="
+          git status --porcelain
+
+      # Commit dei file generati
       - uses: stefanzweifel/git-auto-commit-action@v6
         id: auto-commit
         with:
@@ -35,15 +52,51 @@ jobs:
           branch: main
           file_pattern: |
             metadata.json
-            thumbnails          # <— dir intera, niente glob
-          add_options: "--force" # <— override .gitignore
-          disable_globbing: true # <— impedisce alla shell di espandere prima
+            thumbnails/**
+          add_options: "--force"
+          disable_globbing: false
 
-      # -- artifact di backup -----------------------------------
+      # Fallback: commit manuale se l'action precedente fallisce
+      - name: Manual commit (fallback)
+        if: failure()
+        run: |
+          echo "🔄 Fallback: trying manual commit"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # Add files explicitly
+          git add metadata.json 2>/dev/null || echo "⚠️ metadata.json not added"
+          git add thumbnails/ --force 2>/dev/null || echo "⚠️ thumbnails not added"
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            echo "✅ Committing changes"
+            git commit -m "chore: update photo metadata and thumbnails [manual]"
+            git push
+          fi
+
+      # Artifact di backup
       - uses: actions/upload-artifact@v4
-        if: steps.auto-commit.outputs.changes_detected == 'true'
+        if: always()
         with:
-          name: photo-metadata
+          name: photo-metadata-${{ github.run_number }}
           path: |
             metadata.json
-            thumbnails
+            thumbnails/
+          retention-days: 30
+
+      # Report finale
+      - name: Final report
+        if: always()
+        run: |
+          echo "=== FINAL REPORT ==="
+          echo "✅ Workflow completed"
+          echo "📁 Files committed: ${{ steps.auto-commit.outputs.changes_detected }}"
+          if [ -f "metadata.json" ]; then
+            echo "📄 Metadata: $(wc -l < metadata.json) lines"
+          fi
+          if [ -d "thumbnails" ]; then
+            echo "🖼️ Thumbnails: $(find thumbnails -type f | wc -l) files"
+          fi
