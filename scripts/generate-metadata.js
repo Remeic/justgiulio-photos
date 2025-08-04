@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 const sharp = require("sharp");
-const ExifReader = require("exif-reader"); // ✅ API corretta
+const exifr = require("exifr");
 const crypto = require("crypto");
 
 const IMAGE_EXT = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
@@ -28,28 +28,33 @@ const getDims = async (file) => {
 
 const parseExif = async (file) => {
   try {
-    const { exif, Image: img, gps } = await sharp(file).metadata();
-    if (!exif) return {};
-
-    const tags = ExifReader(exif); // ✅ niente .load
-    const f = (v) => (Array.isArray(v) ? v[0] : v);
+    const t = await exifr.parse(file, [
+      "Make",
+      "Model",
+      "FNumber",
+      "ISO",
+      "ExposureTime",
+      "FocalLength",
+      "GPSLatitude",
+      "GPSLongitude",
+      "DateTimeOriginal",
+      "CreateDate",
+    ]);
 
     return {
       camera:
-        [tags.Image?.Make, tags.Image?.Model].filter(Boolean).join(" ") || null,
-      aperture: tags.exif?.FNumber ? `f/${f(tags.exif.FNumber)}` : null,
-      iso: tags.exif?.ISOSpeedRatings ?? null,
-      shutterSpeed: tags.exif?.ExposureTime
-        ? `${f(tags.exif.ExposureTime)}s`
-        : null,
-      focalLength: tags.exif?.FocalLength
-        ? `${f(tags.exif.FocalLength)}mm`
-        : null,
-      gps:
-        gps?.GPSLatitude && gps?.GPSLongitude
-          ? { latitude: f(gps.GPSLatitude), longitude: f(gps.GPSLongitude) }
+        t.Make || t.Model
+          ? `${t.Make ?? ""} ${t.Model ?? ""}`.trim() || null
           : null,
-      dateTaken: tags.exif?.DateTimeOriginal ?? img?.DateTime ?? null,
+      aperture: t.FNumber ? `f/${t.FNumber}` : null,
+      iso: t.ISO ?? null,
+      shutterSpeed: t.ExposureTime ? `${t.ExposureTime}s` : null,
+      focalLength: t.FocalLength ? `${t.FocalLength}mm` : null,
+      gps:
+        t.GPSLatitude != null && t.GPSLongitude != null
+          ? { latitude: t.GPSLatitude, longitude: t.GPSLongitude }
+          : null,
+      dateTaken: t.DateTimeOriginal ?? t.CreateDate ?? null,
     };
   } catch (e) {
     console.warn(`exif fail ${file}: ${e.message}`);
@@ -137,7 +142,8 @@ const makeThumb = async (src, dst, w = 600) => {
   // --- process ---
   const processed = [];
   for (const p of photos) {
-    const changed = cache.get(p.path)?.hash !== p.hash;
+    const cached = cache.get(p.path);
+    const changed = cached?.hash !== p.hash;
     const full = path.join(photosDir, p.path);
     const cat = p.path.split("/")[0] || "uncategorized";
     const thumbRel = p.path.replace(/\.[^.]+$/, ".jpg");
@@ -145,13 +151,18 @@ const makeThumb = async (src, dst, w = 600) => {
     if (!fs.existsSync(path.dirname(thumbAbs)))
       fs.mkdirSync(path.dirname(thumbAbs), { recursive: true });
 
-    const dims = changed ? await getDims(full) : cache.get(p.path).dimensions;
-    const exif = changed ? await parseExif(full) : cache.get(p.path).exif;
-    const thumb = fs.existsSync(thumbAbs)
-      ? changed
-        ? await makeThumb(full, thumbAbs)
-        : cache.get(p.path).thumbnail
-      : await makeThumb(full, thumbAbs);
+    // -> genera thumb se (1) la foto è nuova/modificata  OR  (2) la thumb manca
+    const needThumb = changed || !fs.existsSync(thumbAbs);
+
+    const dims = changed
+      ? await getDims(full)
+      : cached?.dimensions ?? (await getDims(full));
+    const exif = changed
+      ? await parseExif(full)
+      : cached?.exif ?? (await parseExif(full));
+    const thumb = needThumb
+      ? await makeThumb(full, thumbAbs)
+      : cached.thumbnail;
 
     processed.push({
       id: p.path.replace(/[^a-zA-Z0-9]/g, "_"),
@@ -189,5 +200,7 @@ const makeThumb = async (src, dst, w = 600) => {
   };
 
   fs.writeFileSync(outFile, JSON.stringify(meta, null, 2));
-  console.log(`✅ done (${processed.length} photos)`);
+  console.log(
+    `✅ done (${processed.length} photos, ${cats.length} categories)`
+  );
 })();
