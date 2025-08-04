@@ -1,16 +1,22 @@
 name: Generate photo metadata
 
 on:
-  workflow_dispatch:      # manual run button
+  workflow_dispatch: {}
   push:
     paths:
-      - "photos/**"       # adjust as needed
+      - "photos/**"
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -21,10 +27,12 @@ jobs:
         run: npm install sharp exif-reader
 
       - name: Generate metadata.json and thumbnails
-        id: generate
-        run: |
-          node scripts/generate-metadata.js
-          echo "metadata-generated=true" >> "$GITHUB_OUTPUT"
+        run: node scripts/generate-metadata.js
 
-    outputs:
-      metadata-generated: ${{ steps.generate.outputs.metadata-generated }}
+      - name: Commit metadata & thumbnails
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update photo metadata and thumbnails"
+          file_pattern: |
+            metadata.json
+            thumbnails/**
