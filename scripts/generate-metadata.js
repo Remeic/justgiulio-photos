@@ -1,11 +1,13 @@
 /* eslint-disable no-console */
-const fs = require("fs");
-const path = require("path");
-const sharp = require("sharp");
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import sharp from "sharp";
+import { exifr } from "exifr";
+import crypto from "crypto";
 
-// exifr >=7 è ESM; usiamo il bundle CommonJS della 6.x
-const exifr = require("exifr/dist/commonjs");
-const crypto = require("crypto");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const IMAGE_EXT = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
 
@@ -30,7 +32,7 @@ const dims = async (f) => {
 
 const exif = async (f) => {
   try {
-    const t = await exifr.parse(f, [
+    const t = await exifr(f, [
       "Make",
       "Model",
       "FNumber",
@@ -63,7 +65,7 @@ const exif = async (f) => {
       dateTaken: t.DateTimeOriginal ?? t.CreateDate ?? null,
     };
   } catch (e) {
-    console.warn(`exif fail ${file}: ${e.message}`);
+    console.warn(`exif fail ${f}: ${e.message}`);
     return {};
   }
 };
@@ -149,7 +151,7 @@ const makeThumb = async (src, dst, w = 600) => {
 
   // --- load cache -----------------------------------------------------------
   const prev = fs.existsSync(outFile)
-    ? JSON.parse(fs.readFileSync(outFile)).photos || []
+    ? JSON.parse(fs.readFileSync(outFile, "utf8")).photos || []
     : [];
   const cache = new Map(prev.map((p) => [p.path, p]));
 
