@@ -1,5 +1,5 @@
 {
-  "generated": "2025-08-04T22:04:38.924Z",
+  "generated": "2025-08-05T09:39:37.739Z",
   "totalPhotos": 6,
   "totalSize": 122453376,
   "categories": [
@@ -16,7 +16,7 @@
       "name": "IMG_3184.png",
       "category": "vienna",
       "size": 22452439,
-      "modified": "2025-08-04T22:04:32.486Z",
+      "modified": "2025-08-05T09:39:26.332Z",
       "hash": "3d89a4b2e11df1cbba17ba2a8bb1351f",
       "dimensions": {
         "width": 4284,
@@ -46,10 +46,10 @@
       "thumbnail": {
         "width": 600,
         "height": 800,
-        "size": 53630
+        "size": 96437
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3184.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3184.jpg"
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3184_thumb.png"
     },
     {
       "id": "vienna_IMG_3158_png",
@@ -57,7 +57,7 @@
       "name": "IMG_3158.png",
       "category": "vienna",
       "size": 24155735,
-      "modified": "2025-08-04T22:04:32.460Z",
+      "modified": "2025-08-05T09:39:26.308Z",
       "hash": "4bc4e9e35044f2727fb55205dd7677fa",
       "dimensions": {
         "width": 4284,
@@ -87,10 +87,10 @@
       "thumbnail": {
         "width": 600,
         "height": 800,
-        "size": 43724
+        "size": 95258
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3158.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3158.jpg"
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3158_thumb.png"
     },
     {
       "id": "vienna_IMG_3155_png",
@@ -98,7 +98,7 @@
       "name": "IMG_3155.png",
       "category": "vienna",
       "size": 9627964,
-      "modified": "2025-08-04T22:04:32.432Z",
+      "modified": "2025-08-05T09:39:26.280Z",
       "hash": "036452df1dcc66065c8395b18a8820ea",
       "dimensions": {
         "width": 2960,
@@ -128,10 +128,10 @@
       "thumbnail": {
         "width": 600,
         "height": 800,
-        "size": 51178
+        "size": 110885
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3155.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3155.jpg"
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3155_thumb.png"
     },
     {
       "id": "vienna_IMG_3148_png",
@@ -139,7 +139,7 @@
       "name": "IMG_3148.png",
       "category": "vienna",
       "size": 14713401,
-      "modified": "2025-08-04T22:04:32.420Z",
+      "modified": "2025-08-05T09:39:26.268Z",
       "hash": "5f076940aab6bd1ea3ddab624241dda2",
       "dimensions": {
         "width": 3024,
@@ -169,10 +169,10 @@
       "thumbnail": {
         "width": 600,
         "height": 800,
-        "size": 57722
+        "size": 95568
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3148.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3148.jpg"
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3148_thumb.png"
     },
     {
       "id": "vienna_IMG_3114_png",
@@ -180,7 +180,7 @@
       "name": "IMG_3114.png",
       "category": "vienna",
       "size": 18217999,
-      "modified": "2025-08-04T22:04:32.403Z",
+      "modified": "2025-08-05T09:39:26.252Z",
       "hash": "ddbc59f7314f450fcac6b42874efb0f8",
       "dimensions": {
         "width": 3024,
@@ -210,10 +210,10 @@
       "thumbnail": {
         "width": 600,
         "height": 800,
-        "size": 89781
+        "size": 139593
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3114.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3114.jpg"
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3114_thumb.png"
     },
     {
       "id": "vienna_IMG_3107_png",
@@ -221,7 +221,7 @@
       "name": "IMG_3107.png",
       "category": "vienna",
       "size": 33285838,
-      "modified": "2025-08-04T22:04:32.380Z",
+      "modified": "2025-08-05T09:39:26.229Z",
       "hash": "90390e8e8b0e34050ecd9bb19d4ffe2c",
       "dimensions": {
         "width": 4221,
@@ -251,10 +251,10 @@
       "thumbnail": {
         "width": 600,
         "height": 800,
-        "size": 74560
+        "size": 122184
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3107.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3107.jpg"
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3107_thumb.png"
     }
   ]
 }
