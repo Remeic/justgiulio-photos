@@ -79,6 +79,16 @@ const makeThumb = async (src, dst, w = 600) => {
       withoutEnlargement: true,
     });
 
+    // Riduci la grandezza delle immagini del 35%
+    const resizeFactor = 0.65;
+    const newW = Math.round(w * resizeFactor);
+    const newH = Math.round(h * resizeFactor);
+
+    pipe = sharp(src).resize(newW, newH, {
+      fit: "inside",
+      withoutEnlargement: true,
+    });
+
     // PNG/GIF con alpha restano PNG; altrimenti JPEG
     if (m.hasAlpha || m.format === "png" || m.format === "gif") {
       pipe = pipe.png({ compressionLevel: 9, effort: 10 });
