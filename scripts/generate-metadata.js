@@ -81,9 +81,9 @@ const makeThumb = async (src, dst, w = 600) => {
 
     // PNG/GIF con alpha restano PNG; altrimenti JPEG
     if (m.hasAlpha || m.format === "png" || m.format === "gif") {
-      pipe = pipe.png({ compressionLevel: 9 });
+      pipe = pipe.png({ compressionLevel: 9, effort: 10 });
     } else {
-      pipe = pipe.jpeg({ quality: 65 });
+      pipe = pipe.jpeg({ quality: 40 });
     }
     await pipe.toFile(dst);
     return { width: w, height: h, size: fs.statSync(dst).size };
