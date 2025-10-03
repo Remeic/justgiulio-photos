@@ -8,7 +8,7 @@
     "generate": "node scripts/generate-metadata.js"
   },
   "dependencies": {
-    "sharp": "^0.34.3",
+    "sharp": "^0.34.4",
     "exifr": "^7.1.3"
   },
   "engines": {

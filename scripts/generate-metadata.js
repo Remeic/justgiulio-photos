@@ -3,7 +3,9 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import sharp from "sharp";
-import exifr from "exifr/dist/full.esm.mjs";
+// exifr is CommonJS; use default import and destructure
+import exifrPkg from "exifr";
+const { parse: exifParse } = exifrPkg;
 import crypto from "crypto";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -32,7 +34,11 @@ const dims = async (f) => {
 
 const exif = async (f) => {
   try {
-    const t = await exifr(f, [
+    const ext = path.extname(f).toLowerCase();
+    // Skip formats that don't carry EXIF reliably
+    if (ext === ".png" || ext === ".gif") return {};
+    // Parse only the tags we need for speed/stability
+    const t = (await exifParse(f, [
       "Make",
       "Model",
       "FNumber",
@@ -43,7 +49,7 @@ const exif = async (f) => {
       "GPSLongitude",
       "DateTimeOriginal",
       "CreateDate",
-    ]);
+    ])) || {};
 
     return {
       camera:
@@ -53,7 +59,13 @@ const exif = async (f) => {
       aperture: t.FNumber ? `f/${Number(t.FNumber).toFixed(1)}` : null,
       iso: t.ISO != null ? Math.round(t.ISO) : null,
       shutterSpeed: t.ExposureTime
-        ? `${Number(t.ExposureTime).toFixed(3)}s`
+        ? (() => {
+            const v = Number(t.ExposureTime);
+            if (!isFinite(v)) return null;
+            if (v >= 1) return `${v.toFixed(1)}s`;
+            const denom = Math.round(1 / v);
+            return `1/${denom}s`;
+          })()
         : null,
       focalLength: t.FocalLength
         ? `${Number(t.FocalLength).toFixed(1)}mm`
@@ -74,7 +86,7 @@ const makeThumb = async (src, dst, w = 600) => {
   try {
     const m = await sharp(src).metadata();
     const h = Math.round(w / ((m.width || 1) / (m.height || 1)));
-    let pipe = sharp(src).resize(w, h, {
+    let pipe = sharp(src).rotate().resize(w, h, {
       fit: "inside",
       withoutEnlargement: true,
     });
@@ -84,7 +96,7 @@ const makeThumb = async (src, dst, w = 600) => {
     const newW = Math.round(w * resizeFactor);
     const newH = Math.round(h * resizeFactor);
 
-    pipe = sharp(src).resize(newW, newH, {
+    pipe = sharp(src).rotate().resize(newW, newH, {
       fit: "inside",
       withoutEnlargement: true,
     });
@@ -93,10 +105,11 @@ const makeThumb = async (src, dst, w = 600) => {
     if (m.hasAlpha || m.format === "png" || m.format === "gif") {
       pipe = pipe.png({ compressionLevel: 9, effort: 10 });
     } else {
-      pipe = pipe.jpeg({ quality: 40 });
+      pipe = pipe.jpeg({ quality: 40, progressive: true, mozjpeg: true });
     }
     await pipe.toFile(dst);
-    return { width: w, height: h, size: fs.statSync(dst).size };
+    // Return actual written dimensions
+    return { width: newW, height: newH, size: fs.statSync(dst).size };
   } catch (e) {
     console.warn(`thumb fail ${src}: ${e.message}`);
     return null;
