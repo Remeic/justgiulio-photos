@@ -1,8 +1,13 @@
 {
-  "generated": "2025-08-05T09:39:37.739Z",
-  "totalPhotos": 6,
-  "totalSize": 122453376,
+  "generated": "2025-10-03T07:34:09.919Z",
+  "totalPhotos": 18,
+  "totalSize": 306007457,
   "categories": [
+    {
+      "name": "calabria",
+      "photoCount": 12,
+      "totalSize": 183554081
+    },
     {
       "name": "vienna",
       "photoCount": 6,
@@ -16,7 +21,7 @@
       "name": "IMG_3184.png",
       "category": "vienna",
       "size": 22452439,
-      "modified": "2025-08-05T09:39:26.332Z",
+      "modified": "2025-10-03T07:33:24.370Z",
       "hash": "3d89a4b2e11df1cbba17ba2a8bb1351f",
       "dimensions": {
         "width": 4284,
@@ -57,7 +62,7 @@
       "name": "IMG_3158.png",
       "category": "vienna",
       "size": 24155735,
-      "modified": "2025-08-05T09:39:26.308Z",
+      "modified": "2025-10-03T07:33:24.349Z",
       "hash": "4bc4e9e35044f2727fb55205dd7677fa",
       "dimensions": {
         "width": 4284,
@@ -98,7 +103,7 @@
       "name": "IMG_3155.png",
       "category": "vienna",
       "size": 9627964,
-      "modified": "2025-08-05T09:39:26.280Z",
+      "modified": "2025-10-03T07:33:24.326Z",
       "hash": "036452df1dcc66065c8395b18a8820ea",
       "dimensions": {
         "width": 2960,
@@ -139,7 +144,7 @@
       "name": "IMG_3148.png",
       "category": "vienna",
       "size": 14713401,
-      "modified": "2025-08-05T09:39:26.268Z",
+      "modified": "2025-10-03T07:33:24.316Z",
       "hash": "5f076940aab6bd1ea3ddab624241dda2",
       "dimensions": {
         "width": 3024,
@@ -180,7 +185,7 @@
       "name": "IMG_3114.png",
       "category": "vienna",
       "size": 18217999,
-      "modified": "2025-08-05T09:39:26.252Z",
+      "modified": "2025-10-03T07:33:24.302Z",
       "hash": "ddbc59f7314f450fcac6b42874efb0f8",
       "dimensions": {
         "width": 3024,
@@ -221,7 +226,7 @@
       "name": "IMG_3107.png",
       "category": "vienna",
       "size": 33285838,
-      "modified": "2025-08-05T09:39:26.229Z",
+      "modified": "2025-10-03T07:33:24.284Z",
       "hash": "90390e8e8b0e34050ecd9bb19d4ffe2c",
       "dimensions": {
         "width": 4221,
@@ -255,6 +260,270 @@
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/vienna/IMG_3107.png",
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/vienna/IMG_3107_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4681_png",
+      "path": "calabria/IMG_4681.png",
+      "name": "IMG_4681.png",
+      "category": "calabria",
+      "size": 18950186,
+      "modified": "2025-10-03T07:33:24.248Z",
+      "hash": "3fa6bd395ffc36d2403a0729867bb78d",
+      "dimensions": {
+        "width": 3024,
+        "height": 4032,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 97715
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4681.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4681_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4617_png",
+      "path": "calabria/IMG_4617.png",
+      "name": "IMG_4617.png",
+      "category": "calabria",
+      "size": 30739959,
+      "modified": "2025-10-03T07:33:24.229Z",
+      "hash": "ef225b2c3eee011d5a646a953fb2eb7b",
+      "dimensions": {
+        "width": 4284,
+        "height": 5712,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 113649
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4617.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4617_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4582_png",
+      "path": "calabria/IMG_4582.png",
+      "name": "IMG_4582.png",
+      "category": "calabria",
+      "size": 4006270,
+      "modified": "2025-10-03T07:33:24.196Z",
+      "hash": "fe758ba70001cff3a8f8bf97da8cf61b",
+      "dimensions": {
+        "width": 1546,
+        "height": 1932,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 750,
+        "size": 99906
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4582.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4582_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4518_png",
+      "path": "calabria/IMG_4518.png",
+      "name": "IMG_4518.png",
+      "category": "calabria",
+      "size": 17402298,
+      "modified": "2025-10-03T07:33:24.192Z",
+      "hash": "edcbf0e8b690d60c4586ac53e833f69b",
+      "dimensions": {
+        "width": 3024,
+        "height": 4032,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 124480
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4518.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4518_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4507_png",
+      "path": "calabria/IMG_4507.png",
+      "name": "IMG_4507.png",
+      "category": "calabria",
+      "size": 21563942,
+      "modified": "2025-10-03T07:33:24.176Z",
+      "hash": "908e535382ff51688d1c03eda90c2e65",
+      "dimensions": {
+        "width": 3024,
+        "height": 4032,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 143160
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4507.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4507_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4477_png",
+      "path": "calabria/IMG_4477.png",
+      "name": "IMG_4477.png",
+      "category": "calabria",
+      "size": 14210281,
+      "modified": "2025-10-03T07:33:24.153Z",
+      "hash": "b4efdccb1fb57cd58d5c015a9ba317c4",
+      "dimensions": {
+        "width": 3283,
+        "height": 4104,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 750,
+        "size": 91021
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4477.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4477_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4458_png",
+      "path": "calabria/IMG_4458.png",
+      "name": "IMG_4458.png",
+      "category": "calabria",
+      "size": 17317765,
+      "modified": "2025-10-03T07:33:24.140Z",
+      "hash": "61915549ef68957b7247ac866f3710eb",
+      "dimensions": {
+        "width": 3024,
+        "height": 4032,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 91847
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4458.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4458_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4416_png",
+      "path": "calabria/IMG_4416.png",
+      "name": "IMG_4416.png",
+      "category": "calabria",
+      "size": 5976735,
+      "modified": "2025-10-03T07:33:24.124Z",
+      "hash": "e37e123567a1963f7c884e4508fb592b",
+      "dimensions": {
+        "width": 2089,
+        "height": 2089,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 600,
+        "size": 69891
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4416.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4416_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4397_png",
+      "path": "calabria/IMG_4397.png",
+      "name": "IMG_4397.png",
+      "category": "calabria",
+      "size": 15119635,
+      "modified": "2025-10-03T07:33:24.119Z",
+      "hash": "967cf86927469c6330e8a30d271af1df",
+      "dimensions": {
+        "width": 2342,
+        "height": 3904,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 1000,
+        "size": 161040
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4397.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4397_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4373_png",
+      "path": "calabria/IMG_4373.png",
+      "name": "IMG_4373.png",
+      "category": "calabria",
+      "size": 13269369,
+      "modified": "2025-10-03T07:33:24.104Z",
+      "hash": "2ec7339e219dde7ccf8df720e4e9e32f",
+      "dimensions": {
+        "width": 3024,
+        "height": 3024,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 600,
+        "size": 87331
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4373.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4373_thumb.png"
+    },
+    {
+      "id": "calabria_IMG_4207_png",
+      "path": "calabria/IMG_4207.png",
+      "name": "IMG_4207.png",
+      "category": "calabria",
+      "size": 19422169,
+      "modified": "2025-10-03T07:33:24.091Z",
+      "hash": "afe6a75c9415a77c79c34409db3c957f",
+      "dimensions": {
+        "width": 3024,
+        "height": 4032,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 800,
+        "size": 95218
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/IMG_4207.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/IMG_4207_thumb.png"
+    },
+    {
+      "id": "calabria_EAC87333_5183_4143_81B5_B00255427E3F_png",
+      "path": "calabria/EAC87333-5183-4143-81B5-B00255427E3F.png",
+      "name": "EAC87333-5183-4143-81B5-B00255427E3F.png",
+      "category": "calabria",
+      "size": 5575472,
+      "modified": "2025-10-03T07:33:24.069Z",
+      "hash": "b6c30e4fdb83672bd26a22ced59cfc55",
+      "dimensions": {
+        "width": 2160,
+        "height": 2160,
+        "format": "png"
+      },
+      "exif": {},
+      "thumbnail": {
+        "width": 600,
+        "height": 600,
+        "size": 76547
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/calabria/EAC87333-5183-4143-81B5-B00255427E3F.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/calabria/EAC87333-5183-4143-81B5-B00255427E3F_thumb.png"
     }
   ]
 }
