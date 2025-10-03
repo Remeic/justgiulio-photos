@@ -36,20 +36,21 @@ const exif = async (f) => {
   try {
     const ext = path.extname(f).toLowerCase();
     // Skip formats that don't carry EXIF reliably
-    if (ext === ".png" || ext === ".gif") return {};
+    if (ext === ".gif") return {};
     // Parse only the tags we need for speed/stability
-    const t = (await exifParse(f, [
-      "Make",
-      "Model",
-      "FNumber",
-      "ISO",
-      "ExposureTime",
-      "FocalLength",
-      "GPSLatitude",
-      "GPSLongitude",
-      "DateTimeOriginal",
-      "CreateDate",
-    ])) || {};
+    const t =
+      (await exifParse(f, [
+        "Make",
+        "Model",
+        "FNumber",
+        "ISO",
+        "ExposureTime",
+        "FocalLength",
+        "GPSLatitude",
+        "GPSLongitude",
+        "DateTimeOriginal",
+        "CreateDate",
+      ])) || {};
 
     return {
       camera:
