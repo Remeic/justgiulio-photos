@@ -1,7 +1,7 @@
 {
-  "generated": "2025-10-28T19:26:51.821Z",
+  "generated": "2025-10-28T19:45:08.686Z",
   "totalPhotos": 55,
-  "totalSize": 953873645,
+  "totalSize": 940207190,
   "categories": [
     {
       "name": "calabria",
@@ -31,7 +31,7 @@
     {
       "name": "London",
       "photoCount": 6,
-      "totalSize": 108880821
+      "totalSize": 95214366
     },
     {
       "name": "oporto",
@@ -46,7 +46,7 @@
       "name": "IMG_3184.png",
       "category": "vienna",
       "size": 22452439,
-      "modified": "2025-10-28T19:26:23.798Z",
+      "modified": "2025-10-28T19:45:00.284Z",
       "hash": "3d89a4b2e11df1cbba17ba2a8bb1351f",
       "dimensions": {
         "width": 4284,
@@ -87,7 +87,7 @@
       "name": "IMG_3158.png",
       "category": "vienna",
       "size": 24155735,
-      "modified": "2025-10-28T19:26:23.772Z",
+      "modified": "2025-10-28T19:45:00.258Z",
       "hash": "4bc4e9e35044f2727fb55205dd7677fa",
       "dimensions": {
         "width": 4284,
@@ -128,7 +128,7 @@
       "name": "IMG_3155.png",
       "category": "vienna",
       "size": 9627964,
-      "modified": "2025-10-28T19:26:23.745Z",
+      "modified": "2025-10-28T19:45:00.231Z",
       "hash": "036452df1dcc66065c8395b18a8820ea",
       "dimensions": {
         "width": 2960,
@@ -169,7 +169,7 @@
       "name": "IMG_3148.png",
       "category": "vienna",
       "size": 14713401,
-      "modified": "2025-10-28T19:26:23.733Z",
+      "modified": "2025-10-28T19:45:00.218Z",
       "hash": "5f076940aab6bd1ea3ddab624241dda2",
       "dimensions": {
         "width": 3024,
@@ -210,7 +210,7 @@
       "name": "IMG_3114.png",
       "category": "vienna",
       "size": 18217999,
-      "modified": "2025-10-28T19:26:23.716Z",
+      "modified": "2025-10-28T19:45:00.201Z",
       "hash": "ddbc59f7314f450fcac6b42874efb0f8",
       "dimensions": {
         "width": 3024,
@@ -251,7 +251,7 @@
       "name": "IMG_3107.png",
       "category": "vienna",
       "size": 33285838,
-      "modified": "2025-10-28T19:26:23.695Z",
+      "modified": "2025-10-28T19:45:00.180Z",
       "hash": "90390e8e8b0e34050ecd9bb19d4ffe2c",
       "dimensions": {
         "width": 4221,
@@ -292,7 +292,7 @@
       "name": "IMG_4288.png",
       "category": "prague",
       "size": 17350643,
-      "modified": "2025-10-28T19:26:23.654Z",
+      "modified": "2025-10-28T19:45:00.138Z",
       "hash": "bfc23eba142ecb47a152cc86341ff4de",
       "dimensions": {
         "width": 3024,
@@ -333,7 +333,7 @@
       "name": "IMG_4003.png",
       "category": "prague",
       "size": 20525413,
-      "modified": "2025-10-28T19:26:23.634Z",
+      "modified": "2025-10-28T19:45:00.118Z",
       "hash": "ef96fbfe78b036a95ec4225ea510aa56",
       "dimensions": {
         "width": 3024,
@@ -374,7 +374,7 @@
       "name": "F58ED198-683D-4630-96A3-30240FEEB01C.png",
       "category": "prague",
       "size": 2958795,
-      "modified": "2025-10-28T19:26:23.611Z",
+      "modified": "2025-10-28T19:45:00.095Z",
       "hash": "a14e3bd9924d0269057b6e18a9e4059f",
       "dimensions": {
         "width": 1440,
@@ -404,7 +404,7 @@
       "name": "F3C16588-7DB6-4099-9874-8B7D17CCA9AB.png",
       "category": "prague",
       "size": 797621,
-      "modified": "2025-10-28T19:26:23.607Z",
+      "modified": "2025-10-28T19:45:00.091Z",
       "hash": "c81bfada220f54d4babb94a307dcd154",
       "dimensions": {
         "width": 1440,
@@ -434,7 +434,7 @@
       "name": "C0AC7905-8E78-4013-8BF3-EC1C949AA808.png",
       "category": "prague",
       "size": 1008642,
-      "modified": "2025-10-28T19:26:23.604Z",
+      "modified": "2025-10-28T19:45:00.088Z",
       "hash": "67e4f61b6ae39064d5ba953288f8745b",
       "dimensions": {
         "width": 1440,
@@ -464,7 +464,7 @@
       "name": "AF2F4033-9EB8-48F6-8A20-6F85EF52AD39.png",
       "category": "prague",
       "size": 592444,
-      "modified": "2025-10-28T19:26:23.600Z",
+      "modified": "2025-10-28T19:45:00.082Z",
       "hash": "efe922086a94d5e747809f1f6fc12b43",
       "dimensions": {
         "width": 1440,
@@ -494,7 +494,7 @@
       "name": "234C2038-B3CD-4368-A858-CBEB27CF51BB.png",
       "category": "prague",
       "size": 1813792,
-      "modified": "2025-10-28T19:26:23.599Z",
+      "modified": "2025-10-28T19:45:00.081Z",
       "hash": "4f21f9a73b68753177a53c15b4d5a2ad",
       "dimensions": {
         "width": 1440,
@@ -524,7 +524,7 @@
       "name": "101E0060-1F13-465B-9CAC-296589B3B4AD.png",
       "category": "prague",
       "size": 1505451,
-      "modified": "2025-10-28T19:26:23.596Z",
+      "modified": "2025-10-28T19:45:00.077Z",
       "hash": "8a87b83f43a2969632b2a0cd930194d8",
       "dimensions": {
         "width": 1440,
@@ -554,7 +554,7 @@
       "name": "IMG_3240.png",
       "category": "oporto",
       "size": 14257929,
-      "modified": "2025-10-28T19:26:23.594Z",
+      "modified": "2025-10-28T19:45:00.075Z",
       "hash": "5d32913b31f7e392b252b6cc59b47b0a",
       "dimensions": {
         "width": 2844,
@@ -584,7 +584,7 @@
       "name": "IMG_2772.png",
       "category": "oporto",
       "size": 55853339,
-      "modified": "2025-10-28T19:26:23.577Z",
+      "modified": "2025-10-28T19:45:00.058Z",
       "hash": "e185e7b42660d8cd413d4c015787c0dd",
       "dimensions": {
         "width": 6048,
@@ -625,7 +625,7 @@
       "name": "IMG_2765.png",
       "category": "oporto",
       "size": 8859903,
-      "modified": "2025-10-28T19:26:23.510Z",
+      "modified": "2025-10-28T19:44:59.990Z",
       "hash": "44d102c701f30cb50f5bb584c63fe1d5",
       "dimensions": {
         "width": 3624,
@@ -666,7 +666,7 @@
       "name": "IMG_2470.png",
       "category": "oporto",
       "size": 34853676,
-      "modified": "2025-10-28T19:26:23.500Z",
+      "modified": "2025-10-28T19:44:59.980Z",
       "hash": "38ef626dea4e3db60a1cfd478b4f2823",
       "dimensions": {
         "width": 4284,
@@ -707,7 +707,7 @@
       "name": "lisbon_10.png",
       "category": "lisbon",
       "size": 12311138,
-      "modified": "2025-10-28T19:26:23.457Z",
+      "modified": "2025-10-28T19:44:59.937Z",
       "hash": "a241c000846bb80bcca0d6ac03069449",
       "dimensions": {
         "width": 2624,
@@ -737,7 +737,7 @@
       "name": "lisbon_09.png",
       "category": "lisbon",
       "size": 17562444,
-      "modified": "2025-10-28T19:26:23.390Z",
+      "modified": "2025-10-28T19:44:59.869Z",
       "hash": "31fc8697e955d7e95efb3f35758a58b1",
       "dimensions": {
         "width": 3024,
@@ -767,7 +767,7 @@
       "name": "lisbon_08.png",
       "category": "lisbon",
       "size": 10800178,
-      "modified": "2025-10-28T19:26:23.305Z",
+      "modified": "2025-10-28T19:44:59.777Z",
       "hash": "29d552054901114231d3ecea3d0f7699",
       "dimensions": {
         "width": 3024,
@@ -797,7 +797,7 @@
       "name": "lisbon_07.png",
       "category": "lisbon",
       "size": 14925494,
-      "modified": "2025-10-28T19:26:23.239Z",
+      "modified": "2025-10-28T19:44:59.712Z",
       "hash": "288a90e0c3dabd105f74f632e5e606e9",
       "dimensions": {
         "width": 3024,
@@ -827,7 +827,7 @@
       "name": "lisbon_06.png",
       "category": "lisbon",
       "size": 34586605,
-      "modified": "2025-10-28T19:26:23.152Z",
+      "modified": "2025-10-28T19:44:59.631Z",
       "hash": "42b05cf6efaba182d3d3900981a7249d",
       "dimensions": {
         "width": 5712,
@@ -857,7 +857,7 @@
       "name": "lisbon_05.png",
       "category": "lisbon",
       "size": 16521636,
-      "modified": "2025-10-28T19:26:22.959Z",
+      "modified": "2025-10-28T19:44:59.438Z",
       "hash": "6a170719a4262d7c91a4bbe62ddda23d",
       "dimensions": {
         "width": 3024,
@@ -887,7 +887,7 @@
       "name": "lisbon_04.png",
       "category": "lisbon",
       "size": 19296135,
-      "modified": "2025-10-28T19:26:22.868Z",
+      "modified": "2025-10-28T19:44:59.347Z",
       "hash": "0567943ebf3b4c197226508dee8c3e0d",
       "dimensions": {
         "width": 2885,
@@ -917,7 +917,7 @@
       "name": "lisbon_03.png",
       "category": "lisbon",
       "size": 13062211,
-      "modified": "2025-10-28T19:26:22.770Z",
+      "modified": "2025-10-28T19:44:59.248Z",
       "hash": "eeb8c7fea71fec94d66e5424920a085b",
       "dimensions": {
         "width": 3024,
@@ -947,7 +947,7 @@
       "name": "lisbon_02.png",
       "category": "lisbon",
       "size": 41988882,
-      "modified": "2025-10-28T19:26:22.697Z",
+      "modified": "2025-10-28T19:44:59.176Z",
       "hash": "838874348c585d814055d1cc47ae4f2d",
       "dimensions": {
         "width": 4284,
@@ -977,7 +977,7 @@
       "name": "lisbon_01.png",
       "category": "lisbon",
       "size": 17562444,
-      "modified": "2025-10-28T19:26:22.477Z",
+      "modified": "2025-10-28T19:44:58.954Z",
       "hash": "31fc8697e955d7e95efb3f35758a58b1",
       "dimensions": {
         "width": 3024,
@@ -1007,7 +1007,7 @@
       "name": "IMG_4681.png",
       "category": "calabria",
       "size": 18950186,
-      "modified": "2025-10-28T19:26:22.391Z",
+      "modified": "2025-10-28T19:44:58.869Z",
       "hash": "3fa6bd395ffc36d2403a0729867bb78d",
       "dimensions": {
         "width": 3024,
@@ -1048,7 +1048,7 @@
       "name": "IMG_4617.png",
       "category": "calabria",
       "size": 30739959,
-      "modified": "2025-10-28T19:26:22.370Z",
+      "modified": "2025-10-28T19:44:58.847Z",
       "hash": "ef225b2c3eee011d5a646a953fb2eb7b",
       "dimensions": {
         "width": 4284,
@@ -1089,7 +1089,7 @@
       "name": "IMG_4582.png",
       "category": "calabria",
       "size": 4006270,
-      "modified": "2025-10-28T19:26:22.334Z",
+      "modified": "2025-10-28T19:44:58.806Z",
       "hash": "fe758ba70001cff3a8f8bf97da8cf61b",
       "dimensions": {
         "width": 1546,
@@ -1130,7 +1130,7 @@
       "name": "IMG_4518.png",
       "category": "calabria",
       "size": 17402298,
-      "modified": "2025-10-28T19:26:22.330Z",
+      "modified": "2025-10-28T19:44:58.799Z",
       "hash": "edcbf0e8b690d60c4586ac53e833f69b",
       "dimensions": {
         "width": 3024,
@@ -1171,7 +1171,7 @@
       "name": "IMG_4507.png",
       "category": "calabria",
       "size": 21563942,
-      "modified": "2025-10-28T19:26:22.310Z",
+      "modified": "2025-10-28T19:44:58.779Z",
       "hash": "908e535382ff51688d1c03eda90c2e65",
       "dimensions": {
         "width": 3024,
@@ -1212,7 +1212,7 @@
       "name": "IMG_4477.png",
       "category": "calabria",
       "size": 14210281,
-      "modified": "2025-10-28T19:26:22.286Z",
+      "modified": "2025-10-28T19:44:58.754Z",
       "hash": "b4efdccb1fb57cd58d5c015a9ba317c4",
       "dimensions": {
         "width": 3283,
@@ -1253,7 +1253,7 @@
       "name": "IMG_4458.png",
       "category": "calabria",
       "size": 17317765,
-      "modified": "2025-10-28T19:26:22.268Z",
+      "modified": "2025-10-28T19:44:58.738Z",
       "hash": "61915549ef68957b7247ac866f3710eb",
       "dimensions": {
         "width": 3024,
@@ -1294,7 +1294,7 @@
       "name": "IMG_4416.png",
       "category": "calabria",
       "size": 5976735,
-      "modified": "2025-10-28T19:26:22.248Z",
+      "modified": "2025-10-28T19:44:58.716Z",
       "hash": "e37e123567a1963f7c884e4508fb592b",
       "dimensions": {
         "width": 2089,
@@ -1335,7 +1335,7 @@
       "name": "IMG_4397.png",
       "category": "calabria",
       "size": 15119635,
-      "modified": "2025-10-28T19:26:22.239Z",
+      "modified": "2025-10-28T19:44:58.708Z",
       "hash": "967cf86927469c6330e8a30d271af1df",
       "dimensions": {
         "width": 2342,
@@ -1376,7 +1376,7 @@
       "name": "IMG_4373.png",
       "category": "calabria",
       "size": 13269369,
-      "modified": "2025-10-28T19:26:22.220Z",
+      "modified": "2025-10-28T19:44:58.691Z",
       "hash": "2ec7339e219dde7ccf8df720e4e9e32f",
       "dimensions": {
         "width": 3024,
@@ -1417,7 +1417,7 @@
       "name": "IMG_4207.png",
       "category": "calabria",
       "size": 19422169,
-      "modified": "2025-10-28T19:26:22.205Z",
+      "modified": "2025-10-28T19:44:58.675Z",
       "hash": "afe6a75c9415a77c79c34409db3c957f",
       "dimensions": {
         "width": 3024,
@@ -1458,7 +1458,7 @@
       "name": "EAC87333-5183-4143-81B5-B00255427E3F.png",
       "category": "calabria",
       "size": 5575472,
-      "modified": "2025-10-28T19:26:22.182Z",
+      "modified": "2025-10-28T19:44:58.652Z",
       "hash": "b6c30e4fdb83672bd26a22ced59cfc55",
       "dimensions": {
         "width": 2160,
@@ -1487,12 +1487,12 @@
       "path": "London/London_6.png",
       "name": "London_6.png",
       "category": "London",
-      "size": 23251151,
-      "modified": "2025-10-28T19:26:22.175Z",
-      "hash": "2cd3d3a40f529c0a9d3f01162f96d0aa",
+      "size": 19459530,
+      "modified": "2025-10-28T19:44:58.645Z",
+      "hash": "85e3d06fbc5410decf1821744449a74c",
       "dimensions": {
-        "width": 3024,
-        "height": 4032,
+        "width": 4032,
+        "height": 3024,
         "format": "png"
       },
       "exif": {
@@ -1506,8 +1506,8 @@
       },
       "thumbnail": {
         "width": 390,
-        "height": 520,
-        "size": 131048
+        "height": 293,
+        "size": 62569
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/London/London_6.png",
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/London_6_thumb.png"
@@ -1517,9 +1517,9 @@
       "path": "London/London_5.png",
       "name": "London_5.png",
       "category": "London",
-      "size": 17268953,
-      "modified": "2025-10-28T19:26:22.054Z",
-      "hash": "4966afa00a6b50d19854b0804e9ec5d7",
+      "size": 15912155,
+      "modified": "2025-10-28T19:44:58.542Z",
+      "hash": "b565b5c560e0febd7cc1329cc7581470",
       "dimensions": {
         "width": 4032,
         "height": 3024,
@@ -1537,7 +1537,7 @@
       "thumbnail": {
         "width": 390,
         "height": 293,
-        "size": 60763
+        "size": 61354
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/London/London_5.png",
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/London_5_thumb.png"
@@ -1547,12 +1547,12 @@
       "path": "London/London_4.png",
       "name": "London_4.png",
       "category": "London",
-      "size": 16698563,
-      "modified": "2025-10-28T19:26:21.958Z",
-      "hash": "555e9c645e55310ea0b6080db99b3641",
+      "size": 17660260,
+      "modified": "2025-10-28T19:44:58.459Z",
+      "hash": "3f27eb87c1abef4a709ed26e6b00791a",
       "dimensions": {
-        "width": 4032,
-        "height": 3024,
+        "width": 3024,
+        "height": 4032,
         "format": "png"
       },
       "exif": {
@@ -1566,8 +1566,8 @@
       },
       "thumbnail": {
         "width": 390,
-        "height": 293,
-        "size": 62133
+        "height": 520,
+        "size": 87338
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/London/London_4.png",
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/London_4_thumb.png"
@@ -1577,12 +1577,12 @@
       "path": "London/London_3.png",
       "name": "London_3.png",
       "category": "London",
-      "size": 15695184,
-      "modified": "2025-10-28T19:26:21.868Z",
-      "hash": "543e311affa28d7435d9f87a5b417531",
+      "size": 17919376,
+      "modified": "2025-10-28T19:44:58.360Z",
+      "hash": "106395b181081f2784f072542b417e9f",
       "dimensions": {
-        "width": 2929,
-        "height": 3906,
+        "width": 3024,
+        "height": 4032,
         "format": "png"
       },
       "exif": {
@@ -1597,7 +1597,7 @@
       "thumbnail": {
         "width": 390,
         "height": 520,
-        "size": 89619
+        "size": 113948
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/London/London_3.png",
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/London_3_thumb.png"
@@ -1607,9 +1607,9 @@
       "path": "London/London_2.png",
       "name": "London_2.png",
       "category": "London",
-      "size": 20568472,
-      "modified": "2025-10-28T19:26:21.782Z",
-      "hash": "fa2a0156f6dda6e7b92971e8da66dc4d",
+      "size": 13463910,
+      "modified": "2025-10-28T19:44:58.269Z",
+      "hash": "42d9c49e58e99959a09241945bca068d",
       "dimensions": {
         "width": 3024,
         "height": 4032,
@@ -1627,7 +1627,7 @@
       "thumbnail": {
         "width": 390,
         "height": 520,
-        "size": 119110
+        "size": 129384
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/London/London_2.png",
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/London_2_thumb.png"
@@ -1637,12 +1637,12 @@
       "path": "London/London_1.png",
       "name": "London_1.png",
       "category": "London",
-      "size": 15398498,
-      "modified": "2025-10-28T19:26:21.681Z",
-      "hash": "88f2b7c55525e1eced78db616b70cba7",
+      "size": 10799135,
+      "modified": "2025-10-28T19:44:58.193Z",
+      "hash": "0a958413234342c225cb56bf40e777a1",
       "dimensions": {
         "width": 3024,
-        "height": 4032,
+        "height": 2419,
         "format": "png"
       },
       "exif": {
@@ -1656,8 +1656,8 @@
       },
       "thumbnail": {
         "width": 390,
-        "height": 520,
-        "size": 133398
+        "height": 312,
+        "size": 78245
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/London/London_1.png",
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/London_1_thumb.png"
@@ -1668,7 +1668,7 @@
       "name": "IMG_5237.png",
       "category": "Copenaghen",
       "size": 21799606,
-      "modified": "2025-10-28T19:26:21.592Z",
+      "modified": "2025-10-28T19:44:58.141Z",
       "hash": "9585e57b6794f9840429c0cc881d6298",
       "dimensions": {
         "width": 3024,
@@ -1698,7 +1698,7 @@
       "name": "IMG_4926.png",
       "category": "Copenaghen",
       "size": 28064640,
-      "modified": "2025-10-28T19:26:21.475Z",
+      "modified": "2025-10-28T19:44:58.024Z",
       "hash": "90deb712274af389d2f7227c6cceceef",
       "dimensions": {
         "width": 3515,
@@ -1728,7 +1728,7 @@
       "name": "IMG_4924.png",
       "category": "Copenaghen",
       "size": 14579074,
-      "modified": "2025-10-28T19:26:21.334Z",
+      "modified": "2025-10-28T19:44:57.882Z",
       "hash": "c1a3a5df6d14fddb4d5dcd3ba52f30c8",
       "dimensions": {
         "width": 2653,
@@ -1758,7 +1758,7 @@
       "name": "IMG_4198.png",
       "category": "Copenaghen",
       "size": 14977053,
-      "modified": "2025-10-28T19:26:21.264Z",
+      "modified": "2025-10-28T19:44:57.811Z",
       "hash": "7e35d95aeab98d33021cb99e6ba98c63",
       "dimensions": {
         "width": 3024,
@@ -1788,7 +1788,7 @@
       "name": "IMG_3953.png",
       "category": "Copenaghen",
       "size": 11458222,
-      "modified": "2025-10-28T19:26:21.181Z",
+      "modified": "2025-10-28T19:44:57.728Z",
       "hash": "7166b539152ae13de2df8a2c2ddbab3b",
       "dimensions": {
         "width": 2881,
@@ -1818,7 +1818,7 @@
       "name": "2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
       "category": "Copenaghen",
       "size": 9406202,
-      "modified": "2025-10-28T19:26:21.115Z",
+      "modified": "2025-10-28T19:44:57.662Z",
       "hash": "5b91219c37bd2fb26185ea02929d5d57",
       "dimensions": {
         "width": 3024,
@@ -1859,7 +1859,7 @@
       "name": "2024-04-26_19-29-19_764.png",
       "category": "Copenaghen",
       "size": 12138297,
-      "modified": "2025-10-28T19:26:21.102Z",
+      "modified": "2025-10-28T19:44:57.649Z",
       "hash": "609d21b16dd7c1502b9f1c96eacb5705",
       "dimensions": {
         "width": 3024,
@@ -1889,7 +1889,7 @@
       "name": "2024-04-26_14-05-38_268.png",
       "category": "Copenaghen",
       "size": 31166846,
-      "modified": "2025-10-28T19:26:21.032Z",
+      "modified": "2025-10-28T19:44:57.579Z",
       "hash": "8a7ce285b954fcde1f0b1ef3b15278ae",
       "dimensions": {
         "width": 4138,
@@ -1919,7 +1919,7 @@
       "name": "2024-04-26_12-28-52_767.png",
       "category": "Copenaghen",
       "size": 36400612,
-      "modified": "2025-10-28T19:26:20.851Z",
+      "modified": "2025-10-28T19:44:57.398Z",
       "hash": "40481e09eab06ef11fdd84cee4d2fcb0",
       "dimensions": {
         "width": 4284,
