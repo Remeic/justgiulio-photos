@@ -18,6 +18,7 @@ const md5 = (f) =>
   crypto.createHash("md5").update(fs.readFileSync(f)).digest("hex");
 
 const PHOTO_TAG_WHITELIST = [
+  "Description",
   "Make",
   "Model",
   "LensMake",
