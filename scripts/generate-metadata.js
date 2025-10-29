@@ -10,7 +10,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const IMAGE_EXT = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
-const EXIF_SCHEMA_VERSION = 3;
+const EXIF_SCHEMA_VERSION = 4;
 
 // ---------- helper ----------------------------------------------------------
 
