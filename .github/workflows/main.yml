@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: generate-photo-metadata-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,6 +21,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Sync to latest commit
+        run: |
+          git fetch origin ${{ github.ref }}
+          git reset --hard origin/${{ github.ref_name }}
 
       - uses: actions/setup-node@v4
         with:
