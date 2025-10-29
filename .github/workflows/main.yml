@@ -46,6 +46,16 @@ jobs:
         with:
           bun-version: "latest"
 
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.bun/install/cache
+            node_modules
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lockb') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
+
       # package.json minimo (se non esiste)
       - name: Ensure package.json
         run: |
@@ -55,10 +65,15 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
+      - name: Reset generated artifacts
+        run: |
+          rm -f metadata.json
+          rm -rf thumbnails
+
       - name: Generate metadata.json and thumbnails
         run: node scripts/generate-metadata.js
 
-      - name: Commit changes
+      - name: Commit and tag changes
         if: ${{ github.ref_type == 'branch' }}
         shell: bash
         run: |
@@ -72,9 +87,12 @@ jobs:
           if git diff --cached --quiet; then
             echo "HAS_CHANGES=false" >> $GITHUB_ENV
           else
-            git commit -m "chore: update photo metadata and thumbnails [auto]"
+            node scripts/version.js --commit-message "chore: update photo metadata and thumbnails [auto]" --tag-prefix main@
+            NEW_VERSION=$(node -pe "JSON.parse(require('fs').readFileSync('package.json','utf8')).version")
             git push origin "HEAD:${GITHUB_REF_NAME}"
+            git push origin "main@${NEW_VERSION}"
             echo "HAS_CHANGES=true" >> $GITHUB_ENV
+            echo "NEW_VERSION=${NEW_VERSION}" >> $GITHUB_ENV
           fi
 
       - uses: actions/upload-artifact@v4

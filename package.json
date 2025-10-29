@@ -5,7 +5,8 @@
   "description": "Automatic metadata generation for photo repository",
   "main": "scripts/generate-metadata.js",
   "scripts": {
-    "generate": "node scripts/generate-metadata.js"
+    "generate": "node scripts/generate-metadata.js",
+    "version": "node scripts/version.js"
   },
   "dependencies": {
     "sharp": "^0.34.4",
