@@ -22,10 +22,21 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Sync to latest commit
+      - name: Sync to latest branch head
+        if: ${{ github.ref_type == 'branch' }}
+        shell: bash
         run: |
-          git fetch origin ${{ github.ref }}
-          git reset --hard origin/${{ github.ref_name }}
+          set -euo pipefail
+          git fetch origin "${GITHUB_REF}"
+          git checkout -B "${GITHUB_REF_NAME}" "origin/${GITHUB_REF_NAME}"
+
+      - name: Sync to tag ref
+        if: ${{ github.ref_type == 'tag' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --force --tags origin
+          git checkout --force "tags/${GITHUB_REF_NAME}"
 
       - uses: actions/setup-node@v4
         with:
@@ -48,7 +59,10 @@ jobs:
         run: node scripts/generate-metadata.js
 
       - name: Commit changes
+        if: ${{ github.ref_type == 'branch' }}
+        shell: bash
         run: |
+          set -euo pipefail
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
@@ -59,7 +73,7 @@ jobs:
             echo "HAS_CHANGES=false" >> $GITHUB_ENV
           else
             git commit -m "chore: update photo metadata and thumbnails [auto]"
-            git push
+            git push origin "HEAD:${GITHUB_REF_NAME}"
             echo "HAS_CHANGES=true" >> $GITHUB_ENV
           fi
 
