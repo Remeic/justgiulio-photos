@@ -17,6 +17,21 @@ const EXIF_SCHEMA_VERSION = 4;
 const md5 = (f) =>
   crypto.createHash("md5").update(fs.readFileSync(f)).digest("hex");
 
+const slugifySegment = (value) =>
+  String(value ?? "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/gi, "-")
+    .replace(/^-+|-+$/g, "")
+    .toLowerCase();
+
+const slugifyPath = (value) =>
+  String(value ?? "")
+    .split("/")
+    .map((segment) => slugifySegment(segment))
+    .filter(Boolean)
+    .join("-");
+
 const PHOTO_TAG_WHITELIST = [
   "Description",
   "Make",
@@ -307,6 +322,10 @@ const makeThumb = async (src, dst, w = 600) => {
         cached?.hash !== p.hash || !cachedHasRaw || exifVersionChanged;
       const full = path.join(photosDir, p.path);
       const cat = p.path.split("/")[0] || "uncategorized";
+      const categorySlug = slugifySegment(cat);
+      const baseName = p.name.replace(/\.[^.]+$/, "");
+      const photoSlug = slugifySegment(baseName);
+      const photoId = slugifyPath(p.path);
 
       // thumbnail filename
       const ext = path.extname(p.path).toLowerCase();
@@ -326,10 +345,12 @@ const makeThumb = async (src, dst, w = 600) => {
       const t = needThumb ? await makeThumb(full, thumbAbs) : cached?.thumbnail;
 
       processed.push({
-        id: p.path.replace(/[^a-z0-9]/gi, "_"),
+        id: photoId,
         path: p.path,
         name: p.name,
         category: cat,
+        categorySlug,
+        slug: photoSlug,
         size: p.size,
         modified: p.modified,
         hash: p.hash,
@@ -345,7 +366,12 @@ const makeThumb = async (src, dst, w = 600) => {
 
     const cats = Object.values(
       processed.reduce((m, p) => {
-        m[p.category] ??= { name: p.category, photoCount: 0, totalSize: 0 };
+        m[p.category] ??= {
+          name: p.category,
+          slug: p.categorySlug,
+          photoCount: 0,
+          totalSize: 0,
+        };
         m[p.category].photoCount++;
         m[p.category].totalSize += p.size;
         return m;

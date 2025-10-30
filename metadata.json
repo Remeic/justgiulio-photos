@@ -1,73 +1,166 @@
 {
-  "generated": "2025-10-30T11:56:18.707Z",
-  "totalPhotos": 106,
-  "totalSize": 2108907202,
+  "generated": "2025-10-30T13:58:51.742Z",
+  "totalPhotos": 107,
+  "totalSize": 2137195898,
   "categories": [
     {
-      "name": "Basque - Bilbao & San Sebaatian",
+      "name": "Basque Country",
+      "slug": "basque-country",
       "photoCount": 27,
       "totalSize": 690517019
     },
     {
       "name": "Sevilla",
+      "slug": "sevilla",
       "photoCount": 19,
       "totalSize": 436236771
     },
     {
       "name": "Calabria",
+      "slug": "calabria",
       "photoCount": 12,
       "totalSize": 183554081
     },
     {
       "name": "Copenaghen",
+      "slug": "copenaghen",
       "photoCount": 9,
       "totalSize": 183089012
     },
     {
       "name": "Lisbon",
+      "slug": "lisbon",
       "photoCount": 8,
       "totalSize": 160438051
     },
     {
       "name": "Prague",
+      "slug": "prague",
       "photoCount": 8,
       "totalSize": 46552801
     },
     {
       "name": "London",
+      "slug": "london",
       "photoCount": 6,
       "totalSize": 95218272
     },
     {
       "name": "Vienna",
+      "slug": "vienna",
       "photoCount": 6,
       "totalSize": 122453376
     },
     {
       "name": "Sardinia",
-      "photoCount": 4,
-      "totalSize": 40865394
+      "slug": "sardinia",
+      "photoCount": 5,
+      "totalSize": 69154090
     },
     {
       "name": "Oporto",
+      "slug": "oporto",
       "photoCount": 4,
       "totalSize": 113824847
     },
     {
       "name": "Ibiza",
+      "slug": "ibiza",
       "photoCount": 3,
       "totalSize": 36157578
     }
   ],
   "photos": [
     {
-      "id": "Sardinia_E0A89AFD_ABFA_43DE_B34D_2DD5BF9BC5E12024_09_03_06_44_32_332__2024_09_11T05_16_18_174__png",
+      "id": "sardinia-2024-09-10-18-33-38-857-png",
+      "path": "Sardinia/2024-09-10_18-33-38_857.png",
+      "name": "2024-09-10_18-33-38_857.png",
+      "category": "Sardinia",
+      "categorySlug": "sardinia",
+      "slug": "2024-09-10-18-33-38-857",
+      "size": 28288694,
+      "modified": "2025-10-30T13:17:19.818Z",
+      "hash": "2f7510a9156848c2ebda0b2f093c5a1d",
+      "dimensions": {
+        "width": 5712,
+        "height": 4284,
+        "format": "png"
+      },
+      "exif": {
+        "camera": "Apple iPhone 15 Pro",
+        "aperture": "f/1.8",
+        "iso": 80,
+        "shutterSpeed": "1/3247s",
+        "focalLength": "6.8mm",
+        "gps": {
+          "latitude": 41.0986222222222,
+          "longitude": 9.56560555555556,
+          "altitude": 5.5740331,
+          "direction": 98.91912088,
+          "horizontalAccuracy": 4.765679381
+        },
+        "dateTaken": "2024-09-10T18:33:38+02:00",
+        "raw": {
+          "Make": "Apple",
+          "Model": "iPhone 15 Pro",
+          "LensMake": "Apple",
+          "LensModel": "iPhone 15 Pro back triple camera 6.765mm f/1.78",
+          "LensID": "iPhone 15 Pro back triple camera 6.765mm f/1.78",
+          "LensInfo": "2.220000029-9mm f/1.779999971-2.8",
+          "CameraType": "Back Normal",
+          "FNumber": 1.8,
+          "Aperture": 1.8,
+          "ApertureValue": 1.8,
+          "ExposureTime": "1/3247",
+          "ShutterSpeed": "1/3247",
+          "ShutterSpeedValue": "1/3247",
+          "ISO": 80,
+          "ExposureProgram": "Program AE",
+          "ExposureMode": "Auto",
+          "ExposureCompensation": 0,
+          "MeteringMode": "Multi-segment",
+          "WhiteBalance": "Auto",
+          "Flash": "Off, Did not fire",
+          "FocalLength": "6.8 mm",
+          "FocalLengthIn35mmFormat": "28 mm",
+          "FocusDistanceRange": "0.32 - 1.29 m",
+          "FocusPosition": 59,
+          "LightValue": 13.7,
+          "Megapixels": 24.5,
+          "ImageSize": "5712x4284",
+          "ColorTemperature": 5467,
+          "HDRHeadroom": 1.00999999,
+          "DateTimeOriginal": "2024-09-10T18:33:38+02:00",
+          "CreateDate": "2024-09-10T18:33:38+02:00",
+          "SubSecTimeOriginal": 857,
+          "SubSecCreateDate": "2024-09-10T18:33:38.857+02:00",
+          "GPSLatitude": 41.0986222222222,
+          "GPSLongitude": 9.56560555555556,
+          "GPSAltitude": 5.5740331,
+          "GPSPosition": "41.0986222222222 9.56560555555556",
+          "GPSImgDirection": 98.91912088,
+          "GPSHPositioningError": "4.765679381 m"
+        },
+        "schemaVersion": 4
+      },
+      "thumbnail": {
+        "width": 390,
+        "height": 293,
+        "size": 33169
+      },
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Sardinia/2024-09-10_18-33-38_857.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sardinia/2024-09-10_18-33-38_857_thumb.png"
+    },
+    {
+      "id": "sardinia-e0a89afd-abfa-43de-b34d-2dd5bf9bc5e12024-09-03-06-44-32-332-2024-09-11t05-16-18-174-png",
       "path": "Sardinia/E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174).png",
       "name": "E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174).png",
       "category": "Sardinia",
-      "size": 9533380,
-      "modified": "2025-10-30T11:54:02.875Z",
-      "hash": "9e2ac9a20cf2ba2a65f2de9c5c4d57f2",
+      "categorySlug": "sardinia",
+      "slug": "e0a89afd-abfa-43de-b34d-2dd5bf9bc5e12024-09-03-06-44-32-332-2024-09-11t05-16-18-174",
+      "size": 9533382,
+      "modified": "2025-10-30T12:07:36.162Z",
+      "hash": "7e151a855e166d379d6f7aae140e8236",
       "dimensions": {
         "width": 2860,
         "height": 3814,
@@ -88,7 +181,7 @@
         },
         "dateTaken": "2024-09-03T06:44:32+02:00",
         "raw": {
-          "Description": "La più bella alba della mia vita, per sempre li",
+          "Description": "L'alba più bella della mia vita, per sempre li",
           "Make": "Apple",
           "Model": "iPhone 15 Pro",
           "LensMake": "Apple",
@@ -135,10 +228,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sardinia/E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174)_thumb.png"
     },
     {
-      "id": "Sardinia_IMG_6960_png",
+      "id": "sardinia-img-6960-png",
       "path": "Sardinia/IMG_6960.png",
       "name": "IMG_6960.png",
       "category": "Sardinia",
+      "categorySlug": "sardinia",
+      "slug": "img-6960",
       "size": 10511349,
       "modified": "2025-10-30T11:49:55.990Z",
       "hash": "66c24dfe12c0d3be812c27d159da1a8e",
@@ -213,10 +308,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sardinia/IMG_6960_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_101D5600_DSC_0370_png",
-      "path": "Basque - Bilbao & San Sebaatian/101D5600_DSC_0370.png",
+      "id": "basque-country-101d5600-dsc-0370-png",
+      "path": "Basque Country/101D5600_DSC_0370.png",
       "name": "101D5600_DSC_0370.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "101d5600-dsc-0370",
       "size": 21873178,
       "modified": "2025-10-30T11:48:14.504Z",
       "hash": "c766249850570ac2b26c1dc225802a32",
@@ -267,14 +364,16 @@
         "height": 312,
         "size": 50184
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/101D5600_DSC_0370.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/101D5600_DSC_0370_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/101D5600_DSC_0370.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/101D5600_DSC_0370_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_101D5600_DSC_0348_png",
-      "path": "Basque - Bilbao & San Sebaatian/101D5600_DSC_0348.png",
+      "id": "basque-country-101d5600-dsc-0348-png",
+      "path": "Basque Country/101D5600_DSC_0348.png",
       "name": "101D5600_DSC_0348.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "101d5600-dsc-0348",
       "size": 29419467,
       "modified": "2025-10-30T11:47:49.733Z",
       "hash": "5d62dd4ee41d0b429a64c5ec809bc9de",
@@ -325,14 +424,16 @@
         "height": 694,
         "size": 51120
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/101D5600_DSC_0348.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/101D5600_DSC_0348_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/101D5600_DSC_0348.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/101D5600_DSC_0348_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_101D5600_DSC_0270_png",
-      "path": "Basque - Bilbao & San Sebaatian/101D5600_DSC_0270.png",
+      "id": "basque-country-101d5600-dsc-0270-png",
+      "path": "Basque Country/101D5600_DSC_0270.png",
       "name": "101D5600_DSC_0270.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "101d5600-dsc-0270",
       "size": 46813435,
       "modified": "2025-10-30T11:47:25.123Z",
       "hash": "28173fcbf8fbf651592991b29e1543c7",
@@ -383,14 +484,16 @@
         "height": 260,
         "size": 73015
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/101D5600_DSC_0270.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/101D5600_DSC_0270_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/101D5600_DSC_0270.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/101D5600_DSC_0270_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_101D5600_DSC_0207_png",
-      "path": "Basque - Bilbao & San Sebaatian/101D5600_DSC_0207.png",
+      "id": "basque-country-101d5600-dsc-0207-png",
+      "path": "Basque Country/101D5600_DSC_0207.png",
       "name": "101D5600_DSC_0207.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "101d5600-dsc-0207",
       "size": 40517036,
       "modified": "2025-10-30T11:46:46.098Z",
       "hash": "da1fcc3ba14e2ce8738c004871735173",
@@ -441,14 +544,16 @@
         "height": 260,
         "size": 49887
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/101D5600_DSC_0207.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/101D5600_DSC_0207_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/101D5600_DSC_0207.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/101D5600_DSC_0207_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_101D5600_DSC_0169_png",
-      "path": "Basque - Bilbao & San Sebaatian/101D5600_DSC_0169.png",
+      "id": "basque-country-101d5600-dsc-0169-png",
+      "path": "Basque Country/101D5600_DSC_0169.png",
       "name": "101D5600_DSC_0169.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "101d5600-dsc-0169",
       "size": 40507920,
       "modified": "2025-10-30T11:45:51.517Z",
       "hash": "1510acd0c69de719f0c1c11a49e5433e",
@@ -499,14 +604,16 @@
         "height": 260,
         "size": 43849
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/101D5600_DSC_0169.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/101D5600_DSC_0169_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/101D5600_DSC_0169.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/101D5600_DSC_0169_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_101D5600_DSC_0153_png",
-      "path": "Basque - Bilbao & San Sebaatian/101D5600_DSC_0153.png",
+      "id": "basque-country-101d5600-dsc-0153-png",
+      "path": "Basque Country/101D5600_DSC_0153.png",
       "name": "101D5600_DSC_0153.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "101d5600-dsc-0153",
       "size": 33658984,
       "modified": "2025-10-30T11:44:26.909Z",
       "hash": "47e752391a69f58fe24ad41687d63de9",
@@ -557,14 +664,16 @@
         "height": 220,
         "size": 54817
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/101D5600_DSC_0153.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/101D5600_DSC_0153_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/101D5600_DSC_0153.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/101D5600_DSC_0153_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_1_png",
-      "path": "Basque - Bilbao & San Sebaatian/1.png",
+      "id": "basque-country-1-png",
+      "path": "Basque Country/1.png",
       "name": "1.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "1",
       "size": 23477082,
       "modified": "2025-10-30T11:14:36.675Z",
       "hash": "bdc3660c3890c88c507573bc229e57e0",
@@ -630,14 +739,16 @@
         "height": 520,
         "size": 161755
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/1.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/1_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_1__5__png",
-      "path": "Basque - Bilbao & San Sebaatian/1 (5).png",
+      "id": "basque-country-1-5-png",
+      "path": "Basque Country/1 (5).png",
       "name": "1 (5).png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "1-5",
       "size": 18206555,
       "modified": "2025-10-30T11:14:36.374Z",
       "hash": "e71d67f2388f5d147788be1f36d480dd",
@@ -703,14 +814,16 @@
         "height": 220,
         "size": 58070
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/1 (5).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/1 (5)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1 (5).png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1 (5)_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_7_png",
-      "path": "Basque - Bilbao & San Sebaatian/7.png",
+      "id": "basque-country-7-png",
+      "path": "Basque Country/7.png",
       "name": "7.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "7",
       "size": 22414514,
       "modified": "2025-10-30T11:14:36.078Z",
       "hash": "85ed80b22867f90f8c471b73943d8377",
@@ -776,14 +889,16 @@
         "height": 520,
         "size": 135369
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/7.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/7_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/7.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/7_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_31_png",
-      "path": "Basque - Bilbao & San Sebaatian/31.png",
+      "id": "basque-country-31-png",
+      "path": "Basque Country/31.png",
       "name": "31.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "31",
       "size": 23446576,
       "modified": "2025-10-30T11:14:35.772Z",
       "hash": "b3a910b0339ccf3b6012c7ed212c0ee7",
@@ -849,14 +964,16 @@
         "height": 520,
         "size": 144064
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/31.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/31_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/31.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/31_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_1__3__png",
-      "path": "Basque - Bilbao & San Sebaatian/1 (3).png",
+      "id": "basque-country-1-3-png",
+      "path": "Basque Country/1 (3).png",
       "name": "1 (3).png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "1-3",
       "size": 10921238,
       "modified": "2025-10-30T11:14:35.471Z",
       "hash": "4a2440c41837488b096172dfdbe0a2e2",
@@ -922,14 +1039,16 @@
         "height": 312,
         "size": 71464
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/1 (3).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/1 (3)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1 (3).png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1 (3)_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_18_png",
-      "path": "Basque - Bilbao & San Sebaatian/18.png",
+      "id": "basque-country-18-png",
+      "path": "Basque Country/18.png",
       "name": "18.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "18",
       "size": 26179211,
       "modified": "2025-10-30T11:14:35.205Z",
       "hash": "f3f3359c500a3c8677090ad2694fddb0",
@@ -995,14 +1114,16 @@
         "height": 520,
         "size": 157426
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/18.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/18_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/18.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/18_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_32_png",
-      "path": "Basque - Bilbao & San Sebaatian/32.png",
+      "id": "basque-country-32-png",
+      "path": "Basque Country/32.png",
       "name": "32.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "32",
       "size": 26852139,
       "modified": "2025-10-30T11:14:34.896Z",
       "hash": "8fb28655efccd83bb7767a1c97d7fbe6",
@@ -1068,14 +1189,16 @@
         "height": 520,
         "size": 139613
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/32.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/32_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/32.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/32_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_33_png",
-      "path": "Basque - Bilbao & San Sebaatian/33.png",
+      "id": "basque-country-33-png",
+      "path": "Basque Country/33.png",
       "name": "33.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "33",
       "size": 25153296,
       "modified": "2025-10-30T11:14:34.580Z",
       "hash": "42dcbefe1ad982869de4461e96b1fe45",
@@ -1141,14 +1264,16 @@
         "height": 520,
         "size": 152558
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/33.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/33_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/33.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/33_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_27_png",
-      "path": "Basque - Bilbao & San Sebaatian/27.png",
+      "id": "basque-country-27-png",
+      "path": "Basque Country/27.png",
       "name": "27.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "27",
       "size": 23866641,
       "modified": "2025-10-30T11:14:34.267Z",
       "hash": "7fa688335b687297a95b07c92fb396cd",
@@ -1214,14 +1339,16 @@
         "height": 520,
         "size": 122799
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/27.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/27_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/27.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/27_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_20_png",
-      "path": "Basque - Bilbao & San Sebaatian/20.png",
+      "id": "basque-country-20-png",
+      "path": "Basque Country/20.png",
       "name": "20.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "20",
       "size": 18215093,
       "modified": "2025-10-30T11:14:33.968Z",
       "hash": "f896e81b207f1757743bcb974644fe04",
@@ -1287,14 +1414,16 @@
         "height": 220,
         "size": 53550
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/20.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/20_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/20.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/20_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_1__2__png",
-      "path": "Basque - Bilbao & San Sebaatian/1 (2).png",
+      "id": "basque-country-1-2-png",
+      "path": "Basque Country/1 (2).png",
       "name": "1 (2).png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "1-2",
       "size": 25432257,
       "modified": "2025-10-30T11:14:33.682Z",
       "hash": "1d94564b890342b4511944fc145071b1",
@@ -1360,14 +1489,16 @@
         "height": 520,
         "size": 145186
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/1 (2).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/1 (2)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1 (2).png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1 (2)_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_21_png",
-      "path": "Basque - Bilbao & San Sebaatian/21.png",
+      "id": "basque-country-21-png",
+      "path": "Basque Country/21.png",
       "name": "21.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "21",
       "size": 28425773,
       "modified": "2025-10-30T11:14:33.372Z",
       "hash": "9d773ab4174d046f1708bd688a5a64e7",
@@ -1433,14 +1564,16 @@
         "height": 520,
         "size": 139416
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/21.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/21_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/21.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/21_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_35_png",
-      "path": "Basque - Bilbao & San Sebaatian/35.png",
+      "id": "basque-country-35-png",
+      "path": "Basque Country/35.png",
       "name": "35.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "35",
       "size": 25492615,
       "modified": "2025-10-30T11:14:33.059Z",
       "hash": "b3b188943738d9bc837463e43297036f",
@@ -1506,14 +1639,16 @@
         "height": 520,
         "size": 144277
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/35.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/35_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/35.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/35_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_1__1__png",
-      "path": "Basque - Bilbao & San Sebaatian/1 (1).png",
+      "id": "basque-country-1-1-png",
+      "path": "Basque Country/1 (1).png",
       "name": "1 (1).png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "1-1",
       "size": 23379327,
       "modified": "2025-10-30T11:14:32.731Z",
       "hash": "56df202efb7f2f2a2cf71338a73c4fda",
@@ -1579,14 +1714,16 @@
         "height": 520,
         "size": 114563
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/1 (1).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/1 (1)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1 (1).png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1 (1)_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_11_png",
-      "path": "Basque - Bilbao & San Sebaatian/11.png",
+      "id": "basque-country-11-png",
+      "path": "Basque Country/11.png",
       "name": "11.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "11",
       "size": 23500824,
       "modified": "2025-10-30T11:14:32.436Z",
       "hash": "a3d8a586f14c18b54dd975259ba335c5",
@@ -1652,14 +1789,16 @@
         "height": 520,
         "size": 139748
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/11.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/11_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/11.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/11_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_12_png",
-      "path": "Basque - Bilbao & San Sebaatian/12.png",
+      "id": "basque-country-12-png",
+      "path": "Basque Country/12.png",
       "name": "12.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "12",
       "size": 28905024,
       "modified": "2025-10-30T11:14:32.132Z",
       "hash": "d06191d1203cd28fd6f9aecef18024bd",
@@ -1725,14 +1864,16 @@
         "height": 520,
         "size": 150188
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/12.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/12_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/12.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/12_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_16_png",
-      "path": "Basque - Bilbao & San Sebaatian/16.png",
+      "id": "basque-country-16-png",
+      "path": "Basque Country/16.png",
       "name": "16.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "16",
       "size": 21718615,
       "modified": "2025-10-30T11:14:31.804Z",
       "hash": "72ff9cdc1c7653edd61def9674993684",
@@ -1798,14 +1939,16 @@
         "height": 520,
         "size": 143360
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/16.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/16_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/16.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/16_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_15_png",
-      "path": "Basque - Bilbao & San Sebaatian/15.png",
+      "id": "basque-country-15-png",
+      "path": "Basque Country/15.png",
       "name": "15.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "15",
       "size": 16141710,
       "modified": "2025-10-30T11:14:31.499Z",
       "hash": "88b43461571ac2783386f02525667031",
@@ -1871,14 +2014,16 @@
         "height": 488,
         "size": 91844
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/15.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/15_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/15.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/15_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_29_png",
-      "path": "Basque - Bilbao & San Sebaatian/29.png",
+      "id": "basque-country-29-png",
+      "path": "Basque Country/29.png",
       "name": "29.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "29",
       "size": 23233104,
       "modified": "2025-10-30T11:14:31.222Z",
       "hash": "3472ef1c9e34eac73104c00840286b53",
@@ -1944,14 +2089,16 @@
         "height": 520,
         "size": 96115
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/29.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/29_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/29.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/29_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_8_png",
-      "path": "Basque - Bilbao & San Sebaatian/8.png",
+      "id": "basque-country-8-png",
+      "path": "Basque Country/8.png",
       "name": "8.png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "8",
       "size": 20478625,
       "modified": "2025-10-30T11:14:30.924Z",
       "hash": "c319d943e3757a0717dccbcb8cd3af05",
@@ -2017,14 +2164,16 @@
         "height": 520,
         "size": 145737
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/8.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/8_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/8.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/8_thumb.png"
     },
     {
-      "id": "Basque___Bilbao___San_Sebaatian_1__7__png",
-      "path": "Basque - Bilbao & San Sebaatian/1 (7).png",
+      "id": "basque-country-1-7-png",
+      "path": "Basque Country/1 (7).png",
       "name": "1 (7).png",
-      "category": "Basque - Bilbao & San Sebaatian",
+      "category": "Basque Country",
+      "categorySlug": "basque-country",
+      "slug": "1-7",
       "size": 22286780,
       "modified": "2025-10-30T11:14:30.606Z",
       "hash": "a9d610e024272990358b42a91d9a4b42",
@@ -2090,14 +2239,16 @@
         "height": 520,
         "size": 128167
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque - Bilbao & San Sebaatian/1 (7).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque - Bilbao & San Sebaatian/1 (7)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1 (7).png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1 (7)_thumb.png"
     },
     {
-      "id": "Sardinia_IMG_6843_png",
+      "id": "sardinia-img-6843-png",
       "path": "Sardinia/IMG_6843.png",
       "name": "IMG_6843.png",
       "category": "Sardinia",
+      "categorySlug": "sardinia",
+      "slug": "img-6843",
       "size": 13759539,
       "modified": "2025-10-30T10:46:17.390Z",
       "hash": "f65679cb7aa49776990fcd4af07083ac",
@@ -2167,10 +2318,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sardinia/IMG_6843_thumb.png"
     },
     {
-      "id": "Sardinia_IMG_6776_png",
+      "id": "sardinia-img-6776-png",
       "path": "Sardinia/IMG_6776.png",
       "name": "IMG_6776.png",
       "category": "Sardinia",
+      "categorySlug": "sardinia",
+      "slug": "img-6776",
       "size": 7061126,
       "modified": "2025-10-30T10:46:15.470Z",
       "hash": "11292ae78fa4b1150eab7d3eec84ca50",
@@ -2245,10 +2398,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sardinia/IMG_6776_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9974_png",
+      "id": "sevilla-img-9974-png",
       "path": "Sevilla/IMG_9974.png",
       "name": "IMG_9974.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9974",
       "size": 19479138,
       "modified": "2025-10-29T16:05:31.972Z",
       "hash": "f53240aaf00291e644a47c6c4b188460",
@@ -2319,10 +2474,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9974_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_0180_png",
+      "id": "sevilla-img-0180-png",
       "path": "Sevilla/IMG_0180.png",
       "name": "IMG_0180.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-0180",
       "size": 265034,
       "modified": "2025-10-29T16:03:27.272Z",
       "hash": "5fd2c98bb35daf1974c896f01500a22b",
@@ -2393,10 +2550,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_0180_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9328_png",
+      "id": "sevilla-img-9328-png",
       "path": "Sevilla/IMG_9328.png",
       "name": "IMG_9328.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9328",
       "size": 17830954,
       "modified": "2025-10-29T15:50:05.035Z",
       "hash": "cbcc3d8a8087606720e9498fda8ca3ec",
@@ -2471,10 +2630,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9328_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9268_png",
+      "id": "sevilla-img-9268-png",
       "path": "Sevilla/IMG_9268.png",
       "name": "IMG_9268.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9268",
       "size": 22287876,
       "modified": "2025-10-29T15:49:56.421Z",
       "hash": "b8a882c9349890051dedc33cd1673562",
@@ -2549,10 +2710,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9268_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9249_png",
+      "id": "sevilla-img-9249-png",
       "path": "Sevilla/IMG_9249.png",
       "name": "IMG_9249.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9249",
       "size": 19168823,
       "modified": "2025-10-29T15:49:47.808Z",
       "hash": "68ff671b9a98ce08fad43da8ea85eecb",
@@ -2625,10 +2788,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9249_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9135_png",
+      "id": "sevilla-img-9135-png",
       "path": "Sevilla/IMG_9135.png",
       "name": "IMG_9135.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9135",
       "size": 34849096,
       "modified": "2025-10-29T15:49:38.588Z",
       "hash": "cf8405da78547ae93a64cb7a4fbb42c7",
@@ -2703,10 +2868,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9135_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9002_png",
+      "id": "sevilla-img-9002-png",
       "path": "Sevilla/IMG_9002.png",
       "name": "IMG_9002.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9002",
       "size": 35533959,
       "modified": "2025-10-29T15:49:29.374Z",
       "hash": "689bc3cf89c7aa2889c1dfc6a32f343b",
@@ -2781,10 +2948,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9002_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_8978_png",
+      "id": "sevilla-img-8978-png",
       "path": "Sevilla/IMG_8978.png",
       "name": "IMG_8978.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-8978",
       "size": 39124690,
       "modified": "2025-10-29T15:49:22.770Z",
       "hash": "fd99556fe1ad599434771a19dd72626a",
@@ -2859,10 +3028,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_8978_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_8927_png",
+      "id": "sevilla-img-8927-png",
       "path": "Sevilla/IMG_8927.png",
       "name": "IMG_8927.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-8927",
       "size": 25049606,
       "modified": "2025-10-29T15:49:16.058Z",
       "hash": "68ea84f3fb06a623081092f330360d1c",
@@ -2935,10 +3106,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_8927_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_8889_png",
+      "id": "sevilla-img-8889-png",
       "path": "Sevilla/IMG_8889.png",
       "name": "IMG_8889.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-8889",
       "size": 15362647,
       "modified": "2025-10-29T15:49:09.377Z",
       "hash": "ef8c56d338f7f80c019b85d27a823d44",
@@ -3013,10 +3186,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_8889_thumb.png"
     },
     {
-      "id": "Ibiza_IMG_1984_3_png",
+      "id": "ibiza-img-1984-3-png",
       "path": "Ibiza/IMG_1984_3.png",
       "name": "IMG_1984_3.png",
       "category": "Ibiza",
+      "categorySlug": "ibiza",
+      "slug": "img-1984-3",
       "size": 7275192,
       "modified": "2025-10-29T14:52:56.192Z",
       "hash": "5707d9809677183fe48adb0090311edd",
@@ -3091,10 +3266,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Ibiza/IMG_1984_3_thumb.png"
     },
     {
-      "id": "Ibiza_IMG_2053_2_png",
+      "id": "ibiza-img-2053-2-png",
       "path": "Ibiza/IMG_2053_2.png",
       "name": "IMG_2053_2.png",
       "category": "Ibiza",
+      "categorySlug": "ibiza",
+      "slug": "img-2053-2",
       "size": 15241668,
       "modified": "2025-10-29T14:52:55.931Z",
       "hash": "00ee4841c2d16d04f0136fc352237ca6",
@@ -3169,10 +3346,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Ibiza/IMG_2053_2_thumb.png"
     },
     {
-      "id": "Ibiza_IMG_2118_1_png",
+      "id": "ibiza-img-2118-1-png",
       "path": "Ibiza/IMG_2118_1.png",
       "name": "IMG_2118_1.png",
       "category": "Ibiza",
+      "categorySlug": "ibiza",
+      "slug": "img-2118-1",
       "size": 13640718,
       "modified": "2025-10-29T14:52:55.518Z",
       "hash": "eef69c4e154c1358cad13c39e6656452",
@@ -3247,10 +3426,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Ibiza/IMG_2118_1_thumb.png"
     },
     {
-      "id": "Copenaghen_2024_04_27_22_01_41_698__2025_09_17T20_40_55_706__png",
+      "id": "copenaghen-2024-04-27-22-01-41-698-2025-09-17t20-40-55-706-png",
       "path": "Copenaghen/2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
       "name": "2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
       "category": "Copenaghen",
+      "categorySlug": "copenaghen",
+      "slug": "2024-04-27-22-01-41-698-2025-09-17t20-40-55-706",
       "size": 9401813,
       "modified": "2025-10-29T14:40:31.380Z",
       "hash": "3316848dda7d852b5e25ab25de6eab0f",
@@ -3325,10 +3506,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706)_thumb.png"
     },
     {
-      "id": "Copenaghen_IMG_3953_png",
+      "id": "copenaghen-img-3953-png",
       "path": "Copenaghen/IMG_3953.png",
       "name": "IMG_3953.png",
       "category": "Copenaghen",
+      "categorySlug": "copenaghen",
+      "slug": "img-3953",
       "size": 11547570,
       "modified": "2025-10-29T14:39:06.300Z",
       "hash": "ff5fe07ffaf34e74999008495fff4930",
@@ -3403,10 +3586,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/IMG_3953_thumb.png"
     },
     {
-      "id": "Copenaghen_IMG_4198_png",
+      "id": "copenaghen-img-4198-png",
       "path": "Copenaghen/IMG_4198.png",
       "name": "IMG_4198.png",
       "category": "Copenaghen",
+      "categorySlug": "copenaghen",
+      "slug": "img-4198",
       "size": 15127852,
       "modified": "2025-10-29T14:39:06.013Z",
       "hash": "b4ad2a4453fe81310de5a6a70bda401d",
@@ -3481,10 +3666,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/IMG_4198_thumb.png"
     },
     {
-      "id": "Copenaghen_IMG_4924_png",
+      "id": "copenaghen-img-4924-png",
       "path": "Copenaghen/IMG_4924.png",
       "name": "IMG_4924.png",
       "category": "Copenaghen",
+      "categorySlug": "copenaghen",
+      "slug": "img-4924",
       "size": 14924076,
       "modified": "2025-10-29T14:39:05.647Z",
       "hash": "00fa6f0d9284229ffaa020f277b58b4b",
@@ -3559,10 +3746,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/IMG_4924_thumb.png"
     },
     {
-      "id": "Copenaghen_IMG_4926_png",
+      "id": "copenaghen-img-4926-png",
       "path": "Copenaghen/IMG_4926.png",
       "name": "IMG_4926.png",
       "category": "Copenaghen",
+      "categorySlug": "copenaghen",
+      "slug": "img-4926",
       "size": 30616378,
       "modified": "2025-10-29T14:39:05.280Z",
       "hash": "cf712da5d4e7ae5b0f858beeb247d2d2",
@@ -3637,10 +3826,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/IMG_4926_thumb.png"
     },
     {
-      "id": "Copenaghen_IMG_5237_png",
+      "id": "copenaghen-img-5237-png",
       "path": "Copenaghen/IMG_5237.png",
       "name": "IMG_5237.png",
       "category": "Copenaghen",
+      "categorySlug": "copenaghen",
+      "slug": "img-5237",
       "size": 21765568,
       "modified": "2025-10-29T14:39:04.652Z",
       "hash": "105a61186a05ca6e9a738e7f98c00b46",
@@ -3676,10 +3867,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/IMG_5237_thumb.png"
     },
     {
-      "id": "London_IMG_1442_png",
+      "id": "london-img-1442-png",
       "path": "London/IMG_1442.png",
       "name": "IMG_1442.png",
       "category": "London",
+      "categorySlug": "london",
+      "slug": "img-1442",
       "size": 15916061,
       "modified": "2025-10-29T14:33:21.000Z",
       "hash": "466ad0a33da16318f4e5e14a323aa4d1",
@@ -3754,10 +3947,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/IMG_1442_thumb.png"
     },
     {
-      "id": "London_IMG_1401_png",
+      "id": "london-img-1401-png",
       "path": "London/IMG_1401.png",
       "name": "IMG_1401.png",
       "category": "London",
+      "categorySlug": "london",
+      "slug": "img-1401",
       "size": 13463910,
       "modified": "2025-10-29T14:25:39.760Z",
       "hash": "42d9c49e58e99959a09241945bca068d",
@@ -3832,10 +4027,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/IMG_1401_thumb.png"
     },
     {
-      "id": "London_IMG_1405_png",
+      "id": "london-img-1405-png",
       "path": "London/IMG_1405.png",
       "name": "IMG_1405.png",
       "category": "London",
+      "categorySlug": "london",
+      "slug": "img-1405",
       "size": 17919376,
       "modified": "2025-10-29T14:25:39.388Z",
       "hash": "106395b181081f2784f072542b417e9f",
@@ -3910,10 +4107,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/IMG_1405_thumb.png"
     },
     {
-      "id": "London_IMG_1409_png",
+      "id": "london-img-1409-png",
       "path": "London/IMG_1409.png",
       "name": "IMG_1409.png",
       "category": "London",
+      "categorySlug": "london",
+      "slug": "img-1409",
       "size": 17660260,
       "modified": "2025-10-29T14:25:38.965Z",
       "hash": "3f27eb87c1abef4a709ed26e6b00791a",
@@ -3988,10 +4187,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/IMG_1409_thumb.png"
     },
     {
-      "id": "London_IMG_1450_png",
+      "id": "london-img-1450-png",
       "path": "London/IMG_1450.png",
       "name": "IMG_1450.png",
       "category": "London",
+      "categorySlug": "london",
+      "slug": "img-1450",
       "size": 19459530,
       "modified": "2025-10-29T14:25:38.232Z",
       "hash": "85e3d06fbc5410decf1821744449a74c",
@@ -4066,10 +4267,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/IMG_1450_thumb.png"
     },
     {
-      "id": "London_IMG_1590_png",
+      "id": "london-img-1590-png",
       "path": "London/IMG_1590.png",
       "name": "IMG_1590.png",
       "category": "London",
+      "categorySlug": "london",
+      "slug": "img-1590",
       "size": 10799135,
       "modified": "2025-10-29T14:25:37.828Z",
       "hash": "0a958413234342c225cb56bf40e777a1",
@@ -4144,10 +4347,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/IMG_1590_thumb.png"
     },
     {
-      "id": "Lisbon_IMG_1620_08_png",
+      "id": "lisbon-img-1620-08-png",
       "path": "Lisbon/IMG_1620_08.png",
       "name": "IMG_1620_08.png",
       "category": "Lisbon",
+      "categorySlug": "lisbon",
+      "slug": "img-1620-08",
       "size": 35420486,
       "modified": "2025-10-29T14:22:34.435Z",
       "hash": "21be8381ba4f66fbdf3cacd7c0f2c531",
@@ -4222,10 +4427,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_1620_08_thumb.png"
     },
     {
-      "id": "Lisbon_IMG_1410_07_png",
+      "id": "lisbon-img-1410-07-png",
       "path": "Lisbon/IMG_1410_07.png",
       "name": "IMG_1410_07.png",
       "category": "Lisbon",
+      "categorySlug": "lisbon",
+      "slug": "img-1410-07",
       "size": 13236026,
       "modified": "2025-10-29T14:22:33.667Z",
       "hash": "cc8c6c72bcd3e0172140d2cc729f86c8",
@@ -4300,10 +4507,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_1410_07_thumb.png"
     },
     {
-      "id": "Lisbon_IMG_1020_06_png",
+      "id": "lisbon-img-1020-06-png",
       "path": "Lisbon/IMG_1020_06.png",
       "name": "IMG_1020_06.png",
       "category": "Lisbon",
+      "categorySlug": "lisbon",
+      "slug": "img-1020-06",
       "size": 17604341,
       "modified": "2025-10-29T14:22:33.365Z",
       "hash": "856b22310f2f73ad28404a723d0d1046",
@@ -4378,10 +4587,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_1020_06_thumb.png"
     },
     {
-      "id": "Lisbon_IMG_0643_05_png",
+      "id": "lisbon-img-0643-05-png",
       "path": "Lisbon/IMG_0643_05.png",
       "name": "IMG_0643_05.png",
       "category": "Lisbon",
+      "categorySlug": "lisbon",
+      "slug": "img-0643-05",
       "size": 19105078,
       "modified": "2025-10-29T14:22:32.969Z",
       "hash": "a962cf5b8ac561b345a6ec39d530987d",
@@ -4456,10 +4667,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_0643_05_thumb.png"
     },
     {
-      "id": "Lisbon_IMG_0650_04_png",
+      "id": "lisbon-img-0650-04-png",
       "path": "Lisbon/IMG_0650_04.png",
       "name": "IMG_0650_04.png",
       "category": "Lisbon",
+      "categorySlug": "lisbon",
+      "slug": "img-0650-04",
       "size": 29134549,
       "modified": "2025-10-29T14:22:32.572Z",
       "hash": "24c8e565ac9a5926d9dae79798997486",
@@ -4534,10 +4747,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_0650_04_thumb.png"
     },
     {
-      "id": "Lisbon_IMG_0786_03_png",
+      "id": "lisbon-img-0786-03-png",
       "path": "Lisbon/IMG_0786_03.png",
       "name": "IMG_0786_03.png",
       "category": "Lisbon",
+      "categorySlug": "lisbon",
+      "slug": "img-0786-03",
       "size": 15613238,
       "modified": "2025-10-29T14:22:31.744Z",
       "hash": "478819416673ac2cc3765c2064c6a9a0",
@@ -4612,10 +4827,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_0786_03_thumb.png"
     },
     {
-      "id": "Lisbon_IMG_0898_02_png",
+      "id": "lisbon-img-0898-02-png",
       "path": "Lisbon/IMG_0898_02.png",
       "name": "IMG_0898_02.png",
       "category": "Lisbon",
+      "categorySlug": "lisbon",
+      "slug": "img-0898-02",
       "size": 10800178,
       "modified": "2025-10-29T14:22:31.341Z",
       "hash": "29d552054901114231d3ecea3d0f7699",
@@ -4690,10 +4907,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_0898_02_thumb.png"
     },
     {
-      "id": "Lisbon_IMG_0642_01_png",
+      "id": "lisbon-img-0642-01-png",
       "path": "Lisbon/IMG_0642_01.png",
       "name": "IMG_0642_01.png",
       "category": "Lisbon",
+      "categorySlug": "lisbon",
+      "slug": "img-0642-01",
       "size": 19524155,
       "modified": "2025-10-29T14:22:31.070Z",
       "hash": "8fc1ef17b4df4fd5f20cf1593744b25d",
@@ -4768,10 +4987,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_0642_01_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_0145_png",
+      "id": "sevilla-img-0145-png",
       "path": "Sevilla/IMG_0145.png",
       "name": "IMG_0145.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-0145",
       "size": 21632427,
       "modified": "2025-10-29T14:17:50.985Z",
       "hash": "6eec033de735d6a520a8375d10122ee7",
@@ -4841,10 +5062,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_0145_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9363_png",
+      "id": "sevilla-img-9363-png",
       "path": "Sevilla/IMG_9363.png",
       "name": "IMG_9363.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9363",
       "size": 23588780,
       "modified": "2025-10-29T14:17:50.760Z",
       "hash": "15492f16f3625c44907a43b3a4c5f906",
@@ -4914,10 +5137,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9363_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_0008_png",
+      "id": "sevilla-img-0008-png",
       "path": "Sevilla/IMG_0008.png",
       "name": "IMG_0008.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-0008",
       "size": 23609093,
       "modified": "2025-10-29T14:17:49.867Z",
       "hash": "d65db5dd043960cfec951b2bc86d3b23",
@@ -4987,10 +5212,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_0008_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9711_png",
+      "id": "sevilla-img-9711-png",
       "path": "Sevilla/IMG_9711.png",
       "name": "IMG_9711.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9711",
       "size": 25531342,
       "modified": "2025-10-29T14:17:49.413Z",
       "hash": "035878433573226e7debfada358b16c7",
@@ -5060,10 +5287,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9711_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9511_png",
+      "id": "sevilla-img-9511-png",
       "path": "Sevilla/IMG_9511.png",
       "name": "IMG_9511.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9511",
       "size": 22834674,
       "modified": "2025-10-29T14:17:48.963Z",
       "hash": "c4437819c3bb30a7ce9f6eea79c1ad84",
@@ -5132,10 +5361,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9511_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_8839_png",
+      "id": "sevilla-img-8839-png",
       "path": "Sevilla/IMG_8839.png",
       "name": "IMG_8839.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-8839",
       "size": 21350596,
       "modified": "2025-10-29T14:17:48.743Z",
       "hash": "16ef5b2768f5fba1d29aa7e044ac034d",
@@ -5205,10 +5436,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_8839_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9932_png",
+      "id": "sevilla-img-9932-png",
       "path": "Sevilla/IMG_9932.png",
       "name": "IMG_9932.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9932",
       "size": 22802760,
       "modified": "2025-10-29T14:17:48.520Z",
       "hash": "286b49799552b177987a338a4c02a2bf",
@@ -5278,10 +5511,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9932_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_9543_png",
+      "id": "sevilla-img-9543-png",
       "path": "Sevilla/IMG_9543.png",
       "name": "IMG_9543.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-9543",
       "size": 24585322,
       "modified": "2025-10-29T14:17:47.144Z",
       "hash": "3553603bf987835d796cd4e2c704dc9b",
@@ -5351,10 +5586,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9543_thumb.png"
     },
     {
-      "id": "Sevilla_IMG_8851_png",
+      "id": "sevilla-img-8851-png",
       "path": "Sevilla/IMG_8851.png",
       "name": "IMG_8851.png",
       "category": "Sevilla",
+      "categorySlug": "sevilla",
+      "slug": "img-8851",
       "size": 21349954,
       "modified": "2025-10-29T14:17:46.922Z",
       "hash": "d298bcfdb8d949a6da021b159fe34e8a",
@@ -5424,10 +5661,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_8851_thumb.png"
     },
     {
-      "id": "Oporto_IMG_3240_png",
+      "id": "oporto-img-3240-png",
       "path": "Oporto/IMG_3240.png",
       "name": "IMG_3240.png",
       "category": "Oporto",
+      "categorySlug": "oporto",
+      "slug": "img-3240",
       "size": 14257929,
       "modified": "2025-10-28T19:24:14.516Z",
       "hash": "5d32913b31f7e392b252b6cc59b47b0a",
@@ -5463,10 +5702,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Oporto/IMG_3240_thumb.png"
     },
     {
-      "id": "Oporto_IMG_2772_png",
+      "id": "oporto-img-2772-png",
       "path": "Oporto/IMG_2772.png",
       "name": "IMG_2772.png",
       "category": "Oporto",
+      "categorySlug": "oporto",
+      "slug": "img-2772",
       "size": 55853339,
       "modified": "2025-10-28T19:24:14.446Z",
       "hash": "e185e7b42660d8cd413d4c015787c0dd",
@@ -5539,10 +5780,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Oporto/IMG_2772_thumb.png"
     },
     {
-      "id": "Oporto_IMG_2765_png",
+      "id": "oporto-img-2765-png",
       "path": "Oporto/IMG_2765.png",
       "name": "IMG_2765.png",
       "category": "Oporto",
+      "categorySlug": "oporto",
+      "slug": "img-2765",
       "size": 8859903,
       "modified": "2025-10-28T19:24:14.285Z",
       "hash": "44d102c701f30cb50f5bb584c63fe1d5",
@@ -5617,10 +5860,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Oporto/IMG_2765_thumb.png"
     },
     {
-      "id": "Oporto_IMG_2470_png",
+      "id": "oporto-img-2470-png",
       "path": "Oporto/IMG_2470.png",
       "name": "IMG_2470.png",
       "category": "Oporto",
+      "categorySlug": "oporto",
+      "slug": "img-2470",
       "size": 34853676,
       "modified": "2025-10-28T19:24:14.264Z",
       "hash": "38ef626dea4e3db60a1cfd478b4f2823",
@@ -5695,10 +5940,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Oporto/IMG_2470_thumb.png"
     },
     {
-      "id": "Copenaghen_2024_04_26_19_29_19_764_png",
+      "id": "copenaghen-2024-04-26-19-29-19-764-png",
       "path": "Copenaghen/2024-04-26_19-29-19_764.png",
       "name": "2024-04-26_19-29-19_764.png",
       "category": "Copenaghen",
+      "categorySlug": "copenaghen",
+      "slug": "2024-04-26-19-29-19-764",
       "size": 12138297,
       "modified": "2025-10-28T19:24:12.573Z",
       "hash": "609d21b16dd7c1502b9f1c96eacb5705",
@@ -5773,10 +6020,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/2024-04-26_19-29-19_764_thumb.png"
     },
     {
-      "id": "Copenaghen_2024_04_26_14_05_38_268_png",
+      "id": "copenaghen-2024-04-26-14-05-38-268-png",
       "path": "Copenaghen/2024-04-26_14-05-38_268.png",
       "name": "2024-04-26_14-05-38_268.png",
       "category": "Copenaghen",
+      "categorySlug": "copenaghen",
+      "slug": "2024-04-26-14-05-38-268",
       "size": 31166846,
       "modified": "2025-10-28T19:24:12.526Z",
       "hash": "8a7ce285b954fcde1f0b1ef3b15278ae",
@@ -5851,10 +6100,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/2024-04-26_14-05-38_268_thumb.png"
     },
     {
-      "id": "Copenaghen_2024_04_26_12_28_52_767_png",
+      "id": "copenaghen-2024-04-26-12-28-52-767-png",
       "path": "Copenaghen/2024-04-26_12-28-52_767.png",
       "name": "2024-04-26_12-28-52_767.png",
       "category": "Copenaghen",
+      "categorySlug": "copenaghen",
+      "slug": "2024-04-26-12-28-52-767",
       "size": 36400612,
       "modified": "2025-10-28T19:24:12.402Z",
       "hash": "40481e09eab06ef11fdd84cee4d2fcb0",
@@ -5929,10 +6180,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/2024-04-26_12-28-52_767_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4681_png",
+      "id": "calabria-img-4681-png",
       "path": "Calabria/IMG_4681.png",
       "name": "IMG_4681.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4681",
       "size": 18950186,
       "modified": "2025-10-28T19:23:36.708Z",
       "hash": "3fa6bd395ffc36d2403a0729867bb78d",
@@ -6002,10 +6255,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4681_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4617_png",
+      "id": "calabria-img-4617-png",
       "path": "Calabria/IMG_4617.png",
       "name": "IMG_4617.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4617",
       "size": 30739959,
       "modified": "2025-10-28T19:23:36.663Z",
       "hash": "ef225b2c3eee011d5a646a953fb2eb7b",
@@ -6080,10 +6335,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4617_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4582_png",
+      "id": "calabria-img-4582-png",
       "path": "Calabria/IMG_4582.png",
       "name": "IMG_4582.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4582",
       "size": 4006270,
       "modified": "2025-10-28T19:23:36.586Z",
       "hash": "fe758ba70001cff3a8f8bf97da8cf61b",
@@ -6153,10 +6410,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4582_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4518_png",
+      "id": "calabria-img-4518-png",
       "path": "Calabria/IMG_4518.png",
       "name": "IMG_4518.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4518",
       "size": 17402298,
       "modified": "2025-10-28T19:23:36.573Z",
       "hash": "edcbf0e8b690d60c4586ac53e833f69b",
@@ -6231,10 +6490,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4518_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4507_png",
+      "id": "calabria-img-4507-png",
       "path": "Calabria/IMG_4507.png",
       "name": "IMG_4507.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4507",
       "size": 21563942,
       "modified": "2025-10-28T19:23:36.528Z",
       "hash": "908e535382ff51688d1c03eda90c2e65",
@@ -6304,10 +6565,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4507_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4477_png",
+      "id": "calabria-img-4477-png",
       "path": "Calabria/IMG_4477.png",
       "name": "IMG_4477.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4477",
       "size": 14210281,
       "modified": "2025-10-28T19:23:36.475Z",
       "hash": "b4efdccb1fb57cd58d5c015a9ba317c4",
@@ -6382,10 +6645,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4477_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4458_png",
+      "id": "calabria-img-4458-png",
       "path": "Calabria/IMG_4458.png",
       "name": "IMG_4458.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4458",
       "size": 17317765,
       "modified": "2025-10-28T19:23:36.441Z",
       "hash": "61915549ef68957b7247ac866f3710eb",
@@ -6455,10 +6720,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4458_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4416_png",
+      "id": "calabria-img-4416-png",
       "path": "Calabria/IMG_4416.png",
       "name": "IMG_4416.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4416",
       "size": 5976735,
       "modified": "2025-10-28T19:23:36.402Z",
       "hash": "e37e123567a1963f7c884e4508fb592b",
@@ -6528,10 +6795,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4416_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4397_png",
+      "id": "calabria-img-4397-png",
       "path": "Calabria/IMG_4397.png",
       "name": "IMG_4397.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4397",
       "size": 15119635,
       "modified": "2025-10-28T19:23:36.388Z",
       "hash": "967cf86927469c6330e8a30d271af1df",
@@ -6601,10 +6870,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4397_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4373_png",
+      "id": "calabria-img-4373-png",
       "path": "Calabria/IMG_4373.png",
       "name": "IMG_4373.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4373",
       "size": 13269369,
       "modified": "2025-10-28T19:23:36.353Z",
       "hash": "2ec7339e219dde7ccf8df720e4e9e32f",
@@ -6679,10 +6950,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4373_thumb.png"
     },
     {
-      "id": "Calabria_IMG_4207_png",
+      "id": "calabria-img-4207-png",
       "path": "Calabria/IMG_4207.png",
       "name": "IMG_4207.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "img-4207",
       "size": 19422169,
       "modified": "2025-10-28T19:23:36.321Z",
       "hash": "afe6a75c9415a77c79c34409db3c957f",
@@ -6752,10 +7025,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4207_thumb.png"
     },
     {
-      "id": "Calabria_EAC87333_5183_4143_81B5_B00255427E3F_png",
+      "id": "calabria-eac87333-5183-4143-81b5-b00255427e3f-png",
       "path": "Calabria/EAC87333-5183-4143-81B5-B00255427E3F.png",
       "name": "EAC87333-5183-4143-81B5-B00255427E3F.png",
       "category": "Calabria",
+      "categorySlug": "calabria",
+      "slug": "eac87333-5183-4143-81b5-b00255427e3f",
       "size": 5575472,
       "modified": "2025-10-28T19:23:36.273Z",
       "hash": "b6c30e4fdb83672bd26a22ced59cfc55",
@@ -6816,10 +7091,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/EAC87333-5183-4143-81B5-B00255427E3F_thumb.png"
     },
     {
-      "id": "Prague_IMG_4288_png",
+      "id": "prague-img-4288-png",
       "path": "Prague/IMG_4288.png",
       "name": "IMG_4288.png",
       "category": "Prague",
+      "categorySlug": "prague",
+      "slug": "img-4288",
       "size": 17350643,
       "modified": "2025-10-28T19:19:54.080Z",
       "hash": "bfc23eba142ecb47a152cc86341ff4de",
@@ -6894,10 +7171,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Prague/IMG_4288_thumb.png"
     },
     {
-      "id": "Prague_IMG_4003_png",
+      "id": "prague-img-4003-png",
       "path": "Prague/IMG_4003.png",
       "name": "IMG_4003.png",
       "category": "Prague",
+      "categorySlug": "prague",
+      "slug": "img-4003",
       "size": 20525413,
       "modified": "2025-10-28T19:19:54.034Z",
       "hash": "ef96fbfe78b036a95ec4225ea510aa56",
@@ -6972,10 +7251,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Prague/IMG_4003_thumb.png"
     },
     {
-      "id": "Prague_F58ED198_683D_4630_96A3_30240FEEB01C_png",
+      "id": "prague-f58ed198-683d-4630-96a3-30240feeb01c-png",
       "path": "Prague/F58ED198-683D-4630-96A3-30240FEEB01C.png",
       "name": "F58ED198-683D-4630-96A3-30240FEEB01C.png",
       "category": "Prague",
+      "categorySlug": "prague",
+      "slug": "f58ed198-683d-4630-96a3-30240feeb01c",
       "size": 2958795,
       "modified": "2025-10-28T19:19:54.017Z",
       "hash": "a14e3bd9924d0269057b6e18a9e4059f",
@@ -7011,10 +7292,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Prague/F58ED198-683D-4630-96A3-30240FEEB01C_thumb.png"
     },
     {
-      "id": "Prague_F3C16588_7DB6_4099_9874_8B7D17CCA9AB_png",
+      "id": "prague-f3c16588-7db6-4099-9874-8b7d17cca9ab-png",
       "path": "Prague/F3C16588-7DB6-4099-9874-8B7D17CCA9AB.png",
       "name": "F3C16588-7DB6-4099-9874-8B7D17CCA9AB.png",
       "category": "Prague",
+      "categorySlug": "prague",
+      "slug": "f3c16588-7db6-4099-9874-8b7d17cca9ab",
       "size": 797621,
       "modified": "2025-10-28T19:19:54.010Z",
       "hash": "c81bfada220f54d4babb94a307dcd154",
@@ -7050,10 +7333,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Prague/F3C16588-7DB6-4099-9874-8B7D17CCA9AB_thumb.png"
     },
     {
-      "id": "Prague_C0AC7905_8E78_4013_8BF3_EC1C949AA808_png",
+      "id": "prague-c0ac7905-8e78-4013-8bf3-ec1c949aa808-png",
       "path": "Prague/C0AC7905-8E78-4013-8BF3-EC1C949AA808.png",
       "name": "C0AC7905-8E78-4013-8BF3-EC1C949AA808.png",
       "category": "Prague",
+      "categorySlug": "prague",
+      "slug": "c0ac7905-8e78-4013-8bf3-ec1c949aa808",
       "size": 1008642,
       "modified": "2025-10-28T19:19:54.006Z",
       "hash": "67e4f61b6ae39064d5ba953288f8745b",
@@ -7089,10 +7374,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Prague/C0AC7905-8E78-4013-8BF3-EC1C949AA808_thumb.png"
     },
     {
-      "id": "Prague_AF2F4033_9EB8_48F6_8A20_6F85EF52AD39_png",
+      "id": "prague-af2f4033-9eb8-48f6-8a20-6f85ef52ad39-png",
       "path": "Prague/AF2F4033-9EB8-48F6-8A20-6F85EF52AD39.png",
       "name": "AF2F4033-9EB8-48F6-8A20-6F85EF52AD39.png",
       "category": "Prague",
+      "categorySlug": "prague",
+      "slug": "af2f4033-9eb8-48f6-8a20-6f85ef52ad39",
       "size": 592444,
       "modified": "2025-10-28T19:19:54.000Z",
       "hash": "efe922086a94d5e747809f1f6fc12b43",
@@ -7128,10 +7415,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Prague/AF2F4033-9EB8-48F6-8A20-6F85EF52AD39_thumb.png"
     },
     {
-      "id": "Prague_234C2038_B3CD_4368_A858_CBEB27CF51BB_png",
+      "id": "prague-234c2038-b3cd-4368-a858-cbeb27cf51bb-png",
       "path": "Prague/234C2038-B3CD-4368-A858-CBEB27CF51BB.png",
       "name": "234C2038-B3CD-4368-A858-CBEB27CF51BB.png",
       "category": "Prague",
+      "categorySlug": "prague",
+      "slug": "234c2038-b3cd-4368-a858-cbeb27cf51bb",
       "size": 1813792,
       "modified": "2025-10-28T19:19:53.997Z",
       "hash": "4f21f9a73b68753177a53c15b4d5a2ad",
@@ -7167,10 +7456,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Prague/234C2038-B3CD-4368-A858-CBEB27CF51BB_thumb.png"
     },
     {
-      "id": "Prague_101E0060_1F13_465B_9CAC_296589B3B4AD_png",
+      "id": "prague-101e0060-1f13-465b-9cac-296589b3b4ad-png",
       "path": "Prague/101E0060-1F13-465B-9CAC-296589B3B4AD.png",
       "name": "101E0060-1F13-465B-9CAC-296589B3B4AD.png",
       "category": "Prague",
+      "categorySlug": "prague",
+      "slug": "101e0060-1f13-465b-9cac-296589b3b4ad",
       "size": 1505451,
       "modified": "2025-10-28T19:19:53.991Z",
       "hash": "8a87b83f43a2969632b2a0cd930194d8",
@@ -7206,10 +7497,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Prague/101E0060-1F13-465B-9CAC-296589B3B4AD_thumb.png"
     },
     {
-      "id": "Vienna_IMG_3184_png",
+      "id": "vienna-img-3184-png",
       "path": "Vienna/IMG_3184.png",
       "name": "IMG_3184.png",
       "category": "Vienna",
+      "categorySlug": "vienna",
+      "slug": "img-3184",
       "size": 22452439,
       "modified": "2025-08-04T21:00:40.869Z",
       "hash": "3d89a4b2e11df1cbba17ba2a8bb1351f",
@@ -7284,10 +7577,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Vienna/IMG_3184_thumb.png"
     },
     {
-      "id": "Vienna_IMG_3158_png",
+      "id": "vienna-img-3158-png",
       "path": "Vienna/IMG_3158.png",
       "name": "IMG_3158.png",
       "category": "Vienna",
+      "categorySlug": "vienna",
+      "slug": "img-3158",
       "size": 24155735,
       "modified": "2025-08-04T21:00:39.599Z",
       "hash": "4bc4e9e35044f2727fb55205dd7677fa",
@@ -7362,10 +7657,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Vienna/IMG_3158_thumb.png"
     },
     {
-      "id": "Vienna_IMG_3155_png",
+      "id": "vienna-img-3155-png",
       "path": "Vienna/IMG_3155.png",
       "name": "IMG_3155.png",
       "category": "Vienna",
+      "categorySlug": "vienna",
+      "slug": "img-3155",
       "size": 9627964,
       "modified": "2025-08-04T21:00:36.385Z",
       "hash": "036452df1dcc66065c8395b18a8820ea",
@@ -7438,10 +7735,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Vienna/IMG_3155_thumb.png"
     },
     {
-      "id": "Vienna_IMG_3148_png",
+      "id": "vienna-img-3148-png",
       "path": "Vienna/IMG_3148.png",
       "name": "IMG_3148.png",
       "category": "Vienna",
+      "categorySlug": "vienna",
+      "slug": "img-3148",
       "size": 14713401,
       "modified": "2025-08-04T21:00:35.164Z",
       "hash": "5f076940aab6bd1ea3ddab624241dda2",
@@ -7516,10 +7815,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Vienna/IMG_3148_thumb.png"
     },
     {
-      "id": "Vienna_IMG_3114_png",
+      "id": "vienna-img-3114-png",
       "path": "Vienna/IMG_3114.png",
       "name": "IMG_3114.png",
       "category": "Vienna",
+      "categorySlug": "vienna",
+      "slug": "img-3114",
       "size": 18217999,
       "modified": "2025-08-04T21:00:33.870Z",
       "hash": "ddbc59f7314f450fcac6b42874efb0f8",
@@ -7594,10 +7895,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Vienna/IMG_3114_thumb.png"
     },
     {
-      "id": "Vienna_IMG_3107_png",
+      "id": "vienna-img-3107-png",
       "path": "Vienna/IMG_3107.png",
       "name": "IMG_3107.png",
       "category": "Vienna",
+      "categorySlug": "vienna",
+      "slug": "img-3107",
       "size": 33285838,
       "modified": "2025-08-04T21:00:32.890Z",
       "hash": "90390e8e8b0e34050ecd9bb19d4ffe2c",
