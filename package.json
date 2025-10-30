@@ -1,6 +1,6 @@
 {
   "name": "justgiulio-photos-metadata",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "type": "module",
   "description": "Automatic metadata generation for photo repository",
   "main": "scripts/generate-metadata.js",
