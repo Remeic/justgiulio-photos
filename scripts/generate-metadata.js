@@ -10,7 +10,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const IMAGE_EXT = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
-const EXIF_SCHEMA_VERSION = 4;
+const EXIF_SCHEMA_VERSION = 5;
 
 // ---------- helper ----------------------------------------------------------
 
@@ -285,7 +285,9 @@ const makeThumb = async (src, dst, w = 600) => {
         return [];
       });
 
-    const photos = walk(photosDir);
+    const photos = walk(photosDir).sort((a, b) =>
+      a.path.localeCompare(b.path, "en")
+    );
     if (!photos.length) {
       fs.writeFileSync(
         outFile,
@@ -313,6 +315,7 @@ const makeThumb = async (src, dst, w = 600) => {
 
     // --- process photos -------------------------------------------------------
     const processed = [];
+    const firstByCategory = new Map();
     for (const p of photos) {
       const cached = cache.get(p.path);
       const cachedHasRaw = cached?.exif && "raw" in cached.exif;
@@ -344,7 +347,7 @@ const makeThumb = async (src, dst, w = 600) => {
       const e = changed ? await exif(full) : cached?.exif ?? (await exif(full));
       const t = needThumb ? await makeThumb(full, thumbAbs) : cached?.thumbnail;
 
-      processed.push({
+      const photoData = {
         id: photoId,
         path: p.path,
         name: p.name,
@@ -359,19 +362,45 @@ const makeThumb = async (src, dst, w = 600) => {
         thumbnail: t,
         url: `${RAW_BASE}/photos/${p.path}`,
         thumbnailUrl: `${RAW_BASE}/thumbnails/${thumbRel}`,
-      });
+      };
+
+      if (!firstByCategory.has(cat)) {
+        firstByCategory.set(cat, {
+          id: photoData.id,
+          path: photoData.path,
+          slug: photoData.slug,
+          url: photoData.url,
+          thumbnail: photoData.thumbnail,
+          thumbnailUrl: photoData.thumbnailUrl,
+        });
+      }
+
+      processed.push(photoData);
     }
 
     processed.sort((a, b) => new Date(b.modified) - new Date(a.modified));
 
     const cats = Object.values(
       processed.reduce((m, p) => {
-        m[p.category] ??= {
-          name: p.category,
-          slug: p.categorySlug,
-          photoCount: 0,
-          totalSize: 0,
-        };
+        if (!m[p.category]) {
+          const cover = firstByCategory.get(p.category);
+          m[p.category] = {
+            name: p.category,
+            slug: p.categorySlug,
+            photoCount: 0,
+            totalSize: 0,
+            cover: cover
+              ? {
+                  id: cover.id,
+                  path: cover.path,
+                  slug: cover.slug,
+                  url: cover.url,
+                  thumbnailUrl: cover.thumbnailUrl,
+                  thumbnail: cover.thumbnail,
+                }
+              : null,
+          };
+        }
         m[p.category].photoCount++;
         m[p.category].totalSize += p.size;
         return m;

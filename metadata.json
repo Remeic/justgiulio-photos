@@ -1,73 +1,205 @@
 {
-  "generated": "2025-10-30T15:26:17.175Z",
-  "totalPhotos": 107,
-  "totalSize": 2143413257,
+  "generated": "2025-10-30T15:48:54.125Z",
+  "totalPhotos": 106,
+  "totalSize": 2132613079,
   "categories": [
     {
       "name": "Basque Country",
       "slug": "basque-country",
       "photoCount": 27,
-      "totalSize": 696734378
+      "totalSize": 696734378,
+      "cover": {
+        "id": "basque-country-01-png",
+        "path": "Basque Country/01.png",
+        "slug": "01",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/01.png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/01_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 520,
+          "size": 139748
+        }
+      }
     },
     {
       "name": "Sevilla",
       "slug": "sevilla",
       "photoCount": 19,
-      "totalSize": 436236771
+      "totalSize": 436236771,
+      "cover": {
+        "id": "sevilla-01-img-0145-png",
+        "path": "Sevilla/01_IMG_0145.png",
+        "slug": "01-img-0145",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Sevilla/01_IMG_0145.png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/01_IMG_0145_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 520,
+          "size": 91385
+        }
+      }
     },
     {
       "name": "Calabria",
       "slug": "calabria",
       "photoCount": 12,
-      "totalSize": 183554081
+      "totalSize": 183554081,
+      "cover": {
+        "id": "calabria-01-img-4458-png",
+        "path": "Calabria/01_IMG_4458.png",
+        "slug": "01-img-4458",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Calabria/01_IMG_4458.png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/01_IMG_4458_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 520,
+          "size": 91844
+        }
+      }
     },
     {
       "name": "Copenaghen",
       "slug": "copenaghen",
       "photoCount": 9,
-      "totalSize": 183089012
-    },
-    {
-      "name": "Lisbon",
-      "slug": "lisbon",
-      "photoCount": 8,
-      "totalSize": 160438051
+      "totalSize": 183089012,
+      "cover": {
+        "id": "copenaghen-01-2024-04-27-22-01-41-698-2025-09-17t20-40-55-706-png",
+        "path": "Copenaghen/01_2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
+        "slug": "01-2024-04-27-22-01-41-698-2025-09-17t20-40-55-706",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Copenaghen/01_2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/01_2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706)_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 520,
+          "size": 86696
+        }
+      }
     },
     {
       "name": "Prague",
       "slug": "prague",
       "photoCount": 8,
-      "totalSize": 46552801
+      "totalSize": 46552801,
+      "cover": {
+        "id": "prague-101e0060-1f13-465b-9cac-296589b3b4ad-png",
+        "path": "Prague/101E0060-1F13-465B-9CAC-296589B3B4AD.png",
+        "slug": "101e0060-1f13-465b-9cac-296589b3b4ad",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Prague/101E0060-1F13-465B-9CAC-296589B3B4AD.png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Prague/101E0060-1F13-465B-9CAC-296589B3B4AD_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 390,
+          "size": 58057
+        }
+      }
+    },
+    {
+      "name": "Lisbon",
+      "slug": "lisbon",
+      "photoCount": 7,
+      "totalSize": 149637873,
+      "cover": {
+        "id": "lisbon-01-img-1020-06-png",
+        "path": "Lisbon/01_IMG_1020_06.png",
+        "slug": "01-img-1020-06",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Lisbon/01_IMG_1020_06.png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/01_IMG_1020_06_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 520,
+          "size": 130724
+        }
+      }
     },
     {
       "name": "London",
       "slug": "london",
       "photoCount": 6,
-      "totalSize": 95218272
+      "totalSize": 95218272,
+      "cover": {
+        "id": "london-01-img-1409-png",
+        "path": "London/01_IMG_1409.png",
+        "slug": "01-img-1409",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/London/01_IMG_1409.png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/01_IMG_1409_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 520,
+          "size": 87343
+        }
+      }
     },
     {
       "name": "Vienna",
       "slug": "vienna",
       "photoCount": 6,
-      "totalSize": 122453376
+      "totalSize": 122453376,
+      "cover": {
+        "id": "vienna-img-3107-png",
+        "path": "Vienna/IMG_3107.png",
+        "slug": "img-3107",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Vienna/IMG_3107.png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Vienna/IMG_3107_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 520,
+          "size": 122184
+        }
+      }
     },
     {
       "name": "Sardinia",
       "slug": "sardinia",
       "photoCount": 5,
-      "totalSize": 69154090
+      "totalSize": 69154090,
+      "cover": {
+        "id": "sardinia-01-e0a89afd-abfa-43de-b34d-2dd5bf9bc5e12024-09-03-06-44-32-332-2024-09-11t05-16-18-174-png",
+        "path": "Sardinia/01_E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174).png",
+        "slug": "01-e0a89afd-abfa-43de-b34d-2dd5bf9bc5e12024-09-03-06-44-32-332-2024-09-11t05-16-18-174",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Sardinia/01_E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174).png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sardinia/01_E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174)_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 520,
+          "size": 91446
+        }
+      }
     },
     {
       "name": "Oporto",
       "slug": "oporto",
       "photoCount": 4,
-      "totalSize": 113824847
+      "totalSize": 113824847,
+      "cover": {
+        "id": "oporto-img-2470-png",
+        "path": "Oporto/IMG_2470.png",
+        "slug": "img-2470",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Oporto/IMG_2470.png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Oporto/IMG_2470_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 520,
+          "size": 118546
+        }
+      }
     },
     {
       "name": "Ibiza",
       "slug": "ibiza",
       "photoCount": 3,
-      "totalSize": 36157578
+      "totalSize": 36157578,
+      "cover": {
+        "id": "ibiza-01-img-2053-2-png",
+        "path": "Ibiza/01_IMG_2053_2.png",
+        "slug": "01-img-2053-2",
+        "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Ibiza/01_IMG_2053_2.png",
+        "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Ibiza/01_IMG_2053_2_thumb.png",
+        "thumbnail": {
+          "width": 390,
+          "height": 293,
+          "size": 49293
+        }
+      }
     }
   ],
   "photos": [
@@ -120,7 +252,7 @@
           "SubSecTimeOriginal": 56,
           "SubSecCreateDate": "2025-09-12T14:14:56.560"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -179,7 +311,7 @@
           "SubSecTimeOriginal": 97,
           "SubSecCreateDate": "2025-09-12T13:59:45.970"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -259,7 +391,7 @@
           "GPSImgDirection": 98.91912088,
           "GPSHPositioningError": "4.765679381 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -270,12 +402,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sardinia/2024-09-10_18-33-38_857_thumb.png"
     },
     {
-      "id": "sardinia-e0a89afd-abfa-43de-b34d-2dd5bf9bc5e12024-09-03-06-44-32-332-2024-09-11t05-16-18-174-png",
-      "path": "Sardinia/E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174).png",
-      "name": "E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174).png",
+      "id": "sardinia-01-e0a89afd-abfa-43de-b34d-2dd5bf9bc5e12024-09-03-06-44-32-332-2024-09-11t05-16-18-174-png",
+      "path": "Sardinia/01_E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174).png",
+      "name": "01_E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174).png",
       "category": "Sardinia",
       "categorySlug": "sardinia",
-      "slug": "e0a89afd-abfa-43de-b34d-2dd5bf9bc5e12024-09-03-06-44-32-332-2024-09-11t05-16-18-174",
+      "slug": "01-e0a89afd-abfa-43de-b34d-2dd5bf9bc5e12024-09-03-06-44-32-332-2024-09-11t05-16-18-174",
       "size": 9533382,
       "modified": "2025-10-30T12:07:36.162Z",
       "hash": "7e151a855e166d379d6f7aae140e8236",
@@ -335,15 +467,15 @@
           "GPSImgDirection": 51.68548589,
           "GPSHPositioningError": "4.760826295 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 91446
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Sardinia/E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sardinia/E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Sardinia/01_E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174).png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sardinia/01_E0A89AFD-ABFA-43DE-B34D-2DD5BF9BC5E12024-09-03_06-44-32_332 (2024-09-11T05_16_18.174)_thumb.png"
     },
     {
       "id": "sardinia-img-6960-png",
@@ -415,7 +547,7 @@
           "GPSImgDirection": 111.248413,
           "GPSHPositioningError": "4.680124332 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -475,7 +607,7 @@
           "SubSecTimeOriginal": 95,
           "SubSecCreateDate": "2025-09-11T15:09:30.950+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -535,7 +667,7 @@
           "SubSecTimeOriginal": 82,
           "SubSecCreateDate": "2025-09-11T14:53:08.820+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -595,7 +727,7 @@
           "SubSecTimeOriginal": 76,
           "SubSecCreateDate": "2025-09-11T14:45:47.760+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -655,7 +787,7 @@
           "SubSecTimeOriginal": 33,
           "SubSecCreateDate": "2025-09-11T14:28:33.330+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -666,12 +798,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/101D5600_DSC_0153_thumb.png"
     },
     {
-      "id": "basque-country-1-png",
-      "path": "Basque Country/1.png",
-      "name": "1.png",
+      "id": "basque-country-011-png",
+      "path": "Basque Country/011.png",
+      "name": "011.png",
       "category": "Basque Country",
       "categorySlug": "basque-country",
-      "slug": "1",
+      "slug": "011",
       "size": 23477082,
       "modified": "2025-10-30T11:14:36.675Z",
       "hash": "bdc3660c3890c88c507573bc229e57e0",
@@ -730,23 +862,23 @@
           "GPSAltitude": 7.051943809,
           "GPSPosition": "43.2552055555556 -2.92372222222222"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 161755
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/011.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/011_thumb.png"
     },
     {
-      "id": "basque-country-1-5-png",
-      "path": "Basque Country/1 (5).png",
-      "name": "1 (5).png",
+      "id": "basque-country-5-png",
+      "path": "Basque Country/5.png",
+      "name": "5.png",
       "category": "Basque Country",
       "categorySlug": "basque-country",
-      "slug": "1-5",
+      "slug": "5",
       "size": 18206555,
       "modified": "2025-10-30T11:14:36.374Z",
       "hash": "e71d67f2388f5d147788be1f36d480dd",
@@ -805,15 +937,15 @@
           "GPSAltitude": 2.444016683,
           "GPSPosition": "43.3209027777778 -1.98613333333333"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 220,
         "size": 58070
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1 (5).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1 (5)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/5.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/5_thumb.png"
     },
     {
       "id": "basque-country-7-png",
@@ -880,7 +1012,7 @@
           "GPSAltitude": 27.4710369,
           "GPSPosition": "43.2627527777778 -2.94845555555556"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -955,7 +1087,7 @@
           "GPSAltitude": 17.11411105,
           "GPSPosition": "43.3237194444444 -1.98649722222222"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -966,12 +1098,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/31_thumb.png"
     },
     {
-      "id": "basque-country-1-3-png",
-      "path": "Basque Country/1 (3).png",
-      "name": "1 (3).png",
+      "id": "basque-country-4-png",
+      "path": "Basque Country/4.png",
+      "name": "4.png",
       "category": "Basque Country",
       "categorySlug": "basque-country",
-      "slug": "1-3",
+      "slug": "4",
       "size": 10921238,
       "modified": "2025-10-30T11:14:35.471Z",
       "hash": "4a2440c41837488b096172dfdbe0a2e2",
@@ -1030,15 +1162,15 @@
           "GPSAltitude": 28.01312828,
           "GPSPosition": "43.2995888888889 -2.26062222222222"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 312,
         "size": 71464
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1 (3).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1 (3)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/4.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/4_thumb.png"
     },
     {
       "id": "basque-country-18-png",
@@ -1105,7 +1237,7 @@
           "GPSAltitude": 169.7456829,
           "GPSPosition": "43.4427694444444 -2.78523055555556"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -1180,7 +1312,7 @@
           "GPSAltitude": 19.52120776,
           "GPSPosition": "43.3236027777778 -1.98463611111111"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -1255,7 +1387,7 @@
           "GPSAltitude": 4.426152235,
           "GPSPosition": "43.3217416666667 -1.98712222222222"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -1330,7 +1462,7 @@
           "GPSAltitude": 9.430340774,
           "GPSPosition": "43.3147305555556 -1.99654444444444"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -1405,7 +1537,7 @@
           "GPSAltitude": 1.184118396,
           "GPSPosition": "43.4054194444444 -2.69170277777778"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -1416,12 +1548,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/20_thumb.png"
     },
     {
-      "id": "basque-country-1-2-png",
-      "path": "Basque Country/1 (2).png",
-      "name": "1 (2).png",
+      "id": "basque-country-3-png",
+      "path": "Basque Country/3.png",
+      "name": "3.png",
       "category": "Basque Country",
       "categorySlug": "basque-country",
-      "slug": "1-2",
+      "slug": "3",
       "size": 25432257,
       "modified": "2025-10-30T11:14:33.682Z",
       "hash": "1d94564b890342b4511944fc145071b1",
@@ -1480,15 +1612,15 @@
           "GPSAltitude": 1.87095427,
           "GPSPosition": "43.2612555555556 -2.92466944444444"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 145186
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1 (2).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1 (2)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/3.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/3_thumb.png"
     },
     {
       "id": "basque-country-21-png",
@@ -1555,7 +1687,7 @@
           "GPSAltitude": 2.034856087,
           "GPSPosition": "43.40575 -2.69361666666667"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -1630,7 +1762,7 @@
           "GPSAltitude": 5.275495997,
           "GPSPosition": "43.3220055555556 -1.98733055555556"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -1641,12 +1773,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/35_thumb.png"
     },
     {
-      "id": "basque-country-1-1-png",
-      "path": "Basque Country/1 (1).png",
-      "name": "1 (1).png",
+      "id": "basque-country-2-png",
+      "path": "Basque Country/2.png",
+      "name": "2.png",
       "category": "Basque Country",
       "categorySlug": "basque-country",
-      "slug": "1-1",
+      "slug": "2",
       "size": 23379327,
       "modified": "2025-10-30T11:14:32.731Z",
       "hash": "56df202efb7f2f2a2cf71338a73c4fda",
@@ -1705,23 +1837,23 @@
           "GPSAltitude": 4.083521364,
           "GPSPosition": "43.3235138888889 -3.01857777777778"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 114563
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1 (1).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1 (1)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/2.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/2_thumb.png"
     },
     {
-      "id": "basque-country-11-png",
-      "path": "Basque Country/11.png",
-      "name": "11.png",
+      "id": "basque-country-01-png",
+      "path": "Basque Country/01.png",
+      "name": "01.png",
       "category": "Basque Country",
       "categorySlug": "basque-country",
-      "slug": "11",
+      "slug": "01",
       "size": 23500824,
       "modified": "2025-10-30T11:14:32.436Z",
       "hash": "a3d8a586f14c18b54dd975259ba335c5",
@@ -1780,15 +1912,15 @@
           "GPSAltitude": 15.02540107,
           "GPSPosition": "43.2678472222222 -2.93139444444444"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 139748
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/11.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/11_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/01.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/01_thumb.png"
     },
     {
       "id": "basque-country-12-png",
@@ -1855,7 +1987,7 @@
           "GPSAltitude": 15.9871502,
           "GPSPosition": "43.2679388888889 -2.93170555555556"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -1930,7 +2062,7 @@
           "GPSAltitude": 6.453322462,
           "GPSPosition": "43.3282416666667 -3.02849444444444"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2005,7 +2137,7 @@
           "GPSAltitude": 4.758703704,
           "GPSPosition": "43.3296472222222 -3.030375"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2080,7 +2212,7 @@
           "GPSAltitude": 9.019666667,
           "GPSPosition": "43.3146944444444 -1.99636388888889"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2155,7 +2287,7 @@
           "GPSAltitude": 31.41348449,
           "GPSPosition": "43.2627694444444 -2.94853888888889"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2166,12 +2298,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/8_thumb.png"
     },
     {
-      "id": "basque-country-1-7-png",
-      "path": "Basque Country/1 (7).png",
-      "name": "1 (7).png",
+      "id": "basque-country-6-png",
+      "path": "Basque Country/6.png",
+      "name": "6.png",
       "category": "Basque Country",
       "categorySlug": "basque-country",
-      "slug": "1-7",
+      "slug": "6",
       "size": 22286780,
       "modified": "2025-10-30T11:14:30.606Z",
       "hash": "a9d610e024272990358b42a91d9a4b42",
@@ -2230,15 +2362,15 @@
           "GPSAltitude": 7.066916925,
           "GPSPosition": "43.3635972222222 -2.50223055555556"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 128167
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/1 (7).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/1 (7)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/6.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/6_thumb.png"
     },
     {
       "id": "sardinia-img-6843-png",
@@ -2305,7 +2437,7 @@
           "GPSImgDirection": 181.6244658,
           "GPSHPositioningError": "4.726615682 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2385,7 +2517,7 @@
           "GPSImgDirection": 193.690445,
           "GPSHPositioningError": "3.291277117 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2461,7 +2593,7 @@
           "GPSAltitude": 101.9434662,
           "GPSPosition": "37.883675 -4.77420555555556"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2472,12 +2604,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_9974_thumb.png"
     },
     {
-      "id": "sevilla-img-0180-png",
-      "path": "Sevilla/IMG_0180.png",
-      "name": "IMG_0180.png",
+      "id": "sevilla-02-img-0180-png",
+      "path": "Sevilla/02_IMG_0180.png",
+      "name": "02_IMG_0180.png",
       "category": "Sevilla",
       "categorySlug": "sevilla",
-      "slug": "img-0180",
+      "slug": "02-img-0180",
       "size": 265034,
       "modified": "2025-10-29T16:03:27.272Z",
       "hash": "5fd2c98bb35daf1974c896f01500a22b",
@@ -2537,15 +2669,15 @@
           "GPSAltitude": 34.20313265,
           "GPSPosition": "43.8798777777778 10.79515"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 892
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Sevilla/IMG_0180.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_0180_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Sevilla/02_IMG_0180.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/02_IMG_0180_thumb.png"
     },
     {
       "id": "sevilla-img-9328-png",
@@ -2617,7 +2749,7 @@
           "GPSImgDirection": 270.1542969,
           "GPSHPositioningError": "6.058590059 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2697,7 +2829,7 @@
           "GPSImgDirection": 309.5280765,
           "GPSHPositioningError": "13.70949748 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2775,7 +2907,7 @@
           "GPSPosition": "37.3927222222222 -5.99181944444444",
           "GPSHPositioningError": "3.653373016 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2855,7 +2987,7 @@
           "GPSImgDirection": 316.1146853,
           "GPSHPositioningError": "11.85363623 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -2935,7 +3067,7 @@
           "GPSImgDirection": 44.29234738,
           "GPSHPositioningError": "117.6257062 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3015,7 +3147,7 @@
           "GPSImgDirection": 9.279937792,
           "GPSHPositioningError": "58.2326284 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3093,7 +3225,7 @@
           "GPSPosition": "37.3862666666667 -5.99268888888889",
           "GPSHPositioningError": "6.221620349 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3173,7 +3305,7 @@
           "GPSImgDirection": 123.4071884,
           "GPSHPositioningError": "15.60247994 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3253,7 +3385,7 @@
           "GPSImgDirection": 288.3179628,
           "GPSHPositioningError": "8.536700296 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3264,12 +3396,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Ibiza/IMG_1984_3_thumb.png"
     },
     {
-      "id": "ibiza-img-2053-2-png",
-      "path": "Ibiza/IMG_2053_2.png",
-      "name": "IMG_2053_2.png",
+      "id": "ibiza-01-img-2053-2-png",
+      "path": "Ibiza/01_IMG_2053_2.png",
+      "name": "01_IMG_2053_2.png",
       "category": "Ibiza",
       "categorySlug": "ibiza",
-      "slug": "img-2053-2",
+      "slug": "01-img-2053-2",
       "size": 15241668,
       "modified": "2025-10-29T14:52:55.931Z",
       "hash": "00ee4841c2d16d04f0136fc352237ca6",
@@ -3333,15 +3465,15 @@
           "GPSImgDirection": 223.3610078,
           "GPSHPositioningError": "4.748651528 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 293,
         "size": 49293
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Ibiza/IMG_2053_2.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Ibiza/IMG_2053_2_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Ibiza/01_IMG_2053_2.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Ibiza/01_IMG_2053_2_thumb.png"
     },
     {
       "id": "ibiza-img-2118-1-png",
@@ -3413,7 +3545,7 @@
           "GPSImgDirection": 207.3190003,
           "GPSHPositioningError": "4.633481315 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3424,12 +3556,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Ibiza/IMG_2118_1_thumb.png"
     },
     {
-      "id": "copenaghen-2024-04-27-22-01-41-698-2025-09-17t20-40-55-706-png",
-      "path": "Copenaghen/2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
-      "name": "2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
+      "id": "copenaghen-01-2024-04-27-22-01-41-698-2025-09-17t20-40-55-706-png",
+      "path": "Copenaghen/01_2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
+      "name": "01_2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
       "category": "Copenaghen",
       "categorySlug": "copenaghen",
-      "slug": "2024-04-27-22-01-41-698-2025-09-17t20-40-55-706",
+      "slug": "01-2024-04-27-22-01-41-698-2025-09-17t20-40-55-706",
       "size": 9401813,
       "modified": "2025-10-29T14:40:31.380Z",
       "hash": "3316848dda7d852b5e25ab25de6eab0f",
@@ -3493,15 +3625,15 @@
           "GPSImgDirection": 341.3333435,
           "GPSHPositioningError": "4.566509712 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 86696
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Copenaghen/2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706)_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Copenaghen/01_2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706).png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Copenaghen/01_2024-04-27_22-01-41_698 (2025-09-17T20_40_55.706)_thumb.png"
     },
     {
       "id": "copenaghen-img-3953-png",
@@ -3573,7 +3705,7 @@
           "GPSImgDirection": 295.5702515,
           "GPSHPositioningError": "3.47005042 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3653,7 +3785,7 @@
           "GPSImgDirection": 293.6255799,
           "GPSHPositioningError": "14.24568477 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3733,7 +3865,7 @@
           "GPSImgDirection": 177.6547852,
           "GPSHPositioningError": "75.5223703 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3813,7 +3945,7 @@
           "GPSImgDirection": 32.79131698,
           "GPSHPositioningError": "14.25197954 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3854,7 +3986,7 @@
           "SubSecTimeOriginal": 356,
           "SubSecCreateDate": "2024-06-25T09:16:56.356+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -3934,7 +4066,7 @@
           "GPSImgDirection": 30.16738895,
           "GPSHPositioningError": "14.25826706 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4014,7 +4146,7 @@
           "GPSImgDirection": 23.31386948,
           "GPSHPositioningError": "14.25256223 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4094,7 +4226,7 @@
           "GPSImgDirection": 251.742569,
           "GPSHPositioningError": "14.28052653 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4105,12 +4237,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/IMG_1405_thumb.png"
     },
     {
-      "id": "london-img-1409-png",
-      "path": "London/IMG_1409.png",
-      "name": "IMG_1409.png",
+      "id": "london-01-img-1409-png",
+      "path": "London/01_IMG_1409.png",
+      "name": "01_IMG_1409.png",
       "category": "London",
       "categorySlug": "london",
-      "slug": "img-1409",
+      "slug": "01-img-1409",
       "size": 17660260,
       "modified": "2025-10-29T14:25:38.965Z",
       "hash": "3f27eb87c1abef4a709ed26e6b00791a",
@@ -4174,15 +4306,15 @@
           "GPSImgDirection": 95.65324403,
           "GPSHPositioningError": "14.24908332 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 87343
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/London/IMG_1409.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/IMG_1409_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/London/01_IMG_1409.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/London/01_IMG_1409_thumb.png"
     },
     {
       "id": "london-img-1450-png",
@@ -4254,7 +4386,7 @@
           "GPSImgDirection": 83.4179077,
           "GPSHPositioningError": "14.86054648 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4334,7 +4466,7 @@
           "GPSImgDirection": 218.9662322,
           "GPSHPositioningError": "14.25177328 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4414,7 +4546,7 @@
           "GPSImgDirection": 92.94936366,
           "GPSHPositioningError": "1615 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4494,7 +4626,7 @@
           "GPSImgDirection": 168.4245149,
           "GPSHPositioningError": "35 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4505,12 +4637,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_1410_07_thumb.png"
     },
     {
-      "id": "lisbon-img-1020-06-png",
-      "path": "Lisbon/IMG_1020_06.png",
-      "name": "IMG_1020_06.png",
+      "id": "lisbon-01-img-1020-06-png",
+      "path": "Lisbon/01_IMG_1020_06.png",
+      "name": "01_IMG_1020_06.png",
       "category": "Lisbon",
       "categorySlug": "lisbon",
-      "slug": "img-1020-06",
+      "slug": "01-img-1020-06",
       "size": 17604341,
       "modified": "2025-10-29T14:22:33.365Z",
       "hash": "856b22310f2f73ad28404a723d0d1046",
@@ -4574,15 +4706,15 @@
           "GPSImgDirection": 21.86691094,
           "GPSHPositioningError": "4.751087497 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 130724
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Lisbon/IMG_1020_06.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_1020_06_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Lisbon/01_IMG_1020_06.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/01_IMG_1020_06_thumb.png"
     },
     {
       "id": "lisbon-img-0643-05-png",
@@ -4654,7 +4786,7 @@
           "GPSImgDirection": 251.9103544,
           "GPSHPositioningError": "9.697417366 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4734,7 +4866,7 @@
           "GPSImgDirection": 114.9697419,
           "GPSHPositioningError": "5.592474005 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4814,7 +4946,7 @@
           "GPSImgDirection": 219.0551452,
           "GPSHPositioningError": "3.318016263 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4823,86 +4955,6 @@
       },
       "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Lisbon/IMG_0786_03.png",
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_0786_03_thumb.png"
-    },
-    {
-      "id": "lisbon-img-0898-02-png",
-      "path": "Lisbon/IMG_0898_02.png",
-      "name": "IMG_0898_02.png",
-      "category": "Lisbon",
-      "categorySlug": "lisbon",
-      "slug": "img-0898-02",
-      "size": 10800178,
-      "modified": "2025-10-29T14:22:31.341Z",
-      "hash": "29d552054901114231d3ecea3d0f7699",
-      "dimensions": {
-        "width": 3024,
-        "height": 3024,
-        "format": "png"
-      },
-      "exif": {
-        "camera": "Apple iPhone 15 Pro",
-        "aperture": "f/1.8",
-        "iso": 64,
-        "shutterSpeed": "1/6410s",
-        "focalLength": "6.9mm",
-        "gps": {
-          "latitude": 38.6919111111111,
-          "longitude": -9.21500277777778,
-          "altitude": 1.187990811,
-          "direction": 241.0871276,
-          "horizontalAccuracy": 4.742498592
-        },
-        "dateTaken": "2024-01-07T15:34:25Z",
-        "raw": {
-          "Make": "Apple",
-          "Model": "iPhone 15 Pro",
-          "LensMake": "Apple",
-          "LensModel": "iPhone 15 Pro back triple camera 6.86mm f/1.78",
-          "LensID": "iPhone 15 Pro back triple camera 6.86mm f/1.78",
-          "LensInfo": "6.860000134-9mm f/1.779999971-2.8",
-          "CameraType": "Back Normal",
-          "FNumber": 1.8,
-          "Aperture": 1.8,
-          "ApertureValue": 1.8,
-          "ExposureTime": "1/6410",
-          "ShutterSpeed": "1/6410",
-          "ShutterSpeedValue": "1/6410",
-          "ISO": 64,
-          "ExposureProgram": "Program AE",
-          "ExposureMode": "Auto",
-          "ExposureCompensation": -0.136,
-          "MeteringMode": "Spot",
-          "WhiteBalance": "Auto",
-          "Flash": "Off, Did not fire",
-          "FocalLength": "6.9 mm",
-          "FocalLengthIn35mmFormat": "48 mm",
-          "FocusDistanceRange": "0.29 - 1.03 m",
-          "FocusPosition": 86,
-          "LightValue": 15,
-          "Megapixels": 9.1,
-          "ImageSize": "3024x3024",
-          "ColorTemperature": 5344,
-          "HDRHeadroom": 1.00999999,
-          "DateTimeOriginal": "2024-01-07T15:34:25Z",
-          "CreateDate": "2024-01-07T15:34:25Z",
-          "SubSecTimeOriginal": 420,
-          "SubSecCreateDate": "2024-01-07T15:34:25.420Z",
-          "GPSLatitude": 38.6919111111111,
-          "GPSLongitude": -9.21500277777778,
-          "GPSAltitude": 1.187990811,
-          "GPSPosition": "38.6919111111111 -9.21500277777778",
-          "GPSImgDirection": 241.0871276,
-          "GPSHPositioningError": "4.742498592 m"
-        },
-        "schemaVersion": 4
-      },
-      "thumbnail": {
-        "width": 390,
-        "height": 390,
-        "size": 60082
-      },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Lisbon/IMG_0898_02.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_0898_02_thumb.png"
     },
     {
       "id": "lisbon-img-0642-01-png",
@@ -4974,7 +5026,7 @@
           "GPSImgDirection": 170.0718383,
           "GPSHPositioningError": "29.27210025 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -4985,12 +5037,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Lisbon/IMG_0642_01_thumb.png"
     },
     {
-      "id": "sevilla-img-0145-png",
-      "path": "Sevilla/IMG_0145.png",
-      "name": "IMG_0145.png",
+      "id": "sevilla-01-img-0145-png",
+      "path": "Sevilla/01_IMG_0145.png",
+      "name": "01_IMG_0145.png",
       "category": "Sevilla",
       "categorySlug": "sevilla",
-      "slug": "img-0145",
+      "slug": "01-img-0145",
       "size": 21632427,
       "modified": "2025-10-29T14:17:50.985Z",
       "hash": "6eec033de735d6a520a8375d10122ee7",
@@ -5049,15 +5101,15 @@
           "GPSAltitude": 15.65931322,
           "GPSPosition": "37.3775666666667 -5.98643333333333"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 91385
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Sevilla/IMG_0145.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/IMG_0145_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Sevilla/01_IMG_0145.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Sevilla/01_IMG_0145_thumb.png"
     },
     {
       "id": "sevilla-img-9363-png",
@@ -5124,7 +5176,7 @@
           "GPSAltitude": 8.702007299,
           "GPSPosition": "37.3907916666667 -5.99235277777778"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5199,7 +5251,7 @@
           "GPSAltitude": 8.978379244,
           "GPSPosition": "37.3846277777778 -6.00185"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5274,7 +5326,7 @@
           "GPSAltitude": 113.5880435,
           "GPSPosition": "37.88085 -4.78361388888889"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5348,7 +5400,7 @@
           "GPSAltitude": 8.521320346,
           "GPSPosition": "37.3900222222222 -5.99442222222222"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5423,7 +5475,7 @@
           "GPSAltitude": 7.50533386,
           "GPSPosition": "37.3860888888889 -5.99118055555556"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5498,7 +5550,7 @@
           "GPSAltitude": 108.3728261,
           "GPSPosition": "37.8791416666667 -4.77976944444444"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5573,7 +5625,7 @@
           "GPSAltitude": 9.236703874,
           "GPSPosition": "37.3933388888889 -5.99201944444444"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5648,7 +5700,7 @@
           "GPSAltitude": 9.345649718,
           "GPSPosition": "37.3850027777778 -5.99175277777778"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5689,7 +5741,7 @@
           "SubSecTimeOriginal": 293,
           "SubSecCreateDate": "2024-02-02T01:36:01.293+01:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5767,7 +5819,7 @@
           "GPSPosition": "41.1381305555556 -8.61202222222222",
           "GPSImgDirection": 103.1112822
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5847,7 +5899,7 @@
           "GPSImgDirection": 307.6706392,
           "GPSHPositioningError": "4.758255504 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -5927,7 +5979,7 @@
           "GPSImgDirection": 291.9714964,
           "GPSHPositioningError": "4.284757615 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6007,7 +6059,7 @@
           "GPSImgDirection": 147.1698456,
           "GPSHPositioningError": "4.741566213 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6087,7 +6139,7 @@
           "GPSImgDirection": 224.9217836,
           "GPSHPositioningError": "35 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6167,7 +6219,7 @@
           "GPSImgDirection": 258.6354067,
           "GPSHPositioningError": "1414 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6242,7 +6294,7 @@
           "GPSAltitude": 4.266454222,
           "GPSPosition": "38.7234611111111 16.0017611111111"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6322,7 +6374,7 @@
           "GPSImgDirection": 101.570015,
           "GPSHPositioningError": "19.85318168 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6397,7 +6449,7 @@
           "GPSAltitude": -2.62749386,
           "GPSPosition": "38.2565555555556 15.7149416666667"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6477,7 +6529,7 @@
           "GPSImgDirection": 41.0435791,
           "GPSHPositioningError": "3.149503675 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6552,7 +6604,7 @@
           "GPSAltitude": 32.79953001,
           "GPSPosition": "38.2555222222222 15.7154194444444"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6632,7 +6684,7 @@
           "GPSImgDirection": 253.6087191,
           "GPSHPositioningError": "4.748651528 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6643,12 +6695,12 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4477_thumb.png"
     },
     {
-      "id": "calabria-img-4458-png",
-      "path": "Calabria/IMG_4458.png",
-      "name": "IMG_4458.png",
+      "id": "calabria-01-img-4458-png",
+      "path": "Calabria/01_IMG_4458.png",
+      "name": "01_IMG_4458.png",
       "category": "Calabria",
       "categorySlug": "calabria",
-      "slug": "img-4458",
+      "slug": "01-img-4458",
       "size": 17317765,
       "modified": "2025-10-28T19:23:36.441Z",
       "hash": "61915549ef68957b7247ac866f3710eb",
@@ -6707,15 +6759,15 @@
           "GPSAltitude": 51.20586773,
           "GPSPosition": "38.6783583333333 15.8956972222222"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
         "height": 520,
         "size": 91844
       },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Calabria/IMG_4458.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/IMG_4458_thumb.png"
+      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Calabria/01_IMG_4458.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Calabria/01_IMG_4458_thumb.png"
     },
     {
       "id": "calabria-img-4416-png",
@@ -6782,7 +6834,7 @@
           "GPSAltitude": 53.96306603,
           "GPSPosition": "38.679675 15.8975083333333"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6857,7 +6909,7 @@
           "GPSAltitude": 52.1777687,
           "GPSPosition": "38.6796555555556 15.8975138888889"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -6937,7 +6989,7 @@
           "GPSImgDirection": 359.8311157,
           "GPSHPositioningError": "2.826266567 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7012,7 +7064,7 @@
           "GPSAltitude": 3.108930826,
           "GPSPosition": "38.7230638888889 16.0106833333333"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7078,7 +7130,7 @@
           "SubSecTimeOriginal": 694,
           "SubSecCreateDate": "2025-09-01T14:44:24.694+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7158,7 +7210,7 @@
           "GPSImgDirection": 80.28392791,
           "GPSHPositioningError": "5.768319429 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7238,7 +7290,7 @@
           "GPSImgDirection": 136.0629119,
           "GPSHPositioningError": "11.72799967 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7279,7 +7331,7 @@
           "SubSecTimeOriginal": 619,
           "SubSecCreateDate": "2023-09-06T21:21:38.619+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7320,7 +7372,7 @@
           "SubSecTimeOriginal": 535,
           "SubSecCreateDate": "2023-09-06T21:21:38.535+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7361,7 +7413,7 @@
           "SubSecTimeOriginal": 566,
           "SubSecCreateDate": "2023-09-06T21:21:38.566+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7402,7 +7454,7 @@
           "SubSecTimeOriginal": 503,
           "SubSecCreateDate": "2023-09-06T21:21:38.503+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7443,7 +7495,7 @@
           "SubSecTimeOriginal": 441,
           "SubSecCreateDate": "2023-09-06T21:21:38.441+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7484,7 +7536,7 @@
           "SubSecTimeOriginal": 364,
           "SubSecCreateDate": "2023-09-06T21:21:38.364+02:00"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7564,7 +7616,7 @@
           "GPSImgDirection": 77.91500093,
           "GPSHPositioningError": "11.32974725 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7644,7 +7696,7 @@
           "GPSImgDirection": 154.1431579,
           "GPSHPositioningError": "24.06311533 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7722,7 +7774,7 @@
           "GPSPosition": "48.2172611111111 16.3963083333333",
           "GPSImgDirection": 0
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7802,7 +7854,7 @@
           "GPSImgDirection": 291.3890079,
           "GPSHPositioningError": "5.163502841 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7882,7 +7934,7 @@
           "GPSImgDirection": 214.4745331,
           "GPSHPositioningError": "25.24755235 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
@@ -7962,7 +8014,7 @@
           "GPSImgDirection": 160.3062895,
           "GPSHPositioningError": "19.0895546 m"
         },
-        "schemaVersion": 4
+        "schemaVersion": 5
       },
       "thumbnail": {
         "width": 390,
