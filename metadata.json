@@ -1,13 +1,13 @@
 {
-  "generated": "2025-11-25T15:12:07.128Z",
-  "totalPhotos": 112,
-  "totalSize": 2217972353,
+  "generated": "2025-12-04T21:58:15.572Z",
+  "totalPhotos": 111,
+  "totalSize": 2171158918,
   "categories": [
     {
       "name": "Basque Country",
       "slug": "basque-country",
-      "photoCount": 33,
-      "totalSize": 782093652,
+      "photoCount": 32,
+      "totalSize": 735280217,
       "cover": {
         "id": "basque-country-01-png",
         "path": "Basque Country/01.png",
@@ -211,7 +211,7 @@
       "categorySlug": "vienna",
       "slug": "img-3184",
       "size": 22452439,
-      "modified": "2025-11-25T15:10:11.869Z",
+      "modified": "2025-12-04T21:56:27.486Z",
       "hash": "3d89a4b2e11df1cbba17ba2a8bb1351f",
       "dimensions": {
         "width": 4284,
@@ -291,7 +291,7 @@
       "categorySlug": "vienna",
       "slug": "img-3158",
       "size": 24155735,
-      "modified": "2025-11-25T15:10:11.835Z",
+      "modified": "2025-12-04T21:56:27.461Z",
       "hash": "4bc4e9e35044f2727fb55205dd7677fa",
       "dimensions": {
         "width": 4284,
@@ -371,7 +371,7 @@
       "categorySlug": "vienna",
       "slug": "img-3155",
       "size": 9627964,
-      "modified": "2025-11-25T15:10:11.799Z",
+      "modified": "2025-12-04T21:56:27.432Z",
       "hash": "036452df1dcc66065c8395b18a8820ea",
       "dimensions": {
         "width": 2960,
@@ -449,7 +449,7 @@
       "categorySlug": "vienna",
       "slug": "img-3148",
       "size": 14713401,
-      "modified": "2025-11-25T15:10:11.783Z",
+      "modified": "2025-12-04T21:56:27.420Z",
       "hash": "5f076940aab6bd1ea3ddab624241dda2",
       "dimensions": {
         "width": 3024,
@@ -529,7 +529,7 @@
       "categorySlug": "vienna",
       "slug": "img-3114",
       "size": 18217999,
-      "modified": "2025-11-25T15:10:11.761Z",
+      "modified": "2025-12-04T21:56:27.403Z",
       "hash": "ddbc59f7314f450fcac6b42874efb0f8",
       "dimensions": {
         "width": 3024,
@@ -609,7 +609,7 @@
       "categorySlug": "vienna",
       "slug": "img-3107",
       "size": 33285838,
-      "modified": "2025-11-25T15:10:11.734Z",
+      "modified": "2025-12-04T21:56:27.382Z",
       "hash": "90390e8e8b0e34050ecd9bb19d4ffe2c",
       "dimensions": {
         "width": 4221,
@@ -689,7 +689,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9974",
       "size": 19479138,
-      "modified": "2025-11-25T15:10:11.683Z",
+      "modified": "2025-12-04T21:56:27.341Z",
       "hash": "f53240aaf00291e644a47c6c4b188460",
       "dimensions": {
         "width": 3024,
@@ -765,7 +765,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9932",
       "size": 22802760,
-      "modified": "2025-11-25T15:10:11.569Z",
+      "modified": "2025-12-04T21:56:27.231Z",
       "hash": "286b49799552b177987a338a4c02a2bf",
       "dimensions": {
         "width": 3024,
@@ -840,7 +840,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9711",
       "size": 25531342,
-      "modified": "2025-11-25T15:10:11.453Z",
+      "modified": "2025-12-04T21:56:27.122Z",
       "hash": "035878433573226e7debfada358b16c7",
       "dimensions": {
         "width": 3024,
@@ -915,7 +915,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9543",
       "size": 24585322,
-      "modified": "2025-11-25T15:10:11.325Z",
+      "modified": "2025-12-04T21:56:27.004Z",
       "hash": "3553603bf987835d796cd4e2c704dc9b",
       "dimensions": {
         "width": 3024,
@@ -990,7 +990,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9511",
       "size": 22834674,
-      "modified": "2025-11-25T15:10:11.203Z",
+      "modified": "2025-12-04T21:56:26.889Z",
       "hash": "c4437819c3bb30a7ce9f6eea79c1ad84",
       "dimensions": {
         "width": 3024,
@@ -1064,7 +1064,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9363",
       "size": 23588780,
-      "modified": "2025-11-25T15:10:11.084Z",
+      "modified": "2025-12-04T21:56:26.778Z",
       "hash": "15492f16f3625c44907a43b3a4c5f906",
       "dimensions": {
         "width": 3024,
@@ -1139,7 +1139,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9328",
       "size": 17830954,
-      "modified": "2025-11-25T15:10:10.968Z",
+      "modified": "2025-12-04T21:56:26.670Z",
       "hash": "cbcc3d8a8087606720e9498fda8ca3ec",
       "dimensions": {
         "width": 3024,
@@ -1219,7 +1219,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9268",
       "size": 22287876,
-      "modified": "2025-11-25T15:10:10.926Z",
+      "modified": "2025-12-04T21:56:26.634Z",
       "hash": "b8a882c9349890051dedc33cd1673562",
       "dimensions": {
         "width": 2934,
@@ -1299,7 +1299,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9249",
       "size": 19168823,
-      "modified": "2025-11-25T15:10:10.890Z",
+      "modified": "2025-12-04T21:56:26.605Z",
       "hash": "68ff671b9a98ce08fad43da8ea85eecb",
       "dimensions": {
         "width": 3024,
@@ -1377,7 +1377,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9135",
       "size": 34849096,
-      "modified": "2025-11-25T15:10:10.857Z",
+      "modified": "2025-12-04T21:56:26.579Z",
       "hash": "cf8405da78547ae93a64cb7a4fbb42c7",
       "dimensions": {
         "width": 4284,
@@ -1457,7 +1457,7 @@
       "categorySlug": "sevilla",
       "slug": "img-9002",
       "size": 35533959,
-      "modified": "2025-11-25T15:10:10.783Z",
+      "modified": "2025-12-04T21:56:26.519Z",
       "hash": "689bc3cf89c7aa2889c1dfc6a32f343b",
       "dimensions": {
         "width": 4133,
@@ -1537,7 +1537,7 @@
       "categorySlug": "sevilla",
       "slug": "img-8978",
       "size": 39124690,
-      "modified": "2025-11-25T15:10:10.717Z",
+      "modified": "2025-12-04T21:56:26.463Z",
       "hash": "fd99556fe1ad599434771a19dd72626a",
       "dimensions": {
         "width": 4284,
@@ -1617,7 +1617,7 @@
       "categorySlug": "sevilla",
       "slug": "img-8927",
       "size": 25049606,
-      "modified": "2025-11-25T15:10:10.636Z",
+      "modified": "2025-12-04T21:56:26.391Z",
       "hash": "68ea84f3fb06a623081092f330360d1c",
       "dimensions": {
         "width": 3024,
@@ -1695,7 +1695,7 @@
       "categorySlug": "sevilla",
       "slug": "img-8889",
       "size": 15362647,
-      "modified": "2025-11-25T15:10:10.586Z",
+      "modified": "2025-12-04T21:56:26.354Z",
       "hash": "ef8c56d338f7f80c019b85d27a823d44",
       "dimensions": {
         "width": 3024,
@@ -1775,7 +1775,7 @@
       "categorySlug": "sevilla",
       "slug": "img-8851",
       "size": 21349954,
-      "modified": "2025-11-25T15:10:10.546Z",
+      "modified": "2025-12-04T21:56:26.326Z",
       "hash": "d298bcfdb8d949a6da021b159fe34e8a",
       "dimensions": {
         "width": 3024,
@@ -1850,7 +1850,7 @@
       "categorySlug": "sevilla",
       "slug": "img-8839",
       "size": 21350596,
-      "modified": "2025-11-25T15:10:10.433Z",
+      "modified": "2025-12-04T21:56:26.220Z",
       "hash": "16ef5b2768f5fba1d29aa7e044ac034d",
       "dimensions": {
         "width": 3024,
@@ -1925,7 +1925,7 @@
       "categorySlug": "sevilla",
       "slug": "img-0008",
       "size": 23609093,
-      "modified": "2025-11-25T15:10:10.318Z",
+      "modified": "2025-12-04T21:56:26.114Z",
       "hash": "d65db5dd043960cfec951b2bc86d3b23",
       "dimensions": {
         "width": 3024,
@@ -2000,7 +2000,7 @@
       "categorySlug": "sevilla",
       "slug": "02-img-0180",
       "size": 265034,
-      "modified": "2025-11-25T15:10:10.198Z",
+      "modified": "2025-12-04T21:56:26.002Z",
       "hash": "5fd2c98bb35daf1974c896f01500a22b",
       "dimensions": {
         "width": 3024,
@@ -2076,7 +2076,7 @@
       "categorySlug": "sevilla",
       "slug": "01-img-0145",
       "size": 21632427,
-      "modified": "2025-11-25T15:10:10.197Z",
+      "modified": "2025-12-04T21:56:26.001Z",
       "hash": "6eec033de735d6a520a8375d10122ee7",
       "dimensions": {
         "width": 3024,
@@ -2151,7 +2151,7 @@
       "categorySlug": "prague",
       "slug": "img-4288",
       "size": 17350643,
-      "modified": "2025-11-25T15:10:10.089Z",
+      "modified": "2025-12-04T21:56:25.900Z",
       "hash": "bfc23eba142ecb47a152cc86341ff4de",
       "dimensions": {
         "width": 3024,
@@ -2231,7 +2231,7 @@
       "categorySlug": "prague",
       "slug": "img-4003",
       "size": 20525413,
-      "modified": "2025-11-25T15:10:10.064Z",
+      "modified": "2025-12-04T21:56:25.880Z",
       "hash": "ef96fbfe78b036a95ec4225ea510aa56",
       "dimensions": {
         "width": 3024,
@@ -2311,7 +2311,7 @@
       "categorySlug": "prague",
       "slug": "f58ed198-683d-4630-96a3-30240feeb01c",
       "size": 2958795,
-      "modified": "2025-11-25T15:10:10.033Z",
+      "modified": "2025-12-04T21:56:25.855Z",
       "hash": "a14e3bd9924d0269057b6e18a9e4059f",
       "dimensions": {
         "width": 1440,
@@ -2352,7 +2352,7 @@
       "categorySlug": "prague",
       "slug": "f3c16588-7db6-4099-9874-8b7d17cca9ab",
       "size": 797621,
-      "modified": "2025-11-25T15:10:10.028Z",
+      "modified": "2025-12-04T21:56:25.852Z",
       "hash": "c81bfada220f54d4babb94a307dcd154",
       "dimensions": {
         "width": 1440,
@@ -2393,7 +2393,7 @@
       "categorySlug": "prague",
       "slug": "c0ac7905-8e78-4013-8bf3-ec1c949aa808",
       "size": 1008642,
-      "modified": "2025-11-25T15:10:10.025Z",
+      "modified": "2025-12-04T21:56:25.849Z",
       "hash": "67e4f61b6ae39064d5ba953288f8745b",
       "dimensions": {
         "width": 1440,
@@ -2434,7 +2434,7 @@
       "categorySlug": "prague",
       "slug": "af2f4033-9eb8-48f6-8a20-6f85ef52ad39",
       "size": 592444,
-      "modified": "2025-11-25T15:10:10.020Z",
+      "modified": "2025-12-04T21:56:25.844Z",
       "hash": "efe922086a94d5e747809f1f6fc12b43",
       "dimensions": {
         "width": 1440,
@@ -2475,7 +2475,7 @@
       "categorySlug": "prague",
       "slug": "234c2038-b3cd-4368-a858-cbeb27cf51bb",
       "size": 1813792,
-      "modified": "2025-11-25T15:10:10.019Z",
+      "modified": "2025-12-04T21:56:25.842Z",
       "hash": "4f21f9a73b68753177a53c15b4d5a2ad",
       "dimensions": {
         "width": 1440,
@@ -2516,7 +2516,7 @@
       "categorySlug": "prague",
       "slug": "101e0060-1f13-465b-9cac-296589b3b4ad",
       "size": 1505451,
-      "modified": "2025-11-25T15:10:10.016Z",
+      "modified": "2025-12-04T21:56:25.839Z",
       "hash": "8a87b83f43a2969632b2a0cd930194d8",
       "dimensions": {
         "width": 1440,
@@ -2557,7 +2557,7 @@
       "categorySlug": "oporto",
       "slug": "img-3240",
       "size": 14257929,
-      "modified": "2025-11-25T15:10:10.013Z",
+      "modified": "2025-12-04T21:56:25.836Z",
       "hash": "5d32913b31f7e392b252b6cc59b47b0a",
       "dimensions": {
         "width": 2844,
@@ -2598,7 +2598,7 @@
       "categorySlug": "oporto",
       "slug": "img-2772",
       "size": 55853339,
-      "modified": "2025-11-25T15:10:09.991Z",
+      "modified": "2025-12-04T21:56:25.819Z",
       "hash": "e185e7b42660d8cd413d4c015787c0dd",
       "dimensions": {
         "width": 6048,
@@ -2676,7 +2676,7 @@
       "categorySlug": "oporto",
       "slug": "img-2765",
       "size": 8859903,
-      "modified": "2025-11-25T15:10:09.900Z",
+      "modified": "2025-12-04T21:56:25.752Z",
       "hash": "44d102c701f30cb50f5bb584c63fe1d5",
       "dimensions": {
         "width": 3624,
@@ -2756,7 +2756,7 @@
       "categorySlug": "oporto",
       "slug": "img-2470",
       "size": 34853676,
-      "modified": "2025-11-25T15:10:09.886Z",
+      "modified": "2025-12-04T21:56:25.741Z",
       "hash": "38ef626dea4e3db60a1cfd478b4f2823",
       "dimensions": {
         "width": 4284,
@@ -2836,7 +2836,7 @@
       "categorySlug": "lisbon",
       "slug": "img-1620-08",
       "size": 35420486,
-      "modified": "2025-11-25T15:10:09.832Z",
+      "modified": "2025-12-04T21:56:25.699Z",
       "hash": "21be8381ba4f66fbdf3cacd7c0f2c531",
       "dimensions": {
         "width": 4284,
@@ -2916,7 +2916,7 @@
       "categorySlug": "lisbon",
       "slug": "img-1410-07",
       "size": 13236026,
-      "modified": "2025-11-25T15:10:09.614Z",
+      "modified": "2025-12-04T21:56:25.498Z",
       "hash": "cc8c6c72bcd3e0172140d2cc729f86c8",
       "dimensions": {
         "width": 2624,
@@ -2996,7 +2996,7 @@
       "categorySlug": "lisbon",
       "slug": "img-0786-03",
       "size": 15613238,
-      "modified": "2025-11-25T15:10:09.538Z",
+      "modified": "2025-12-04T21:56:25.426Z",
       "hash": "478819416673ac2cc3765c2064c6a9a0",
       "dimensions": {
         "width": 3024,
@@ -3076,7 +3076,7 @@
       "categorySlug": "lisbon",
       "slug": "img-0650-04",
       "size": 29134549,
-      "modified": "2025-11-25T15:10:09.449Z",
+      "modified": "2025-12-04T21:56:25.343Z",
       "hash": "24c8e565ac9a5926d9dae79798997486",
       "dimensions": {
         "width": 5712,
@@ -3156,7 +3156,7 @@
       "categorySlug": "lisbon",
       "slug": "img-0643-05",
       "size": 19105078,
-      "modified": "2025-11-25T15:10:09.277Z",
+      "modified": "2025-12-04T21:56:25.182Z",
       "hash": "a962cf5b8ac561b345a6ec39d530987d",
       "dimensions": {
         "width": 3024,
@@ -3236,7 +3236,7 @@
       "categorySlug": "lisbon",
       "slug": "img-0642-01",
       "size": 19524155,
-      "modified": "2025-11-25T15:10:09.167Z",
+      "modified": "2025-12-04T21:56:25.078Z",
       "hash": "8fc1ef17b4df4fd5f20cf1593744b25d",
       "dimensions": {
         "width": 2885,
@@ -3316,7 +3316,7 @@
       "categorySlug": "lisbon",
       "slug": "01-img-1020-06",
       "size": 17604341,
-      "modified": "2025-11-25T15:10:09.061Z",
+      "modified": "2025-12-04T21:56:24.979Z",
       "hash": "856b22310f2f73ad28404a723d0d1046",
       "dimensions": {
         "width": 3024,
@@ -3396,7 +3396,7 @@
       "categorySlug": "calabria",
       "slug": "img-4681",
       "size": 18950186,
-      "modified": "2025-11-25T15:10:08.966Z",
+      "modified": "2025-12-04T21:56:24.891Z",
       "hash": "3fa6bd395ffc36d2403a0729867bb78d",
       "dimensions": {
         "width": 3024,
@@ -3471,7 +3471,7 @@
       "categorySlug": "calabria",
       "slug": "img-4617",
       "size": 30739959,
-      "modified": "2025-11-25T15:10:08.938Z",
+      "modified": "2025-12-04T21:56:24.870Z",
       "hash": "ef225b2c3eee011d5a646a953fb2eb7b",
       "dimensions": {
         "width": 4284,
@@ -3551,7 +3551,7 @@
       "categorySlug": "calabria",
       "slug": "img-4582",
       "size": 4006270,
-      "modified": "2025-11-25T15:10:08.893Z",
+      "modified": "2025-12-04T21:56:24.836Z",
       "hash": "fe758ba70001cff3a8f8bf97da8cf61b",
       "dimensions": {
         "width": 1546,
@@ -3626,7 +3626,7 @@
       "categorySlug": "calabria",
       "slug": "img-4518",
       "size": 17402298,
-      "modified": "2025-11-25T15:10:08.887Z",
+      "modified": "2025-12-04T21:56:24.831Z",
       "hash": "edcbf0e8b690d60c4586ac53e833f69b",
       "dimensions": {
         "width": 3024,
@@ -3706,7 +3706,7 @@
       "categorySlug": "calabria",
       "slug": "img-4507",
       "size": 21563942,
-      "modified": "2025-11-25T15:10:08.861Z",
+      "modified": "2025-12-04T21:56:24.812Z",
       "hash": "908e535382ff51688d1c03eda90c2e65",
       "dimensions": {
         "width": 3024,
@@ -3781,7 +3781,7 @@
       "categorySlug": "calabria",
       "slug": "img-4477",
       "size": 14210281,
-      "modified": "2025-11-25T15:10:08.830Z",
+      "modified": "2025-12-04T21:56:24.788Z",
       "hash": "b4efdccb1fb57cd58d5c015a9ba317c4",
       "dimensions": {
         "width": 3283,
@@ -3861,7 +3861,7 @@
       "categorySlug": "calabria",
       "slug": "img-4416",
       "size": 5976735,
-      "modified": "2025-11-25T15:10:08.809Z",
+      "modified": "2025-12-04T21:56:24.772Z",
       "hash": "e37e123567a1963f7c884e4508fb592b",
       "dimensions": {
         "width": 2089,
@@ -3936,7 +3936,7 @@
       "categorySlug": "calabria",
       "slug": "img-4397",
       "size": 15119635,
-      "modified": "2025-11-25T15:10:08.800Z",
+      "modified": "2025-12-04T21:56:24.766Z",
       "hash": "967cf86927469c6330e8a30d271af1df",
       "dimensions": {
         "width": 2342,
@@ -4011,7 +4011,7 @@
       "categorySlug": "calabria",
       "slug": "img-4373",
       "size": 13269369,
-      "modified": "2025-11-25T15:10:08.777Z",
+      "modified": "2025-12-04T21:56:24.749Z",
       "hash": "2ec7339e219dde7ccf8df720e4e9e32f",
       "dimensions": {
         "width": 3024,
@@ -4091,7 +4091,7 @@
       "categorySlug": "calabria",
       "slug": "img-4207",
       "size": 19422169,
-      "modified": "2025-11-25T15:10:08.757Z",
+      "modified": "2025-12-04T21:56:24.734Z",
       "hash": "afe6a75c9415a77c79c34409db3c957f",
       "dimensions": {
         "width": 3024,
@@ -4166,7 +4166,7 @@
       "categorySlug": "calabria",
       "slug": "eac87333-5183-4143-81b5-b00255427e3f",
       "size": 5575472,
-      "modified": "2025-11-25T15:10:08.728Z",
+      "modified": "2025-12-04T21:56:24.711Z",
       "hash": "b6c30e4fdb83672bd26a22ced59cfc55",
       "dimensions": {
         "width": 2160,
@@ -4232,7 +4232,7 @@
       "categorySlug": "calabria",
       "slug": "01-img-4458",
       "size": 17317765,
-      "modified": "2025-11-25T15:10:08.719Z",
+      "modified": "2025-12-04T21:56:24.705Z",
       "hash": "61915549ef68957b7247ac866f3710eb",
       "dimensions": {
         "width": 3024,
@@ -4307,7 +4307,7 @@
       "categorySlug": "sardinia",
       "slug": "img-6960",
       "size": 10511349,
-      "modified": "2025-11-25T15:10:08.693Z",
+      "modified": "2025-12-04T21:56:24.686Z",
       "hash": "66c24dfe12c0d3be812c27d159da1a8e",
       "dimensions": {
         "width": 3024,
@@ -4387,7 +4387,7 @@
       "categorySlug": "sardinia",
       "slug": "img-6843",
       "size": 13759539,
-      "modified": "2025-11-25T15:10:08.677Z",
+      "modified": "2025-12-04T21:56:24.673Z",
       "hash": "f65679cb7aa49776990fcd4af07083ac",
       "dimensions": {
         "width": 3024,
@@ -4462,7 +4462,7 @@
       "categorySlug": "sardinia",
       "slug": "img-6776",
       "size": 7061126,
-      "modified": "2025-11-25T15:10:08.657Z",
+      "modified": "2025-12-04T21:56:24.658Z",
       "hash": "11292ae78fa4b1150eab7d3eec84ca50",
       "dimensions": {
         "width": 3024,
@@ -4542,7 +4542,7 @@
       "categorySlug": "sardinia",
       "slug": "2024-09-10-18-33-38-857",
       "size": 28288694,
-      "modified": "2025-11-25T15:10:08.647Z",
+      "modified": "2025-12-04T21:56:24.650Z",
       "hash": "2f7510a9156848c2ebda0b2f093c5a1d",
       "dimensions": {
         "width": 5712,
@@ -4622,7 +4622,7 @@
       "categorySlug": "sardinia",
       "slug": "01-e0a89afd-abfa-43de-b34d-2dd5bf9bc5e12024-09-03-06-44-32-332-2024-09-11t05-16-18-174",
       "size": 9533382,
-      "modified": "2025-11-25T15:10:08.605Z",
+      "modified": "2025-12-04T21:56:24.618Z",
       "hash": "7e151a855e166d379d6f7aae140e8236",
       "dimensions": {
         "width": 2860,
@@ -4698,7 +4698,7 @@
       "categorySlug": "london",
       "slug": "img-1590",
       "size": 10799135,
-      "modified": "2025-11-25T15:10:08.591Z",
+      "modified": "2025-12-04T21:56:24.608Z",
       "hash": "0a958413234342c225cb56bf40e777a1",
       "dimensions": {
         "width": 3024,
@@ -4778,7 +4778,7 @@
       "categorySlug": "london",
       "slug": "img-1450",
       "size": 19459530,
-      "modified": "2025-11-25T15:10:08.536Z",
+      "modified": "2025-12-04T21:56:24.556Z",
       "hash": "85e3d06fbc5410decf1821744449a74c",
       "dimensions": {
         "width": 4032,
@@ -4858,7 +4858,7 @@
       "categorySlug": "london",
       "slug": "img-1442",
       "size": 15916061,
-      "modified": "2025-11-25T15:10:08.426Z",
+      "modified": "2025-12-04T21:56:24.453Z",
       "hash": "466ad0a33da16318f4e5e14a323aa4d1",
       "dimensions": {
         "width": 4032,
@@ -4938,7 +4938,7 @@
       "categorySlug": "london",
       "slug": "img-1405",
       "size": 17919376,
-      "modified": "2025-11-25T15:10:08.337Z",
+      "modified": "2025-12-04T21:56:24.370Z",
       "hash": "106395b181081f2784f072542b417e9f",
       "dimensions": {
         "width": 3024,
@@ -5018,7 +5018,7 @@
       "categorySlug": "london",
       "slug": "img-1401",
       "size": 13463910,
-      "modified": "2025-11-25T15:10:08.240Z",
+      "modified": "2025-12-04T21:56:24.279Z",
       "hash": "42d9c49e58e99959a09241945bca068d",
       "dimensions": {
         "width": 3024,
@@ -5098,7 +5098,7 @@
       "categorySlug": "london",
       "slug": "01-img-1409",
       "size": 17660260,
-      "modified": "2025-11-25T15:10:08.161Z",
+      "modified": "2025-12-04T21:56:24.204Z",
       "hash": "3f27eb87c1abef4a709ed26e6b00791a",
       "dimensions": {
         "width": 3024,
@@ -5178,7 +5178,7 @@
       "categorySlug": "ibiza",
       "slug": "img-2118-1",
       "size": 13640718,
-      "modified": "2025-11-25T15:10:08.057Z",
+      "modified": "2025-12-04T21:56:24.106Z",
       "hash": "eef69c4e154c1358cad13c39e6656452",
       "dimensions": {
         "width": 2790,
@@ -5258,7 +5258,7 @@
       "categorySlug": "ibiza",
       "slug": "img-1984-3",
       "size": 7275192,
-      "modified": "2025-11-25T15:10:07.983Z",
+      "modified": "2025-12-04T21:56:24.037Z",
       "hash": "5707d9809677183fe48adb0090311edd",
       "dimensions": {
         "width": 3024,
@@ -5338,7 +5338,7 @@
       "categorySlug": "ibiza",
       "slug": "01-img-2053-2",
       "size": 15241668,
-      "modified": "2025-11-25T15:10:07.940Z",
+      "modified": "2025-12-04T21:56:23.997Z",
       "hash": "00ee4841c2d16d04f0136fc352237ca6",
       "dimensions": {
         "width": 4180,
@@ -5418,7 +5418,7 @@
       "categorySlug": "copenaghen",
       "slug": "img-5237",
       "size": 21765568,
-      "modified": "2025-11-25T15:10:07.847Z",
+      "modified": "2025-12-04T21:56:23.908Z",
       "hash": "105a61186a05ca6e9a738e7f98c00b46",
       "dimensions": {
         "width": 3024,
@@ -5459,7 +5459,7 @@
       "categorySlug": "copenaghen",
       "slug": "img-4926",
       "size": 30616378,
-      "modified": "2025-11-25T15:10:07.726Z",
+      "modified": "2025-12-04T21:56:23.796Z",
       "hash": "cf712da5d4e7ae5b0f858beeb247d2d2",
       "dimensions": {
         "width": 3515,
@@ -5539,7 +5539,7 @@
       "categorySlug": "copenaghen",
       "slug": "img-4924",
       "size": 14924076,
-      "modified": "2025-11-25T15:10:07.562Z",
+      "modified": "2025-12-04T21:56:23.643Z",
       "hash": "00fa6f0d9284229ffaa020f277b58b4b",
       "dimensions": {
         "width": 2653,
@@ -5619,7 +5619,7 @@
       "categorySlug": "copenaghen",
       "slug": "img-4198",
       "size": 15127852,
-      "modified": "2025-11-25T15:10:07.485Z",
+      "modified": "2025-12-04T21:56:23.571Z",
       "hash": "b4ad2a4453fe81310de5a6a70bda401d",
       "dimensions": {
         "width": 3024,
@@ -5699,7 +5699,7 @@
       "categorySlug": "copenaghen",
       "slug": "img-3953",
       "size": 11547570,
-      "modified": "2025-11-25T15:10:07.397Z",
+      "modified": "2025-12-04T21:56:23.489Z",
       "hash": "ff5fe07ffaf34e74999008495fff4930",
       "dimensions": {
         "width": 2881,
@@ -5779,7 +5779,7 @@
       "categorySlug": "copenaghen",
       "slug": "2024-04-26-19-29-19-764",
       "size": 12138297,
-      "modified": "2025-11-25T15:10:07.325Z",
+      "modified": "2025-12-04T21:56:23.422Z",
       "hash": "609d21b16dd7c1502b9f1c96eacb5705",
       "dimensions": {
         "width": 3024,
@@ -5859,7 +5859,7 @@
       "categorySlug": "copenaghen",
       "slug": "2024-04-26-14-05-38-268",
       "size": 31166846,
-      "modified": "2025-11-25T15:10:07.252Z",
+      "modified": "2025-12-04T21:56:23.354Z",
       "hash": "8a7ce285b954fcde1f0b1ef3b15278ae",
       "dimensions": {
         "width": 4138,
@@ -5939,7 +5939,7 @@
       "categorySlug": "copenaghen",
       "slug": "2024-04-26-12-28-52-767",
       "size": 36400612,
-      "modified": "2025-11-25T15:10:07.063Z",
+      "modified": "2025-12-04T21:56:23.174Z",
       "hash": "40481e09eab06ef11fdd84cee4d2fcb0",
       "dimensions": {
         "width": 4284,
@@ -6019,7 +6019,7 @@
       "categorySlug": "copenaghen",
       "slug": "01-2024-04-27-22-01-41-698-2025-09-17t20-40-55-706",
       "size": 9401813,
-      "modified": "2025-11-25T15:10:06.851Z",
+      "modified": "2025-12-04T21:56:22.975Z",
       "hash": "3316848dda7d852b5e25ab25de6eab0f",
       "dimensions": {
         "width": 3024,
@@ -6099,7 +6099,7 @@
       "categorySlug": "basque-country",
       "slug": "img-6188",
       "size": 15970458,
-      "modified": "2025-11-25T15:10:06.835Z",
+      "modified": "2025-12-04T21:56:22.962Z",
       "hash": "b1634aba7a1599ee35303076c8fe9ada",
       "dimensions": {
         "width": 2521,
@@ -6174,7 +6174,7 @@
       "categorySlug": "basque-country",
       "slug": "img-6145",
       "size": 10371453,
-      "modified": "2025-11-25T15:10:06.812Z",
+      "modified": "2025-12-04T21:56:22.945Z",
       "hash": "10e9663f3c32c39a446b80a2e36a3fe5",
       "dimensions": {
         "width": 3024,
@@ -6254,7 +6254,7 @@
       "categorySlug": "basque-country",
       "slug": "img-6065",
       "size": 9585338,
-      "modified": "2025-11-25T15:10:06.797Z",
+      "modified": "2025-12-04T21:56:22.933Z",
       "hash": "1410ffbfdaffb35e5c0c54898de82676",
       "dimensions": {
         "width": 3024,
@@ -6334,7 +6334,7 @@
       "categorySlug": "basque-country",
       "slug": "img-5491",
       "size": 21691797,
-      "modified": "2025-11-25T15:10:06.782Z",
+      "modified": "2025-12-04T21:56:22.922Z",
       "hash": "38aaaf7e0aa4a2aa7303e0d86c12fbf4",
       "dimensions": {
         "width": 3024,
@@ -6409,7 +6409,7 @@
       "categorySlug": "basque-country",
       "slug": "img-5022",
       "size": 11669212,
-      "modified": "2025-11-25T15:10:06.751Z",
+      "modified": "2025-12-04T21:56:22.898Z",
       "hash": "312af199098e4628b7c8f5aabb2762f9",
       "dimensions": {
         "width": 3024,
@@ -6487,7 +6487,7 @@
       "categorySlug": "basque-country",
       "slug": "img-4886",
       "size": 15379242,
-      "modified": "2025-11-25T15:10:06.733Z",
+      "modified": "2025-12-04T21:56:22.885Z",
       "hash": "50816f483baa38d124a8dd56e03597aa",
       "dimensions": {
         "width": 3106,
@@ -6567,7 +6567,7 @@
       "categorySlug": "basque-country",
       "slug": "8",
       "size": 20478625,
-      "modified": "2025-11-25T15:10:06.710Z",
+      "modified": "2025-12-04T21:56:22.867Z",
       "hash": "c319d943e3757a0717dccbcb8cd3af05",
       "dimensions": {
         "width": 2956,
@@ -6642,7 +6642,7 @@
       "categorySlug": "basque-country",
       "slug": "7",
       "size": 22414514,
-      "modified": "2025-11-25T15:10:06.604Z",
+      "modified": "2025-12-04T21:56:22.767Z",
       "hash": "85ed80b22867f90f8c471b73943d8377",
       "dimensions": {
         "width": 3024,
@@ -6717,7 +6717,7 @@
       "categorySlug": "basque-country",
       "slug": "6",
       "size": 22286780,
-      "modified": "2025-11-25T15:10:06.487Z",
+      "modified": "2025-12-04T21:56:22.655Z",
       "hash": "a9d610e024272990358b42a91d9a4b42",
       "dimensions": {
         "width": 2929,
@@ -6792,7 +6792,7 @@
       "categorySlug": "basque-country",
       "slug": "5",
       "size": 18206555,
-      "modified": "2025-11-25T15:10:06.374Z",
+      "modified": "2025-12-04T21:56:22.549Z",
       "hash": "e71d67f2388f5d147788be1f36d480dd",
       "dimensions": {
         "width": 4032,
@@ -6867,7 +6867,7 @@
       "categorySlug": "basque-country",
       "slug": "4",
       "size": 11613012,
-      "modified": "2025-11-25T15:10:06.283Z",
+      "modified": "2025-12-04T21:56:22.465Z",
       "hash": "45d89e6fff3dfeced0935984da9a4a85",
       "dimensions": {
         "width": 2890,
@@ -6942,7 +6942,7 @@
       "categorySlug": "basque-country",
       "slug": "35",
       "size": 25492615,
-      "modified": "2025-11-25T15:10:06.266Z",
+      "modified": "2025-12-04T21:56:22.452Z",
       "hash": "b3b188943738d9bc837463e43297036f",
       "dimensions": {
         "width": 3024,
@@ -7017,7 +7017,7 @@
       "categorySlug": "basque-country",
       "slug": "33",
       "size": 25153296,
-      "modified": "2025-11-25T15:10:06.143Z",
+      "modified": "2025-12-04T21:56:22.335Z",
       "hash": "42dcbefe1ad982869de4461e96b1fe45",
       "dimensions": {
         "width": 3024,
@@ -7092,7 +7092,7 @@
       "categorySlug": "basque-country",
       "slug": "32",
       "size": 26852139,
-      "modified": "2025-11-25T15:10:06.016Z",
+      "modified": "2025-12-04T21:56:22.219Z",
       "hash": "8fb28655efccd83bb7767a1c97d7fbe6",
       "dimensions": {
         "width": 3024,
@@ -7167,7 +7167,7 @@
       "categorySlug": "basque-country",
       "slug": "31",
       "size": 23446576,
-      "modified": "2025-11-25T15:10:05.882Z",
+      "modified": "2025-12-04T21:56:22.095Z",
       "hash": "b3a910b0339ccf3b6012c7ed212c0ee7",
       "dimensions": {
         "width": 3024,
@@ -7242,7 +7242,7 @@
       "categorySlug": "basque-country",
       "slug": "3",
       "size": 25432257,
-      "modified": "2025-11-25T15:10:05.764Z",
+      "modified": "2025-12-04T21:56:21.984Z",
       "hash": "1d94564b890342b4511944fc145071b1",
       "dimensions": {
         "width": 2956,
@@ -7317,7 +7317,7 @@
       "categorySlug": "basque-country",
       "slug": "29",
       "size": 23233104,
-      "modified": "2025-11-25T15:10:05.647Z",
+      "modified": "2025-12-04T21:56:21.876Z",
       "hash": "3472ef1c9e34eac73104c00840286b53",
       "dimensions": {
         "width": 3024,
@@ -7392,7 +7392,7 @@
       "categorySlug": "basque-country",
       "slug": "27",
       "size": 23866641,
-      "modified": "2025-11-25T15:10:05.527Z",
+      "modified": "2025-12-04T21:56:21.765Z",
       "hash": "7fa688335b687297a95b07c92fb396cd",
       "dimensions": {
         "width": 3024,
@@ -7467,7 +7467,7 @@
       "categorySlug": "basque-country",
       "slug": "21",
       "size": 28425773,
-      "modified": "2025-11-25T15:10:05.407Z",
+      "modified": "2025-12-04T21:56:21.652Z",
       "hash": "9d773ab4174d046f1708bd688a5a64e7",
       "dimensions": {
         "width": 3024,
@@ -7542,7 +7542,7 @@
       "categorySlug": "basque-country",
       "slug": "20",
       "size": 18215093,
-      "modified": "2025-11-25T15:10:05.269Z",
+      "modified": "2025-12-04T21:56:21.522Z",
       "hash": "f896e81b207f1757743bcb974644fe04",
       "dimensions": {
         "width": 4032,
@@ -7617,7 +7617,7 @@
       "categorySlug": "basque-country",
       "slug": "2",
       "size": 23379327,
-      "modified": "2025-11-25T15:10:05.177Z",
+      "modified": "2025-12-04T21:56:21.437Z",
       "hash": "56df202efb7f2f2a2cf71338a73c4fda",
       "dimensions": {
         "width": 3024,
@@ -7692,7 +7692,7 @@
       "categorySlug": "basque-country",
       "slug": "18",
       "size": 26179211,
-      "modified": "2025-11-25T15:10:05.059Z",
+      "modified": "2025-12-04T21:56:21.327Z",
       "hash": "f3f3359c500a3c8677090ad2694fddb0",
       "dimensions": {
         "width": 3024,
@@ -7767,7 +7767,7 @@
       "categorySlug": "basque-country",
       "slug": "16",
       "size": 21718615,
-      "modified": "2025-11-25T15:10:04.932Z",
+      "modified": "2025-12-04T21:56:21.208Z",
       "hash": "72ff9cdc1c7653edd61def9674993684",
       "dimensions": {
         "width": 3024,
@@ -7842,7 +7842,7 @@
       "categorySlug": "basque-country",
       "slug": "15",
       "size": 16141710,
-      "modified": "2025-11-25T15:10:04.819Z",
+      "modified": "2025-12-04T21:56:21.102Z",
       "hash": "88b43461571ac2783386f02525667031",
       "dimensions": {
         "width": 2979,
@@ -7917,7 +7917,7 @@
       "categorySlug": "basque-country",
       "slug": "12",
       "size": 28905024,
-      "modified": "2025-11-25T15:10:04.725Z",
+      "modified": "2025-12-04T21:56:21.013Z",
       "hash": "d06191d1203cd28fd6f9aecef18024bd",
       "dimensions": {
         "width": 3024,
@@ -7992,7 +7992,7 @@
       "categorySlug": "basque-country",
       "slug": "101d5600-dsc-0370",
       "size": 24505881,
-      "modified": "2025-11-25T15:10:04.582Z",
+      "modified": "2025-12-04T21:56:20.880Z",
       "hash": "a77c488d6017d12201fe6cfb309ad83d",
       "dimensions": {
         "width": 4000,
@@ -8051,7 +8051,7 @@
       "categorySlug": "basque-country",
       "slug": "101d5600-dsc-0348",
       "size": 33004123,
-      "modified": "2025-11-25T15:10:04.546Z",
+      "modified": "2025-12-04T21:56:20.852Z",
       "hash": "ec1c43b1f771483978473f71ddc790b2",
       "dimensions": {
         "width": 3336,
@@ -8103,66 +8103,6 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/101D5600_DSC_0348_thumb.png"
     },
     {
-      "id": "basque-country-101d5600-dsc-0270-png",
-      "path": "Basque Country/101D5600_DSC_0270.png",
-      "name": "101D5600_DSC_0270.png",
-      "category": "Basque Country",
-      "categorySlug": "basque-country",
-      "slug": "101d5600-dsc-0270",
-      "size": 46813435,
-      "modified": "2025-11-25T15:10:04.494Z",
-      "hash": "28173fcbf8fbf651592991b29e1543c7",
-      "dimensions": {
-        "width": 6000,
-        "height": 4000,
-        "format": "png"
-      },
-      "exif": {
-        "camera": "NIKON CORPORATION NIKON D5600",
-        "aperture": "f/10.0",
-        "iso": 200,
-        "shutterSpeed": "1/400s",
-        "focalLength": "40.0mm",
-        "gps": null,
-        "dateTaken": "2025-09-11T15:09:30+02:00",
-        "raw": {
-          "Make": "NIKON CORPORATION",
-          "Model": "NIKON D5600",
-          "LensID": "AF-P DX Nikkor 18-55mm f/3.5-5.6G",
-          "FNumber": 10,
-          "Aperture": 10,
-          "ExposureTime": "1/400",
-          "ShutterSpeed": "1/400",
-          "ISO": 200,
-          "ExposureProgram": "Not Defined",
-          "ExposureMode": "Auto",
-          "ExposureCompensation": 0,
-          "MeteringMode": "Multi-segment",
-          "WhiteBalance": "Auto",
-          "Flash": "Auto, Did not fire",
-          "FocalLength": "40.0 mm",
-          "FocalLengthIn35mmFormat": "60 mm",
-          "FocusDistance": "1.50 m",
-          "FocusPosition": "0x11",
-          "LightValue": 14.3,
-          "Megapixels": 24,
-          "ImageSize": "6000x4000",
-          "DateTimeOriginal": "2025-09-11T15:09:30+02:00",
-          "CreateDate": "2025-09-11T15:09:30+02:00",
-          "SubSecTimeOriginal": 95,
-          "SubSecCreateDate": "2025-09-11T15:09:30.950+02:00"
-        },
-        "schemaVersion": 5
-      },
-      "thumbnail": {
-        "width": 390,
-        "height": 260,
-        "size": 73015
-      },
-      "url": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/photos/Basque Country/101D5600_DSC_0270.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/Remeic/justgiulio-photos/main/thumbnails/Basque Country/101D5600_DSC_0270_thumb.png"
-    },
-    {
       "id": "basque-country-101d5600-dsc-0207-png",
       "path": "Basque Country/101D5600_DSC_0207.png",
       "name": "101D5600_DSC_0207.png",
@@ -8170,7 +8110,7 @@
       "categorySlug": "basque-country",
       "slug": "101d5600-dsc-0207",
       "size": 40517036,
-      "modified": "2025-11-25T15:10:04.256Z",
+      "modified": "2025-12-04T21:56:20.811Z",
       "hash": "da1fcc3ba14e2ce8738c004871735173",
       "dimensions": {
         "width": 6000,
@@ -8230,7 +8170,7 @@
       "categorySlug": "basque-country",
       "slug": "101d5600-dsc-0169",
       "size": 40507920,
-      "modified": "2025-11-25T15:10:04.036Z",
+      "modified": "2025-12-04T21:56:20.604Z",
       "hash": "1510acd0c69de719f0c1c11a49e5433e",
       "dimensions": {
         "width": 6000,
@@ -8290,7 +8230,7 @@
       "categorySlug": "basque-country",
       "slug": "101d5600-dsc-0153",
       "size": 33658984,
-      "modified": "2025-11-25T15:10:03.815Z",
+      "modified": "2025-12-04T21:56:20.397Z",
       "hash": "47e752391a69f58fe24ad41687d63de9",
       "dimensions": {
         "width": 6000,
@@ -8350,7 +8290,7 @@
       "categorySlug": "basque-country",
       "slug": "011",
       "size": 23477082,
-      "modified": "2025-11-25T15:10:03.629Z",
+      "modified": "2025-12-04T21:56:20.225Z",
       "hash": "bdc3660c3890c88c507573bc229e57e0",
       "dimensions": {
         "width": 3024,
@@ -8425,7 +8365,7 @@
       "categorySlug": "basque-country",
       "slug": "01",
       "size": 23500824,
-      "modified": "2025-11-25T15:10:03.508Z",
+      "modified": "2025-12-04T21:56:20.111Z",
       "hash": "a3d8a586f14c18b54dd975259ba335c5",
       "dimensions": {
         "width": 2929,
