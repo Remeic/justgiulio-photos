@@ -57,8 +57,9 @@ jobs:
       contents: write
     steps:
       - name: Record monthly repository activity
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
+          retries: 3
           script: |
             const path = ".github/keep-supabase-active.timestamp"
             let sha
