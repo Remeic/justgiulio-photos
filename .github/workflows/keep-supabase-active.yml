@@ -7,6 +7,12 @@ on:
     # Keep this public scheduled workflow enabled during long photo-upload gaps.
     - cron: "43 3 1 * *"
   workflow_dispatch:
+    inputs:
+      run_heartbeat:
+        description: Verify the monthly repository heartbeat
+        required: false
+        default: false
+        type: boolean
 
 permissions: {}
 
@@ -42,7 +48,9 @@ jobs:
           jq --exit-status '.success == true' <<<"${response}" >/dev/null
 
   heartbeat:
-    if: github.event_name == 'schedule' && github.event.schedule == '43 3 1 * *'
+    if: >-
+      (github.event_name == 'schedule' && github.event.schedule == '43 3 1 * *') ||
+      (github.event_name == 'workflow_dispatch' && inputs.run_heartbeat)
     runs-on: ubuntu-latest
     timeout-minutes: 2
     permissions:
